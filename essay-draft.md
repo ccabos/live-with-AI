@@ -212,8 +212,99 @@ These shifts in our common life do not stay in the realm of principle. They land
 unevenly, in the place where most people meet the future first: in the economy, and in the
 question of what our work is now worth.
 
+## V. The economy, and value beyond money
+
+If the principles of living together are reshaped quietly, the economy is where the change
+arrives with a price tag attached, and where most people will feel it first and most sharply.
+To see what is happening we have to go back to the seam in our central thesis — the one
+between capability and value — and watch it open. Capability, the power to get cognitive work
+done, is becoming abundant. Value, in the economic sense, is what abundance destroys. The
+whole strange logic of an AI economy follows from holding those two facts in the mind at once.
+
+Start with the **repricing of thought**. Markets pay for things in rough proportion to their
+scarcity and their usefulness; a thing that is enormously useful but no longer scarce tends
+toward a low price, however much we may feel it ought to be worth. For two centuries the wages
+of skilled cognitive work stayed high because the work was scarce — there were only so many
+people who could analyze, write, diagnose, design, or decide, and producing more of them took
+twenty years and a great deal of money. Cheap, abundant machine cognition removes that
+bottleneck. As it does, the price of cognitive output drifts down toward the cost of the
+electricity and hardware that produce it, even as the *quantity* of such output explodes. This
+is the paradox at the heart of the AI economy, and it is worth stating plainly: there can be
+far more valuable work done in the world and far less of its value captured as anyone's wage.
+The two are not in contradiction. An ocean of cheap cognition can lift total output to heights
+we have never seen while the income that used to flow to the people who supplied that cognition
+thins out beneath them.
+
+This breaks a link we have come to treat as a law of nature: the link between productivity and
+pay. We tend to assume that as the economy produces more per hour, the people doing the
+producing earn more — and historically they often did, but not because justice required it.
+They earned more because their labor was the bottleneck, and a bottleneck can command a price.
+Remove human cognition from the critical path and the gains stop flowing to it. They flow
+instead to whoever owns the things that remain scarce: the computing power and the energy that
+run the models, the proprietary data that trains them, the channels that distribute their
+output, the brands and institutions that lend it trust, and the physical capacity to act in the
+world that no model possesses. The fault line of the AI economy, in other words, is not really
+between humans and machines. It is between those who own the scarce complements to cheap
+cognition and those who once sold the cognition itself. That is a question of ownership and
+distribution, and it is political to its core.
+
+I will not pretend there is a settled answer to it, because there is not, and an essay that
+claims otherwise is selling something. The candidates are familiar in outline and unproven in
+practice. A universal basic income would sever subsistence from employment and let the gains of
+abundance reach everyone, at the risk of entrenching a permanent division between the owners of
+the machines and a population maintained by transfer — comfortable, perhaps, but cut out of the
+productive life of its own society. A universal basic *capital*, by contrast — giving people
+not an allowance but a genuine ownership stake in the AI economy, through sovereign wealth
+funds, data dividends, or broad distribution of the productive assets themselves — would aim at
+the disease rather than the symptom, spreading the ownership instead of redistributing its
+fruits, though it raises hard questions of how such a thing could ever be enacted against the
+interests of those who already own. Shorter working time, public investment in compute as a
+utility, the deliberate cultivation of sectors that remain human — each is a partial answer with
+its own failure mode. The honest position is not to crown one of these but to insist that the
+choice among them is exactly that: a choice, and a political one, which the technology forces
+upon us but does not make for us.
+
+Granting all that, something does survive the flood, and it tells us where economic value is
+migrating. When thought becomes cheap, the things that stay scarce become precious by contrast,
+and the list is revealing. There is **the authentically human** — the performance valued
+*because* a person gave it, the object wanted *because* a person made it, the conversation
+sought out *because* there is a person on the other end; a category that may grow rather than
+shrink, as the infinite supply of the synthetic makes the genuinely human a luxury. There is
+**trust and accountability**, the value of someone who can be relied upon, credited, blamed,
+sued, or thanked — a someone the machine cannot be. There is **presence and care**, the work
+of bodies in rooms with other bodies: the nurse, the carer, the host, the person who shows up.
+There is **attention and taste**, the scarce capacity to *choose* well when everything is
+available and most of it is noise — curation becoming more valuable as creation becomes free.
+And beneath all of it there is the unglamorous physical substrate that no amount of cognition
+conjures into being: energy, materials, land, and the computing power itself. Notice that
+several of these are precisely the capacities we found, in the typology of intelligence, that
+machines do not hold — presence, judgment, accountability. The shape of the future economy is
+already legible in the shape of what intelligence is not.
+
+But the deepest part of this change is the one your instinct reached for at the start, and it
+goes beyond any rearrangement of what earns money. It is the possibility that **value and money
+come apart**. We have spent a long time pretending these were the same — letting the measurable
+stand in for the worthwhile, treating what shows up in the accounts as though it were the whole
+of what matters. It never was. The care a parent gives a child, the friendship that holds a
+community together, the health of a river, the slow work of making a place beautiful — these
+have always been the substance of a good life and have always been nearly invisible to our
+ledgers, counted as nothing because they cost nothing and sold for nothing. An AI economy could
+deepen this old blindness, driving us further into the tyranny of the measurable as the only
+things that still command a wage become the only things we are told to value. Or it could do the
+opposite. If the production of measurable goods comes to need less and less of us, then for the
+first time a society might have the room to pour its freed human energy into the vast economy of
+the unmeasured — into care, community, art, knowledge pursued for its own sake, the stewardship
+of the living world — not because these have suddenly started to pay, but because we have
+stopped needing them to. Which of these we get is not written in the technology. It is the same
+choice in a new form: whether, once value and money have come apart, we let money keep telling
+us what is worth doing, or finally learn to tell the difference ourselves.
+
+That question — what is worth doing, once the doing no longer has to earn its keep — leads
+directly to the one that troubles people most personally: what, then, should a human being
+actually do with a working life?
+
 ---
 
-*[Draft continues: §V The economy and value beyond money; §VI Which work, and the justice of
-the transition; §VII Whether to strive for intelligence; §VIII Open weights and the distribution
-of power; §IX The scenarios; §X The choice. See `essay-outline.md` for the full map.]*
+*[Draft continues: §VI Which work, and the justice of the transition; §VII Whether to strive for
+intelligence; §VIII Open weights and the distribution of power; §IX The scenarios; §X The choice.
+See `essay-outline.md` for the full map.]*

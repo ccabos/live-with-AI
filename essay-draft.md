@@ -535,6 +535,113 @@ weights is, at bottom, the fight over whether the age of artificial intelligence
 distributed empowerment or of concentrated dependence — which is to say, the fight over which of
 the futures we are now in a position to sketch will actually come to pass.
 
----
+## IX. The shape of the futures
 
-*[Draft continues: §IX The scenarios; §X The choice. See `essay-outline.md` for the full map.]*
+It is tempting, having come this far, to make a prediction — to name the one future that awaits us
+and brace for it. I want to resist that temptation, because I think it rests on a mistake this
+whole essay has been arguing against: the belief that the technology decides the outcome. It does
+not. The same capability can be built into a liberation or a cage, and which we get depends on
+choices that are still open. So rather than a forecast, let me offer a map — a way of seeing the
+range of futures and the variables that select among them, so that we can argue about where we are
+heading without pretending to know.
+
+Two variables do most of the work, and the reader will recognize both, because the essay has spent
+its length establishing them. The first is the **trajectory of capability**: whether machine
+intelligence soon plateaus into a powerful but bounded tool, climbs steadily for years, or
+accelerates sharply into something that quickly outruns our capacity to keep up. The second is the
+**distribution of control** — the open question of §VIII — whether the new capability stays
+concentrated in a few hands or diffuses broadly into many. Cross these two axes and four rough
+futures appear, not as predictions but as regions of possibility, each a different answer to the
+question of how we might live.
+
+Where capability climbs steadily but control stays concentrated, we get something one might call
+**feudal abundance**. The machines are immensely capable, but their power is rented, not owned, and
+the wealth and the say-so pool among the few who hold them. There may be plenty — even a kind of
+comfort distributed downward to keep the peace — but most people are dependents and consumers of a
+capability they neither steer nor share in, and the central struggle of the age is over
+distribution and political voice. This is, I suspect, the default path: the one we reach by simply
+continuing, letting the existing concentrations of compute and capital follow their own logic
+undisturbed.
+
+Where capability climbs steadily but control diffuses, we get instead a **pluralist** future, the
+one that most resembles our better history with general-purpose technologies — with electricity,
+with the printing press, with the internet in its hopeful youth. The capability is disruptive and
+the disruption is real, but it spreads broadly enough to empower rather than subjugate, lifting the
+floor and widening what ordinary people and communities can do. It is messy, contested, and
+unevenly distributed, as those earlier revolutions were, but it tends, on balance, toward leveling
+rather than concentration. This is the optimistic future that remains genuinely available, and open
+weights are much of how we reach it.
+
+The two futures of sharp acceleration are higher in stakes and harder to see. Where capability
+takes off sharply while control stays concentrated, whoever leads may gain an advantage so decisive
+that it locks in — a **singleton** future, in which a single power, benevolent or otherwise, sets
+the terms for everyone else, perhaps permanently. It contains both the dream of a wise and stable
+order and the nightmare of an irreversible tyranny, and what distinguishes the dream from the
+nightmare is nothing in the technology but everything in the governance. And where sharp
+acceleration meets wide diffusion, we get the **wildfire** future — maximum capability in maximum
+hands, the fullest freedom and the fullest catastrophic risk at once, the safety-versus-openness
+dilemma of the last section blown up to civilizational scale. These two are the futures that most
+occupy the people who think hardest about catastrophic risk, and they should not be dismissed; but
+neither should they be allowed to crowd out the quieter possibilities, which are at least as likely.
+
+For two of those quieter possibilities cut across the whole grid and deserve naming on their own.
+The first is the future in which capability simply *plateaus* — in which the present systems prove
+to be powerful but bounded tools, transformative in the way the personal computer and the internet
+were transformative, reshaping work and life profoundly while leaving humans firmly in the loop.
+This **mundane** future is badly underrated, drowned out by the drama of the takeoff scenarios, yet
+it may be the likeliest base case of all, and much of this essay's counsel — about work, about
+distribution, about what to cultivate in ourselves — applies to it directly and without exotic
+assumption. The second cross-cutting future is darker and can coexist with any of the others, even
+the materially successful ones. It is the **meaning crisis**: a world that has solved production but
+not purpose, in which people are fed and housed and entertained and yet adrift, stripped of the
+work and the status and the sense of being needed through which they once knew who they were. This
+is the future, I think, that the deepest parts of this essay have really been about — the one our
+prescriptions about value-beyond-money and the intelligence worth striving for are meant to
+answer — and it is sobering to notice that we could arrive at it even if every economic and
+technical problem were solved. Abundance is not the same as meaning, and a society can win the
+first while losing the second.
+
+What the map shows, in the end, is that the technology under-determines the destination. None of
+these futures is written in the capability of the machines; each is selected by the variables we
+actually influence — how widely we choose to distribute control, and what we choose to value once
+the old necessities loosen their grip. Which is to say that the question of how to live with
+machines more intelligent than ourselves is not, at the last, a question about the machines.
+
+## X. The choice
+
+We began with a sentence we keep saying — that artificial intelligence is becoming more intelligent
+than we are — and we have spent this essay taking it apart. We found that it bundles three claims
+where we usually hear one, and that the urgent regime is not the science-fictional tail but the
+ordinary middle we already inhabit, in which cognition has simply become abundant and cheap. We
+found, beneath that, a deeper bundle coming apart: capability, value, and worth, three things that
+rode together for all of human history and are now separating, so that a society must decide
+deliberately how to hold what no longer holds itself. And following that seam outward, we watched it
+reshape authority and trust, reprice the economy, unsettle the meaning of work, and reframe the
+oldest counsel of our civilization — to cultivate the mind — into something at once narrower and
+more urgent: cultivate not the capability we are losing to the machine, but the wisdom and autonomy
+it cannot give and can quietly take.
+
+If a single thread runs through all of it, it is this: at every turn, the thing that mattered most
+was not how intelligent the machines became but what we chose to do about it. Whether authority
+flattens healthily or curdles into a new priesthood; whether the gains of abundance are shared or
+pooled; whether the displaced are carried across the transition or left to absorb its cost alone;
+whether capability is diffused or concentrated; whether a freed humanity pours its energy into the
+economy of meaning or drifts in comfortable purposelessness — none of these is decided by the
+technology. Each is a choice, and the technology only sets the stage on which we make it. This is
+the opposite of the helplessness the subject so often inspires. We are not waiting to learn our
+fate from the machines. We are deciding it, whether we admit to deciding or not, and the refusal to
+choose is itself a choice — usually the choice of the default path, which is rarely the best one.
+
+I have tried to keep this essay balanced, and I have not named a single future as the one that
+awaits us, because I do not believe it is fixed. But balance is not the same as indifference, and it
+would be a failure of nerve to end without saying what the balance has revealed. It has revealed
+that the hardest problems of the age of AI are not technical but human and political — problems of
+distribution, of power, of meaning, of what we owe each other — and that these are precisely the
+problems no machine, however intelligent, can solve on our behalf, because they are problems about
+what *we* want and what *we* are willing to do. The weaver at the loom two centuries ago could not
+choose whether the power loom would come; that was decided for him. But the society around him could
+have chosen how to meet what came, and largely chose not to, and the human cost of that refusal was
+paid by people who never saw the better world their suffering helped to buy. We are now at our own
+version of that threshold, with more warning than the weaver had and more capacity to act on it. The
+machines will keep getting more intelligent. The open question — the only one that was ever really
+ours — is whether we will be wise.

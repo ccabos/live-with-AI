@@ -126,9 +126,94 @@ That rebuilding is the subject of what follows. We begin where the pressure is a
 felt: in the principles by which we live together, and in an economy that is quietly learning
 to measure value by a different ruler.
 
+## IV. The principles of living together
+
+A society is held up by quiet assumptions it never votes on. Many of ours assumed, without
+ever saying so, that human cognition was scarce and therefore precious. When that assumption
+fails, several of the load-bearing walls of common life have to be re-founded at once. It is
+worth walking through them slowly, because the changes are easy to miss: nothing collapses
+dramatically, but the ground beneath familiar institutions shifts, and arrangements that felt
+like permanent features of human nature turn out to have been contingent on a fact that no
+longer holds.
+
+Begin with **authority**. For most of history, status flowed from knowing. The elder, the
+scholar, the physician, the engineer — each held a position because each held knowledge that
+others lacked and could not easily get. Expertise was a kind of property, accumulated over a
+career and defended at its edges. When knowing becomes cheap and ambient, when a competent
+answer to almost any question is a sentence away, the property loses much of its scarcity
+value, and authority has to find a new home. The plausible new home is *judgment and
+responsibility* — not who knows the most, but who decides well and who can be held to account
+for the decision. This is a real shift in what we honor: from the one who possesses the answer
+to the one who chooses among answers and bears the consequences. It can go two ways. It might
+flatten an old priesthood of credentialed experts and let competence be judged on results
+rather than position, which would be healthy. Or it might curdle into a cheap populism in
+which everyone feels equally expert because everyone has the same oracle in their pocket — and,
+beneath that flattering surface, a genuine new priesthood forms among the few who own and
+steer the oracles themselves. Which of these we get is not decided by the technology.
+
+Consider next **trust and truth**, where the strain is already visible. For most of the modern
+era we verified claims by examining their content: a convincing document, a clear photograph,
+a recording of a voice were themselves evidence, because forging them was hard. That era is
+ending. When any text, image, voice, or video can be synthesized at no cost and to any
+specification, the content of a message stops being evidence of anything. Plausibility becomes
+worthless as a test, because everything can be made plausible. What remains is *provenance and
+relationship*: not "is this convincing?" but "whose word stands behind it, and what do they
+lose if it proves false?" I expect this to drive a return of things the digital age was
+supposed to have made obsolete — institutions that stake their reputation, identities that can
+be held accountable, and the plain trust of physical co-presence, of having been in the room.
+A handshake and a known face may become more evidentially powerful than a video, precisely
+because they cannot yet be cheaply faked. There is loss in this and there is gain; the point
+for now is only that the basis of public trust is migrating from the artifact to the source.
+
+Then there is **education**, which faces the sharpest question of all, because it must decide
+what it is even for. If the purpose of education was to load knowledge into heads — to make
+each person a portable library — then it is largely obsolete, and the anxiety of teachers
+watching students hand their essays to a machine is well founded. But if the purpose was
+something else — to form judgment, to cultivate taste and character, to teach a person to ask
+a good question, to distinguish the true from the merely fluent, to sustain attention and
+integrity — then education becomes *more* important, not less, in exactly the measure that raw
+knowledge becomes free. The danger is that we fail to notice the difference and keep running
+schools as knowledge-delivery systems in a world that no longer needs them to be, training
+children to compete with machines at the one thing machines do best, while neglecting the
+formation that machines cannot give. The opportunity is the reverse: to let the machine carry
+the knowledge and free the human work of teaching to be what it always should have been.
+
+Underneath all of this runs the problem of **agency and dependence**. A society that hands its
+thinking to a machine risks a slow learned helplessness — the cognitive version of what
+happened to our sense of direction once the map in our hand began speaking turns to us. Here,
+though, balance demands that we resist easy alarm. Every tool we have ever made has taken over
+some capacity we used to exercise ourselves, and the loss has usually been survivable. Writing
+itself eroded the vast trained memories of oral cultures; Plato has Socrates complain, in the
+*Phaedrus*, that it would make men forgetful, an external crutch in place of inner recollection.
+He was not wrong about the loss, and we would not give writing back. So the honest question is
+not whether AI will atrophy some of our faculties — it will — but *which* faculties we must
+deliberately keep exercising in ourselves even when a machine could do them better, the way a
+people might insist on remembering how to grow food, or do arithmetic, or govern themselves,
+not because the machine cannot but because to forget would be to surrender something we are not
+willing to lose. That is a question about values, and it cannot be answered by capability.
+
+And beneath even that lies the deepest political fact of this whole transformation, the one the
+other changes keep pointing toward: **the concentration of power**. Superhuman capability, as
+it actually exists, is not floating freely in the air. It is produced by a small number of
+organizations that command rare concentrations of computing power, data, energy, and talent,
+and it is increasingly entangled with the states that host them. Whether we live together well
+in the age of AI may depend far less on how intelligent the machines become than on *who
+controls them* — whether this new and enormous capability is held as a private possession, a
+public utility, or a broadly distributed commons. A society of people who are individually
+helped by AI but whose collective fate is steered by a handful of distant owners is not
+obviously freer than before; it may be a good deal less free, in the way that matters most. I
+will return to this question directly when we come to open-weights models, because the fight
+over how widely this capability is allowed to spread is, in the end, a fight over which of the
+futures in this essay we get. For now it is enough to mark that the principles by which we live
+together are not threatened by the machine's intelligence as such. They are reshaped by its
+abundance and put at risk, or kept safe, by the distribution of its control.
+
+These shifts in our common life do not stay in the realm of principle. They land, hard and
+unevenly, in the place where most people meet the future first: in the economy, and in the
+question of what our work is now worth.
+
 ---
 
-*[Draft continues: §IV Living together — authority, trust, education, power; §V The economy
-and value beyond money; §VI Which work, and the justice of the transition; §VII Whether to
-strive for intelligence; §VIII Open weights and the distribution of power; §IX The scenarios;
-§X The choice. See `essay-outline.md` for the full map.]*
+*[Draft continues: §V The economy and value beyond money; §VI Which work, and the justice of
+the transition; §VII Whether to strive for intelligence; §VIII Open weights and the distribution
+of power; §IX The scenarios; §X The choice. See `essay-outline.md` for the full map.]*

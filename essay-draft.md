@@ -303,8 +303,87 @@ That question — what is worth doing, once the doing no longer has to earn its 
 directly to the one that troubles people most personally: what, then, should a human being
 actually do with a working life?
 
+## VI. Which work, and the justice of the transition
+
+The question people ask most anxiously about this future is the most personal one: what should
+I do, what should my children do, what work is left? It is usually asked in a particular form —
+*what can humans still do that machines cannot?* — and I want to argue that this is the wrong
+form of the question, almost guaranteed to produce despair. Posed that way, it sets us running
+a race against the machine on the machine's own track, defending an ever-shrinking territory of
+"things AI can't do yet," retreating each year as the frontier advances, and quietly conceding
+that our worth is whatever the machine has not yet reached. That is a losing game, and it is
+also a confusion, because it collapses two questions that the thesis of this essay has been at
+pains to keep apart. "What can humans still do?" is a question about capability. The questions
+actually worth asking are two others: what work will the world still *demand* of humans, and
+what work do we *want* to keep as ours? The first is about economics. The second is about
+worth. They have different answers, and we should not let the first silence the second.
+
+Take the economic question first, soberly. Some human work will remain in demand for a good
+while, not because machines could never do it but because of where the difficulty and the value
+sit. There is work fused to the **physical and unstructured world** — the trades, care, the
+handling and moving of real things in messy real places — which is slow and expensive to
+automate precisely because it lives in bodies and contingency rather than in text, and which
+cannot be performed from a server farm on another continent. There is work whose essence is
+**accountability**, where a human must stand as the responsible party even if a machine does
+much of the cognition — the physician who signs, the judge who rules, the engineer who certifies,
+the official who answers for the decision — because a society needs someone who can be held to
+account, and a model cannot be held to anything. There is the work of the **interface between
+the machine and reality**: the people who translate human goals into terms a system can pursue,
+who judge whether its output is any good, who integrate it into the world and decide what to do
+with it — the managers, in a literal sense, of intelligences greater than themselves. And there
+is the work valued **because a human does it**, the category we met in the last section, which
+may expand as the synthetic floods in. None of these is permanent or guaranteed; each could
+erode. But together they sketch where paid human work is likely to persist longest, and it is
+worth noticing that almost none of it is the knowledge work we spent the last half-century
+telling our children to aim for.
+
+Now the other question, the one economics cannot answer: what work should we *want* to remain
+human, whether or not a machine could do it more cheaply? Here the list looks different, and it
+is chosen rather than forced. The **care of others** — the raising of children, the tending of
+the old and the sick, the holding-together of a community — is work we may wish to keep in human
+hands not because machines fail at its mechanics but because being cared for *by a person* is
+part of what care means. The work of **making and stewarding** — art, craft, science pursued as
+exploration, the repair of the natural world — is work in which the human doing is much of the
+point. And the work of **governing ourselves** — the unglamorous labor of citizenship — is not
+automatable without ceasing to be self-rule; to hand our collective decisions to a machine, even
+a wiser one, would not be to govern ourselves better but to stop governing ourselves at all.
+These are not jobs the market will necessarily reward. They are answers to a different question,
+the question of what a human life is for, and the previous section's hope — that we might pour
+our freed energy into the economy of the unmeasured — is finally a hope about exactly this kind
+of work.
+
+But I would be writing a dishonest essay, and a balanced one must refuse this, if I let the two
+tidy lists stand as though they answered the matter. They do not, because between the world we
+have and the world they describe lies a transition, and transitions of this kind have
+historically been brutal, slow, and savagely unfair to the people caught in them — even when the
+long-run aggregate came out ahead. It is easy, from a high enough altitude, to say that the
+weavers displaced by the power loom were part of a process that eventually raised everyone's
+living standards. It was no comfort to the weavers, who lived and died inside the displacement
+and did not get to live in the better world their suffering helped purchase. The man whose
+profession is dissolved at fifty does not draw consolation from the thriving care sector or the
+flourishing of human craft; he draws unemployment, and a loss of standing that no statistic
+captures. To tell such a person to "focus on the human work" is, said carelessly, a kind of
+cruelty — an abstraction offered to someone living a concrete catastrophe. The aggregate can
+improve while millions of particular lives are broken, and the distribution and the timing of
+the pain are not footnotes to the story. For the people who live through it, they *are* the
+story.
+
+So the real problem of work in the age of AI is not the philosophical one of what humans can
+uniquely do; it is the practical and moral one of how we carry people across the gap. That is
+why the questions of the previous section — of ownership, of distribution, of whether the gains
+of abundance reach the many or pool among the few — are not separate from the question of work
+but the heart of it. Whether this transformation is remembered as a liberation or as a betrayal
+will turn far less on how clever the machines become than on whether the societies that deploy
+them choose to share the proceeds and cushion the fall, or leave the displaced to absorb the
+cost alone so that others may enjoy the gain. The technology presents the opportunity. The
+justice, or the injustice, is ours.
+
+And this returns us, by a different road, to a question we have so far postponed but can no
+longer avoid. If the work that remains is so changed, and if cheap machine cognition can
+out-think us in the bargain, a doubt arises about the very thing this whole civilization has
+told us to cultivate. Is it still worth striving to be intelligent at all?
+
 ---
 
-*[Draft continues: §VI Which work, and the justice of the transition; §VII Whether to strive for
-intelligence; §VIII Open weights and the distribution of power; §IX The scenarios; §X The choice.
-See `essay-outline.md` for the full map.]*
+*[Draft continues: §VII Whether to strive for intelligence; §VIII Open weights and the
+distribution of power; §IX The scenarios; §X The choice. See `essay-outline.md` for the full map.]*

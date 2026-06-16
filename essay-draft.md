@@ -383,7 +383,82 @@ longer avoid. If the work that remains is so changed, and if cheap machine cogni
 out-think us in the bargain, a doubt arises about the very thing this whole civilization has
 told us to cultivate. Is it still worth striving to be intelligent at all?
 
+## VII. Whether to strive for intelligence
+
+The doubt has a certain brutal logic, and it deserves to be stated at its strongest before we
+answer it. If a machine can out-think you on almost any cognitive task, instantly and for the
+price of a little electricity, then cultivating your own intellect can look like training for a
+race that was lost before you entered it — like building your body to out-run a car. The hours a
+person once spent learning to reason, to write, to hold a complex matter in the mind, might seem,
+in this light, a sentimental indulgence, a craft made obsolete by the machine that does it
+better. Why strain to become something the world can now buy cheaply off the shelf? If this is
+right, then the answer to our question is bleak: intelligence joins calligraphy and celestial
+navigation as a noble skill the future no longer needs, and we should let it go and find
+something else to be.
+
+I think this argument is wrong, but it is wrong in an instructive way, and seeing exactly how it
+fails is the key to the whole question. It fails because it treats intelligence purely as a
+*product* — as output, as answers delivered — when for a human being intelligence is also a
+*process*, and the process changes the one who undergoes it. Consider the analogy it leans on
+and turn it around. We do not lift weights because the world suffers a shortage of heavy things
+that need moving; forklifts solved that long ago. We lift because of what the lifting does to the
+lifter. The point was never the moved weight; it was the changed body. So with thinking. The
+labor of working something out for yourself, of struggling with a hard text or a hard problem,
+is not merely an inefficient way of obtaining an answer the machine could hand you faster. It is
+the way a person builds judgment, acquires the texture of a subject, learns the feel of being
+wrong and correcting course — the way, in a real sense, a person becomes a self. To outsource all
+of that to a machine because the machine produces better answers is to mistake the answer for the
+point. It is to keep the forklift and let the body go slack, and then wonder why one feels
+diminished.
+
+But the deflationary argument, even as it fails, performs a service: it forces us to ask *which*
+intelligence is worth striving for, and here the typology from the opening of this essay earns
+its keep. For it is true — bluntly, permanently true — that on the axes where the machine excels,
+the race is lost and not worth running. To strive to hold more facts than the machine, to
+calculate faster, to recall more, is folly; you will lose, and the losing teaches nothing. The
+intelligence worth cultivating is the kind the machine does not and perhaps cannot have. It is
+**wisdom** above all: the knowledge not of how to do a thing but of *which things are worth
+doing*, the judgment that weighs ends and not only means, that integrates knowledge with values
+and consequences and is willing to stand behind the result. It is **discernment** — the trained
+capacity to tell the true from the merely fluent, the sound argument from the plausible
+counterfeit, which becomes more vital, not less, in a world awash in cheap and persuasive
+synthetic speech. It is a kind of **meta-cognitive** skill we have barely begun to name: the
+ability to direct, interrogate, and audit intelligences greater than one's own without being
+captured by them — to use the oracle without believing it, to take its counsel without
+surrendering the judgment that decides what to do with the counsel. And it is, at the last, the
+intelligence of **meaning** itself: the grasp of why anything matters at all, which is not a
+computation and was never going to be, because it is the act of a being who has something at
+stake.
+
+This reframing dissolves the original doubt, but it leaves a harder worry in its place, and
+honesty requires that we follow it. The deflationary argument assumed that the only reason to be
+intelligent is to produce useful cognitive output, and so concluded that the machine had made us
+redundant. But there is a reason older and more political than usefulness. To be able to think
+for oneself — to follow an argument, to spot a manipulation, to hold a belief because one has
+weighed it rather than because one was told — is the precondition of not being ruled by whoever
+does the thinking instead. And here the abundance of machine intelligence cuts both ways at once.
+The same systems that can extend a thinking person's reach can also relieve an incurious one of
+the burden of thinking entirely, supplying ready-made conclusions, frictionless and flattering,
+to anyone content to receive them. A population that gratefully stops thinking because a machine
+will think for it does not become free of an onerous chore; it becomes trivially steerable by
+whoever owns and tunes the machine. We have already seen, in §IV, that the deepest question of
+this era is who controls the new capability. This is its mirror in the soul of the individual:
+the cultivation of one's own intelligence, in the age of vastly superior artificial intelligence,
+is not a vanity and not a hobby. It is closer to a civic duty — the inner equivalent of a free
+press or an independent court, a bulwark against the soft domination that an unthinking people
+invites. We may need to strive to think *more*, not less, precisely because the machine makes it
+so easy and so comfortable to stop.
+
+So intelligence remains worth striving for, but a different intelligence than the one our schools
+and our pride have prized — not the capability we are losing to the machine, but the wisdom,
+discernment, and autonomy the machine cannot supply and can quietly erode. This is a hopeful
+conclusion, but it is also a demanding one, and it presumes something we have not yet examined:
+that the choice is ours to make. Whether it really is — whether ordinary people will have the
+standing to direct these systems rather than merely be directed by them — depends on a question
+of power that runs underneath everything this essay has said, and that we have postponed long
+enough. It depends on who is permitted to hold the machines.
+
 ---
 
-*[Draft continues: §VII Whether to strive for intelligence; §VIII Open weights and the
-distribution of power; §IX The scenarios; §X The choice. See `essay-outline.md` for the full map.]*
+*[Draft continues: §VIII Open weights and the distribution of power; §IX The scenarios; §X The
+choice. See `essay-outline.md` for the full map.]*

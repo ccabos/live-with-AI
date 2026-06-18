@@ -155,6 +155,45 @@ transitions have historically been brutal and unevenly distributed *even when th
 long-run aggregate improved.* The essay loses credibility if it skips the pain of
 transition. Name it; treat distribution and timing as the real problem.
 
+### 4d. A worked example: the software engineer
+*(Expanded into its own case-study section in the essay — §IX. Use it as the concrete
+instance that makes the abstract argument legible, and because the engineer is reflexive:
+she builds the very systems automating her.)*
+
+- **Why this case is special:** (1) coding is among the *fastest*-automating cognitive
+  tasks, so engineers already live in the forecast world; (2) engineers are reflexive —
+  they build the tools remaking them, so they can *steer* the outcome, not just suffer it.
+- **The displacement (be honest):** producing code *as code* is crystallized+fluid work
+  the machine does cheaply; its wage-value drifts toward the cost of compute. The junior
+  rung (boilerplate, well-specified functions, ticket→patch) automates first → the
+  **ladder problem**: if the bottom rungs vanish, how does anyone climb to the judgment the
+  top still rewards? The two-years-in engineer lives the §6/transition pain *first*.
+- **What survives (= where to turn) — each maps to an earlier section:**
+  - Deciding *what* to build — taste, product sense, problem definition (the §2/§4
+    "interface between AI and reality").
+  - *Judging* machine output — sceptical review, telling subtly-wrong from right (the
+    §5 meta-cognitive skill of auditing an intelligence faster than your own). Moves from
+    periphery to centre of the job.
+  - *Accountability* — owning correctness, security, consequences; on-call at 3 a.m.; the
+    name on the failing design. A model cannot be the responsible party.
+  - *Architecture* — holding the whole, deciding trade-offs, integrating machine-written
+    parts into something coherent and safe.
+- **How to be successful (the prescription):**
+  - Migrate *up the abstraction stack*: from producing the artifact to specifying,
+    judging, integrating, owning. Become a *director of machine intelligences* —
+    orchestrate fleets of agents; supply the judgment.
+  - Two good roads up: **depth** (security, performance, distributed systems, the novel,
+    hardware/physical-world — where machines are weak and mistakes are costly) or
+    **breadth with ownership** (the accountable builder who now ships what took a team).
+    The withering middle = commodity code the machine makes for free.
+  - **Engage open models** (ties to §6): run/inspect/adapt open systems vs. renting closed
+    ones; sovereignty over tools. The most-exposed workers are also those whose collective
+    choices decide diffusion vs. concentration — engineers are *drivers*, not passengers.
+  - **Keep your own judgment sharp** (ties to §5's civic/autonomy warning, personalized):
+    value is migrating from what you produce to what you judge; judgment atrophies if you
+    let the tool think. Use the machine relentlessly; never let it replace the
+    understanding that knows whether the output is right.
+
 ---
 
 ## 5. Is intelligence still worth striving for?

@@ -1,7 +1,5 @@
 # Das Leben mit einer KI, die intelligenter ist als wir
 
-*Ein philosophischer Essay. Entwurf – einleitender Satz (Einführung, These und die
-Frage, was „Intelligenz" bedeutet).*
 
 ---
 

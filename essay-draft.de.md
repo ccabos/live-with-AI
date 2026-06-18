@@ -134,7 +134,7 @@ Diese Unterscheidung ist keine Trostdecke, kein Mittel, uns einzureden, dass wir
 behalten werden, den die Maschinen nicht erreichen können. Manche dieser Winkel werden schrumpfen; die
 verkörperten und sogar die sozialen mögen schneller erodieren, als wir erwarten. Sie ist vielmehr ein
 analytisches Werkzeug, und wir werden es bei jedem Schritt brauchen. Wenn wir fragen, welche Arbeit
-Menschen verrichten sollten, werden wir fragen, welche Arten von Intelligenz wahrhaft die unseren oder
+Menschen verrichten sollten, werden wir fragen, welche Arten von Intelligenz wahrhaft die unseren bleiben oder
 wahrhaft gefragt bleiben. Wenn wir fragen, ob es sich noch lohnt, danach zu streben, intelligent zu
 sein, werden wir feststellen, dass die Antwort gänzlich davon abhängt, *welche* Intelligenz wir meinen –
 dass es Torheit ist, der Maschine in der reinen Leistungsfähigkeit nachzujagen, während es notwendiger
@@ -149,8 +149,8 @@ lernt, den Wert mit einem anderen Maßstab zu messen.
 
 ## IV. Die Prinzipien des Zusammenlebens
 
-Eine Gesellschaft wird von stillen Annahmen getragen, über die sie nie abstimmt. Viele der unseren
-nahmen, ohne es je zu sagen, an, dass die menschliche Kognition knapp und daher kostbar sei. Wenn
+Eine Gesellschaft wird von stillen Annahmen getragen, über die sie nie abstimmt. Wir
+nehmen, ohne es je zu sagen, an, dass die menschliche Kognition knapp und daher kostbar sei. Wenn
 diese Annahme versagt, müssen mehrere der tragenden Wände des gemeinsamen Lebens auf einmal neu
 gegründet werden. Es lohnt sich, sie langsam durchzugehen, denn die Veränderungen sind leicht zu
 übersehen: Nichts stürzt dramatisch ein, doch der Boden unter vertrauten Institutionen verschiebt
@@ -210,7 +210,7 @@ widerstehen. Jedes Werkzeug, das wir je geschaffen haben, hat irgendeine Fähigk
 früher selbst ausübten, und der Verlust war gewöhnlich verkraftbar. Die Schrift selbst erodierte die
 gewaltigen geschulten Gedächtnisse der mündlichen Kulturen; Platon lässt Sokrates im *Phaidros* klagen,
 sie werde die Menschen vergesslich machen, eine äußere Krücke anstelle innerer Erinnerung. Er hatte mit
-dem Verlust nicht unrecht, und wir würden die Schrift nicht zurückgeben. Die ehrliche Frage ist also
+dem Verlust nicht unrecht, aber wir würden die Schrift nicht zurückgeben. Die ehrliche Frage ist also
 nicht, ob die KI einige unserer Fähigkeiten verkümmern lassen wird – das wird sie –, sondern *welche*
 Fähigkeiten wir bewusst weiter in uns selbst ausüben müssen, selbst wenn eine Maschine sie besser
 verrichten könnte, so wie ein Volk darauf bestehen mag, sich daran zu erinnern, wie man Nahrung anbaut

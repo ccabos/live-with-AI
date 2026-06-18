@@ -9,23 +9,23 @@ Wir haben angefangen, fast beiläufig zu sagen, dass die künstliche Intelligenz
 intelligenter zu werden als wir. In manchen Räumen wird dieser Satz mit Ehrfurcht
 ausgesprochen, in anderen mit Schrecken, doch zunehmend wird er gesagt, als wäre seine
 Bedeutung offensichtlich. Das ist sie nicht. Der Satz verbirgt mindestens drei
-verschiedene Behauptungen, und nahezu jedes wirre Argument über unsere Zukunft entspringt
+verschiedene Behauptungen, und nahezu jedes unklare Argument über unsere Zukunft entspringt
 dem stillschweigenden Hin- und Hergleiten zwischen ihnen.
 
 Die erste Behauptung ist die bescheidene, und sie ist schlicht wahr: Maschinen übertreffen
 uns bereits bei einzelnen Aufgaben. Sie spielen besser Schach, falten Proteine, die wir
 nicht falten konnten, lesen einen medizinischen Scan zuverlässiger als eine erschöpfte
 Ärztin und erzeugen flüssige Prosa in hundert Sprachen zugleich. Diese Art enger
-Überlegenheit ist nicht neu – ein Taschenrechner rechnet seit den 1970er Jahren jeden
-lebenden Menschen aus –, und wir haben uns längst mit ihr arrangiert. Niemand fühlt sich
-durch einen Taschenrechner gemindert.
+Überlegenheit ist nicht neu – ein Taschenrechner rechnet seit den 1970er Jahren besser als jeder 
+lebende Menschen –, und wir haben uns längst damit arrangiert. Niemand fühlt sich
+durch einen Taschenrechner minderwertig.
 
-Die zweite Behauptung ist größer und ist diejenige, die nun tatsächlich eintrifft: dass
+Die zweite Behauptung ist größer und ist diejenige, die nun scheinbar tatsächlich eintrifft: dass
 Maschinen den typischen Menschen bei den meisten kognitiven Tätigkeiten, auf denen unsere
 Volkswirtschaften und Institutionen tatsächlich beruhen, erreichen oder übertreffen können.
-Nicht ein einzelnes Spiel, sondern die allgemeine Fähigkeit zu lesen, zu schlussfolgern, zu
+Nicht eine einzelne, sondern die allgemeine Fähigkeit zu lesen, zu schlussfolgern, zu
 schreiben, zusammenzufassen, zu planen und zu erklären. Dies ist die Phase, in die wir
-eintreten, und sie ist gerade deshalb beunruhigend, weil sie nicht eng ist. Sie berührt jene
+eintreten, und sie ist gerade deshalb beunruhigend, weil sie nicht schmal ist. Sie berührt jene
 Art des Denkens, für die die meisten Menschen bezahlt werden und mit der viele Menschen
 insgeheim wissen, wer sie sind.
 
@@ -37,7 +37,7 @@ bemerken, wie sehr ein Großteil der öffentlichen Debatte gänzlich in der Tona
 Behauptung geführt wird, als wäre die einzige Frage, die zu stellen sich lohnt, die
 Science-Fiction-Frage.
 
-Ich möchte dafür argumentieren, dass die dringliche Frage in der zweiten Phase liegt, nicht in
+Ich möchte dafür argumentieren, dass die momentan dringliche Frage in der zweiten Phase liegt, nicht in
 der dritten. Wir müssen nicht klären, ob ein Gott im Anmarsch ist, um zu erkennen, dass sich
 etwas bereits unter unseren Füßen verändert hat: Zum ersten Mal wird jene Art kognitiver
 Fähigkeit, die unsere Zivilisation als knapp, wertvoll und unverwechselbar menschlich behandelt
@@ -66,11 +66,11 @@ dem, was sich in Geld messen lässt, und dem, was zählt.*]
 *Fähigkeit* ist das, was getan werden kann – die Kraft, ein Problem zu lösen, ein Ergebnis zu
 erzeugen, einen Erfolg zu erzielen. *Wert*, in dem Sinne, in dem unsere Volkswirtschaften das
 Wort gebrauchen, ist das, was wir zu belohnen bereit sind; er ist Fähigkeit, bepreist durch
-Knappheit und Nachfrage. *Würde* ist etwas gänzlich anderes: Sie ist das, was ein Leben bedeutsam
+Angebot und Nachfrage. *Würde* ist etwas gänzlich anderes: Sie ist das, was ein Leben bedeutsam
 macht, der Rang, den ein Mensch schlicht als Mensch innehat, der Sinn, den wir in einer Handlung
 finden, unabhängig davon, was sie hervorbringt oder was sie auf einem Markt einbringt.
 
-Über den größten Teil der Menschheitsgeschichte hinweg fuhren diese drei so eng beieinander,
+Über den größten Teil der Menschheitsgeschichte hinweg lagen diese drei so eng beieinander,
 dass wir sie nie trennen mussten. Der Fähige war wertvoll, und dem Wertvollen wurde Würde
 zugesprochen. Der erfahrene Arzt wusste Dinge, die andere nicht wussten (Fähigkeit), wurde dafür
 bezahlt und geschätzt (Wert) und zog Würde aus dem Wissen (Würde). Wissen, Belohnung und Rang
@@ -114,8 +114,8 @@ dem, was ein Kind leicht findet. Da ist die *verkörperte* Intelligenz, die Komp
 der sich durch eine unstrukturierte physische Welt bewegt – die Hände des Klempners, die Sanftmut der
 Pflegerin, die Improvisation eines Kochs –, wo die Maschinen ungeschickt und teuer bleiben. Da ist die
 *soziale* und *relationale* Intelligenz, das Lesen eines Raumes, das Aufbauen von Vertrauen, die
-schlichte Tatsache, *mit* einem anderen Menschen zu sein; Maschinen können nun deren Oberfläche
-überzeugend nachahmen, während sie nichts davon in sich tragen. Und da ist die Intelligenz, die wir am
+schlichte Tatsache, *mit* einem anderen Menschen zu sein; Maschinen können dies oberflächlich
+nachahmen, während sie nichts davon in sich tragen. Und da ist die Intelligenz, die wir am
 wenigsten zu automatisieren vermögen, weil sie womöglich gar nicht die Art von Sache ist, die ein
 Werkzeug überhaupt haben kann: die *moralische* Intelligenz, das Abwägen dessen, was zählen sollte, und
 die *Weisheit*, das Urteilsvermögen, das weiß, was zu tun sich lohnt, und bereit ist, für die Folgen

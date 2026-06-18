@@ -186,6 +186,49 @@ ungleich verteilt, *selbst wenn sich das langfristige Gesamtergebnis verbesserte
 Essay verliert an Glaubwürdigkeit, wenn er den Schmerz des Übergangs überspringt. Benenne
 ihn; behandle Verteilung und zeitlichen Ablauf als das eigentliche Problem.
 
+### 4d. Ein durchgespieltes Beispiel: die Softwareentwicklerin
+*(Im Essay zu einem eigenen Fallstudien-Abschnitt ausgebaut – §IX. Nutze es als den
+konkreten Einzelfall, der das abstrakte Argument ablesbar macht, und weil die Entwicklerin
+rückbezüglich ist: Sie baut genau die Systeme, die sie automatisieren.)*
+
+- **Warum dieser Fall besonders ist:** (1) Programmieren gehört zu den *am schnellsten*
+  automatisierenden kognitiven Aufgaben – Entwickler leben bereits in der vorhergesagten
+  Welt; (2) Entwickler sind rückbezüglich – sie bauen die Werkzeuge, die sie umkrempeln, und
+  können das Ergebnis also *lenken*, nicht bloß erleiden.
+- **Die Verdrängung (ehrlich benennen):** Code *als* Code zu produzieren ist kristalline +
+  fluide Arbeit, die die Maschine billig erledigt; ihr Lohnwert treibt den Kosten der
+  Rechenleistung entgegen. Die Anfängersprosse (Boilerplate, wohldefinierte Funktionen,
+  Ticket→Patch) automatisiert zuerst → das **Leiterproblem**: Wenn die untersten Sprossen
+  verschwinden, wie klettert dann noch jemand zum Urteilsvermögen, das die Spitze belohnt?
+  Die Entwicklerin mit zwei Jahren Erfahrung durchlebt den Schmerz aus §4/Übergang *zuerst*.
+- **Was überlebt (= wohin man sich wendet) – jeweils Rückbezug auf einen früheren Abschnitt:**
+  - Entscheiden, *was* gebaut werden soll – Geschmack, Produktgespür, Problemdefinition (die
+    „Schnittstelle zwischen KI und Wirklichkeit" aus §2/§4).
+  - Maschinenoutput *beurteilen* – skeptisches Review, das subtil Falsche vom Richtigen
+    unterscheiden (die metakognitive Fähigkeit aus §5, eine schnellere Intelligenz zu prüfen,
+    ohne vereinnahmt zu werden). Rückt vom Rand ins Zentrum des Berufs.
+  - *Rechenschaft* – Korrektheit, Sicherheit, Folgen verantworten; Bereitschaftsdienst um
+    3 Uhr; der Name auf dem scheiternden Entwurf. Ein Modell kann nicht der/die Verantwortliche
+    sein.
+  - *Architektur* – das Ganze halten, Abwägungen treffen, maschinengeschriebene Teile zu
+    etwas Stimmigem und Sicherem fügen.
+- **Wie man Erfolg hat (die Handlungsempfehlung):**
+  - *Die Abstraktionsebenen hinaufwandern*: vom Hervorbringen des Artefakts zum Spezifizieren,
+    Beurteilen, Integrieren, Verantworten. Werde *Dirigentin maschineller Intelligenzen* –
+    orchestriere Agentenscharen; liefere das Urteil.
+  - Zwei gute Wege nach oben: **Tiefe** (Sicherheit, Performanz, verteilte Systeme, das Neue,
+    Hardware/physische Welt – wo Maschinen schwach und Fehler teuer sind) oder **Breite samt
+    Eigentümerschaft** (die verantwortliche Erbauerin, die nun ausliefert, wofür ein Team
+    nötig war). Die verkümmernde Mitte = Allerweltscode, den die Maschine umsonst herstellt.
+  - **Mit offenen Modellen arbeiten** (Anbindung an §6): offene Systeme betreiben/einsehen/
+    anpassen statt geschlossene mieten; Souveränität über die Werkzeuge. Die am stärksten
+    Ausgesetzten sind zugleich jene, deren gemeinsame Entscheidungen über Diffusion vs.
+    Konzentration befinden – Entwickler sind *Lenker*, nicht Passagiere.
+  - **Das eigene Urteil scharf halten** (Anbindung an §5s Bürger-/Autonomie-Warnung,
+    personalisiert): Der Wert wandert von dem, was man produziert, zu dem, was man beurteilt;
+    Urteilskraft verkümmert, wenn man das Werkzeug denken lässt. Nutze die Maschine
+    unermüdlich; lass sie nie das Verständnis ersetzen, das weiß, ob der Output richtig ist.
+
 ---
 
 ## 5. Lohnt es sich noch, nach Intelligenz zu streben?

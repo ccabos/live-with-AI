@@ -579,7 +579,93 @@ darüber, ob das Zeitalter der künstlichen Intelligenz ein Zeitalter verteilter
 konzentrierter Abhängigkeit sein wird – was heißt, der Kampf darüber, welche der Zukünfte, die zu
 skizzieren wir nun in der Lage sind, tatsächlich eintreten wird.
 
-## IX. Die Gestalt der Zukünfte
+## IX. Ein Anschauungsfall: die Softwareentwicklerin
+
+Bevor wir den Blick auf jene Zukünfte weiten, lohnt es sich, ihn ganz auf einen einzigen Beruf zu
+verengen, und der aufschlussreichste, den man wählen kann, ist die Softwareentwicklerin – aus zwei
+Gründen. Der erste: Das Programmieren gehört zu den kognitiven Aufgaben, die die Maschinen am
+schnellsten und vollständigsten übernommen haben, sodass die Entwicklerin, allen anderen voraus,
+bereits in der Welt lebt, die der Rest dieses Essays bloß vorhersagt. Der zweite: Die Entwicklerin
+ist auf eine Weise rückbezüglich, wie es kein anderer Mensch im Beruf ist – sie baut genau die
+Systeme, die sie automatisieren. Wenn irgendjemand in der Lage ist, klar zu sehen, was kommt, und es
+zu gestalten, statt es bloß zu erleiden, dann der Mensch, dessen Hände an der Maschine liegen, die
+alles verändert. Das ganze Argument dieses Essays ist, im Kleinen, an ihrer Lage ablesbar.
+
+Beginnen wir, ehrlich, mit der Verdrängung, denn sie ist real und trifft bereits ein. Die Produktion
+von Code – die kristalline und fluide kognitive Arbeit, eine bekannte Absicht in funktionierende
+Syntax zu übersetzen – ist genau die Art von Tätigkeit, die die Maschinen nun gut, schnell und für
+den Preis von ein wenig Rechenleistung erledigen, und so treibt der Lohnwert des Code-Produzierens,
+*als* Code, eben jenen Kosten entgegen, genau wie wir es vom Wert kognitiver Ergebnisse gesagt haben.
+Die erste Sprosse, die es spürt, ist die unterste: die Anfängeraufgabe, eine wohldefinierte Funktion
+zu schreiben, der Boilerplate-Code, das routinemäßige Übersetzen eines klaren Tickets in einen klaren
+Patch – die Arbeit, an der ein Lehrling sich einst die Zähne ausbiss und die ein Modell jetzt in
+Sekunden erledigt. Das ist das Leiterproblem in seiner schärfsten Form: Wenn die untersten Sprossen
+zuerst automatisiert werden, wie klettert dann überhaupt noch jemand zu dem Urteilsvermögen empor,
+das die Spitze weiterhin belohnt? Es ist kein Trost, einem Menschen, der zwei Jahre in einer Laufbahn
+steckt, die genau auf dieser Arbeit aufbaut, zu sagen, Urteilskraft werde weiterhin geschätzt. Sie
+durchleben den Übergang, von dem dieser Essay warnte, er werde brutal und ungleich verteilt sein –
+und die Warnung trifft sie zuerst.
+
+Und doch: Man beachte, was *nicht* automatisiert wird, denn hier liegt die Zukunft der Entwicklerin
+tatsächlich, und jeder Punkt auf der Liste ist etwas, dem wir schon begegnet sind. Was überlebt, ist
+fast alles *rund um* den Code, nicht der Code selbst. Da ist die Arbeit, zu entscheiden, *was* gebaut
+werden soll – der Geschmack, das Gespür fürs Produkt, die Übersetzung eines vagen menschlichen
+Wunsches in ein präzises, lösenswertes Problem –, die besondere Gestalt, die für die Entwicklerin die
+Schnittstelle zwischen Maschine und Wirklichkeit annimmt. Da ist die Arbeit, zu *beurteilen*, was die
+Maschine hervorbringt: das geschulte, skeptische Lesen von erzeugtem Code, die Urteilskraft, das auf
+subtile Weise Falsche vom Richtigen zu unterscheiden – eben jene metakognitive Fähigkeit, eine
+Intelligenz zu prüfen, die schneller ist als die eigene, ohne von ihr vereinnahmt zu werden –, und
+die vom Rand des Berufs in dessen Zentrum rückt. Da ist die *Rechenschaft*: Ein Modell kann nicht um
+drei Uhr morgens im Bereitschaftsdienst sein, kann nicht der Name auf dem Entwurf sein, der scheitert,
+kann nicht den Nutzern Rede und Antwort stehen, deren Daten es ausplauderte, noch derjenige sein, den
+ein Unternehmen zur Verantwortung zieht. Irgendjemand muss das System besitzen – seine Korrektheit,
+seine Sicherheit, seine Folgen –, und dieses Gewicht kann nur ein Mensch tragen. Und da ist die
+*Architektur* im größten Sinne: das Ganze in einem Kopf zu halten, die Abwägungen zu treffen, ein
+Dutzend maschinengeschriebener Teile zu etwas Stimmigem und Sicherem zu fügen.
+
+Die Gestalt eines gedeihlichen Entwicklerlebens ist also eine stetige Wanderung die Abstraktionsebenen
+hinauf – weg vom Hervorbringen des Artefakts und hin zum Spezifizieren, Beurteilen, Integrieren und
+Verantworten. Die Entwicklerin, die aufblüht, ist diejenige, die im wörtlichen Sinn zur Dirigentin
+maschineller Intelligenzen wird: die die Ziele setzt, die Schar von Agenten orchestriert, die das
+Tippen erledigen, und das Urteil fällt, das entscheidet, ob ihr Ergebnis auslieferungsreif ist. Zwei
+Wege führen von dort nach oben, und beide sind gut. Der eine ist die *Tiefe*: die schwierigen
+Gebiete, in denen die Maschinen noch schwach sind und ein Fehler teuer ist – Sicherheit, Performanz,
+verteilte Systeme, das wahrhaft Neue, die mit physischer Hardware und der unerbittlichen wirklichen
+Welt verwobene Arbeit –, wo ein Mensch, der den Untergrund wirklich versteht, knapp und kostbar
+bleibt. Der andere ist die *Breite samt Eigentümerschaft*: die Entwicklerin als die verantwortliche
+Erbauerin, die nun weit mehr Fähigkeit gebietet als zuvor und das ausliefert, wofür einst ein ganzes
+Team nötig war, gerade weil die Maschine vervielfacht hat, was ein einzelner urteilender Verstand
+vermag. Die Laufbahn, die zwischen beiden verkümmert, ist die, die in der Mitte verharrt – weder tief
+noch verantwortlich, bloß den Allerweltscode produzierend, den die Maschine jetzt umsonst herstellt.
+
+Eines noch sollte die Entwicklerin sehen, was anderen entgehen mag, denn es ist das rückbezügliche
+Vorrecht ihrer Stellung. Mehr als jeder andere hat sie ein Mitspracherecht darüber, *welche* Zukunft
+sie baut, und offene Modelle sind der Ort, an dem dieses Mitspracherecht ausgeübt wird. Sie, von
+allen Arbeitenden, kann die offenen Systeme betreiben, einsehen und anpassen, statt bloß die
+geschlossenen zu mieten; sie kann auf der Allmende bauen statt in jemandes ummauertem Garten; sie kann
+ihre Werkzeuge behalten, und ihre Souveränität über sie, in einer Welt, die zur Konzentration neigt.
+Die der Automatisierung am stärksten Ausgesetzten sind zugleich – in einer Ironie, bei der zu
+verweilen sich lohnt – eben jene, deren gemeinsame Entscheidungen darüber befinden, ob die Fähigkeit
+am Ende verteilt oder besessen wird. Die Entwicklerin ist nicht bloß Passagierin der Verwandlung, die
+dieser Essay beschreibt. Sie ist, mehr als wir übrigen, eine ihrer Lenkerinnen.
+
+Und hier kehrt schließlich die Warnung aus dem Abschnitt über die Intelligenz mit persönlicher Schärfe
+zurück. Der ganze Wert der Entwicklerin wandert von dem, was sie hervorbringen, zu dem, was sie
+beurteilen kann – und Urteilskraft ist genau jene Fähigkeit, die verkümmert, wenn man aufhört, sie zu
+üben, und die Maschine entscheiden lässt. Die Versuchung wird sein, das Werkzeug denken zu lassen:
+ungelesen auszuliefern, was es vorschlägt, Verständnis gegen Tempo zu tauschen, zum Durchlauferhitzer
+für Code zu werden, dem man selbst nicht mehr ganz folgt. Ihr nachzugeben heißt, eben die Fähigkeit
+auszuhöhlen, die das Refugium sein sollte. Die Entwicklerin, die Bestand hat, ist diejenige, die die
+Maschine unermüdlich nutzt und ihr eigenes Verständnis dennoch scharf hält – die sie den Code
+schreiben lässt, aber nie das Urteil ersetzen lässt, das weiß, ob der Code richtig ist. Das ist die
+Disziplin, die diese Zukunft von ihr verlangt, und sie ist nur der schärfste Einzelfall dessen, was
+sie von uns allen verlangt.
+
+Mit diesem konkreten Fall in der Hand – der Arbeiterin, die zugleich dieser Veränderung am stärksten
+ausgesetzt und am ehesten imstande ist, sie zu lenken – können wir den Blick wieder weiten, auf die
+Spanne der Zukünfte, die er ankündigt.
+
+## X. Die Gestalt der Zukünfte
 
 Es ist verlockend, so weit gekommen, eine Vorhersage zu treffen – die eine Zukunft zu benennen, die uns
 erwartet, und sich gegen sie zu wappnen. Ich möchte dieser Versuchung widerstehen, denn ich glaube, sie
@@ -656,7 +742,7 @@ beeinflussen – wie breit wir die Kontrolle zu verteilen wählen und was wir zu
 alten Notwendigkeiten ihren Griff lockern. Was heißt, dass die Frage, wie mit Maschinen zu leben ist, die
 intelligenter sind als wir selbst, am Ende keine Frage über die Maschinen ist.
 
-## X. Die Wahl
+## XI. Die Wahl
 
 Wir begannen mit einem Satz, den wir immer wieder sagen – dass die künstliche Intelligenz dabei sei,
 intelligenter zu werden als wir –, und wir haben diesen Essay damit verbracht, ihn auseinanderzunehmen.

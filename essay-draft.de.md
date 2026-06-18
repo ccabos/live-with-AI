@@ -52,7 +52,18 @@ die Götter den Theologen überlassen und haben dennoch mehr als genug, worüber
 Hier ist der zentrale Schritt dieses Essays, derjenige, an dem alles Weitere hängen wird. Wenn
 wir uns sorgen, dass die KI intelligenter wird als wir, dann bündeln wir drei Dinge zusammen,
 die ein klarer Geist auseinanderhalten sollte. Nennen wir sie **Fähigkeit**, **Wert** und
-**Würde** (im Original: capability, value, worth).
+**Würde**.
+
+[*Zur Übersetzung: Das Original unterscheidet drei Begriffe – „capability", „value" und
+„worth". Die letzten beiden, „value" und „worth", heißen im Deutschen beide „Wert"; um sie
+auseinanderzuhalten, steht hier „Wert" für den ökonomischen „value" und „Würde" für „worth".
+„Würde" ist dabei weit zu verstehen – nicht im engen Sinn von Höflichkeits-, Amts- oder
+Körperwürde, sondern als der innere, unbedingte Wert, der ein Leben bedeutsam macht: der Rang,
+den ein Mensch allein dadurch besitzt, dass er Mensch ist, und der – anders als ein Preis –
+nicht gegen etwas anderes aufgewogen, verrechnet oder eingetauscht werden kann. Der Begriff
+klingt zugleich an Kants berühmte Unterscheidung von Würde und Preis an: Was einen Preis hat,
+ist ersetzbar; was Würde hat, ist es nicht – und genau diese Grenze zieht der Essay zwischen
+dem, was sich in Geld messen lässt, und dem, was zählt.*]
 
 *Fähigkeit* ist das, was getan werden kann – die Kraft, ein Problem zu lösen, ein Ergebnis zu
 erzeugen, einen Erfolg zu erzielen. *Wert*, in dem Sinne, in dem unsere Volkswirtschaften das

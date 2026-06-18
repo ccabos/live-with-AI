@@ -32,10 +32,16 @@ Argument entsteht dadurch, dass man unbemerkt von der einen zur anderen gleitet:
 > **Fähigkeit, Wert und Würde.**
 
 Diese Entkopplung ist das Rückgrat des gesamten Essays. Fähigkeit (was getan werden kann)
-wandert zu den Maschinen ab (im Original: capability, value, worth). Wert (was wir
-wirtschaftlich belohnen) wird neu bewertet. Würde (was ein menschliches Leben bedeutsam
-macht) war nie dasselbe wie eines von beiden, und das KI-Zeitalter zwingt uns endlich,
-das auch laut auszusprechen.
+wandert zu den Maschinen ab. Wert (was wir wirtschaftlich belohnen) wird neu bewertet. Würde
+(was ein menschliches Leben bedeutsam macht) war nie dasselbe wie eines von beiden, und das
+KI-Zeitalter zwingt uns endlich, das auch laut auszusprechen.
+
+[*Zur Übersetzung: Das Original unterscheidet „capability", „value" und „worth"; da „value"
+und „worth" im Deutschen beide „Wert" heißen, steht „Wert" für den ökonomischen „value" und
+„Würde" für „worth". „Würde" meint hier nicht die bloße Höflichkeits- oder Amtswürde, sondern
+den inneren, unbedingten Wert, der ein Leben bedeutsam macht – den Rang, den ein Mensch allein
+als Mensch besitzt und der, anders als ein Preis, nicht aufgewogen werden kann (Anklang an
+Kants Unterscheidung von Würde und Preis).*]
 
 ---
 

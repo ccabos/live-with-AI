@@ -535,7 +535,84 @@ weights is, at bottom, the fight over whether the age of artificial intelligence
 distributed empowerment or of concentrated dependence — which is to say, the fight over which of
 the futures we are now in a position to sketch will actually come to pass.
 
-## IX. The shape of the futures
+## IX. A case in point: the software engineer
+
+Before we widen the lens to those futures, it is worth narrowing it all the way down to a single
+occupation, and the most revealing one to choose is the software engineer — for two reasons. The
+first is that programming is among the cognitive tasks the machines have taken to fastest and most
+completely, so the engineer is already living, ahead of almost everyone else, in the world the rest
+of this essay only forecasts. The second is that the engineer is reflexive in a way no other worker
+is: she builds the very systems that are automating her. If anyone is positioned to see clearly what
+is coming, and to shape it rather than merely suffer it, it is the person whose hands are on the
+machine that is changing everything. The whole argument of this essay is legible, in miniature, in
+her predicament.
+
+Begin with the displacement, honestly, because it is real and already arriving. The production of
+code — the crystallized and fluid cognitive work of turning a known intention into working syntax —
+is precisely the kind of thing the machines now do well, quickly, and for the price of a little
+compute, and so the wage-value of producing code, *as* code, is drifting downward toward that cost,
+exactly as we said the value of cognitive output would. The first rung to feel it is the lowest: the
+junior task of writing a well-specified function, the boilerplate, the routine translation of a
+clear ticket into a clear patch — the work an apprentice once cut their teeth on, and that a model
+now does in seconds. This is the ladder problem in its sharpest form: if the bottom rungs are the
+first to be automated, how does anyone climb to the judgment that the top still rewards? It is no
+comfort, to a person two years into a career built on exactly this work, to be told that judgment
+will still be prized. They are living the transition this essay warned would be brutal and unevenly
+distributed, and the warning lands on them first.
+
+And yet notice what is *not* automated, because it is here that the engineer's future actually lies,
+and every item on the list is something we have already met. What survives is almost everything
+*around* the code rather than the code itself. There is the work of deciding *what* to build — the
+taste, the product sense, the translation of a vague human want into a precise problem worth
+solving — which is the engineer's particular form of the interface between the machine and reality.
+There is the work of *judging* what the machine produces: the trained, sceptical reading of
+generated code, the discernment to tell the subtly wrong from the right, which is exactly the
+meta-cognitive skill of auditing an intelligence faster than your own without being captured by it —
+and which moves from the periphery of the job to its centre. There is *accountability*: a model
+cannot be on call at three in the morning, cannot be the name on the design that fails, cannot
+answer to the users whose data it spilled or be the one a company holds responsible. Someone must
+own the system — its correctness, its security, its consequences — and ownership is a weight only a
+person can carry. And there is *architecture* in the largest sense: holding the whole in one mind,
+deciding the trade-offs, integrating a dozen machine-written parts into something coherent and safe.
+
+The shape of a thriving engineering life, then, is a steady migration up the stack of abstraction —
+away from producing the artifact and toward specifying, judging, integrating, and answering for it.
+The engineer who flourishes is the one who becomes, in a literal sense, a director of machine
+intelligences: setting the goals, orchestrating the fleet of agents that do the typing, and
+exercising the judgment that decides whether their output is fit to ship. Two roads lead upward from
+there, and both are good. One is *depth*: the hard domains where the machines are still weak and a
+mistake is expensive — security, performance, distributed systems, the genuinely novel, the work
+fused to physical hardware and the unforgiving real world — where a person who truly understands the
+substrate stays scarce and precious. The other is *breadth with ownership*: the engineer as the
+accountable builder who now commands far more capability than before, shipping what once took a
+whole team, precisely because the machine has multiplied what a single judging mind can do. The
+career that withers, between these two, is the one that stays in the middle — neither deep nor
+accountable, just producing the commodity code the machine now produces for nothing.
+
+There is one more thing the engineer should see that others may miss, because it is the reflexive
+privilege of her position. More than anyone, she has a say in *which* future she builds toward, and
+open models are where that say is exercised. She, of all workers, can run, inspect, and adapt the
+open systems rather than merely renting the closed ones; she can build on the commons rather than
+inside someone's walled garden; she can keep her tools, and her sovereignty over them, in a world
+tilting toward concentration. The people most exposed to automation are also, by an irony worth
+pausing on, the very people whose collective choices decide whether the capability ends up diffused
+or owned. The engineer is not only a passenger of the transformation this essay describes. She is,
+more than the rest of us, one of its drivers.
+
+And here, finally, the warning of the section on intelligence returns with a personal edge. The
+engineer's whole value is migrating from what she can produce to what she can judge — and judgment
+is precisely the faculty that withers when one stops exercising it and lets the machine decide. The
+temptation will be to let the tool think: to ship what it suggests unread, to trade understanding
+for speed, to become a conduit for code one no longer quite follows. To yield to it is to hollow out
+the very capacity that was meant to be the refuge. The engineer who lasts is the one who uses the
+machine relentlessly and keeps her own understanding sharp anyway — who lets it write the code but
+never lets it replace the judgment that knows whether the code is right. That is the discipline this
+future asks of her, and it is only the sharpest instance of what it asks of all of us.
+
+With that concrete case in hand — the worker at once most exposed to this change and most able to
+steer it — we can widen the lens again, to the range of futures it foreshadows.
+
+## X. The shape of the futures
 
 It is tempting, having come this far, to make a prediction — to name the one future that awaits us
 and brace for it. I want to resist that temptation, because I think it rests on a mistake this
@@ -607,7 +684,7 @@ actually influence — how widely we choose to distribute control, and what we c
 the old necessities loosen their grip. Which is to say that the question of how to live with
 machines more intelligent than ourselves is not, at the last, a question about the machines.
 
-## X. The choice
+## XI. The choice
 
 We began with a sentence we keep saying — that artificial intelligence is becoming more intelligent
 than we are — and we have spent this essay taking it apart. We found that it bundles three claims

@@ -44,6 +44,18 @@ and work that sits at the interface, directing the machines and judging their ou
 children, making and stewarding, governing ourselves — citizenship can't be automated without
 ceasing to be self-rule.
 
+Look at software engineering, the clearest case of all — the field building the very tools that are
+remaking it. Writing routine code is exactly the cognitive work the machines now do in seconds, and
+the junior rung that used to teach it is the first to vanish. But what survives is everything
+*around* the code: deciding what to build, judging whether the machine's output is actually right,
+owning a system when it fails at three in the morning — accountability a model cannot hold. The
+engineer who thrives stops racing the machine at typing and becomes a director of it: setting the
+goals, orchestrating the agents that do the work, and keeping his own judgment sharp enough to catch
+where they went wrong. Go deep, where mistakes are expensive — security, hard systems, the physical
+world — or go broad and own the outcome; it is the middle, the production of commodity code, that
+the machine simply takes. And because engineers, more than anyone, can run and shape open models
+rather than rent closed ones, they get an outsized say in which of these futures we actually build.
+
 But it would be dishonest to let those tidy lists stand, because between today's world and that one
 lies a transition, and transitions like this have been brutal and unfair to the people caught in
 them — even when the long-run average came out ahead. The weavers displaced by the power loom were

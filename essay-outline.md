@@ -353,6 +353,135 @@ Weave these so the piece feels like one argument, not eight:
 
 ---
 
+## 11. Potential follow-up articles — distinct lines of argument
+
+Several sections above are dense enough to grow into standalone pieces. The map below
+shows the candidates, grouped by the strand of the core thesis they extend; the small
+flowcharts under it trace each candidate's *line of argument* — premise → the tension it
+turns on → central claim → payoff — so you can see at a glance whether two ideas are
+genuinely different articles or the same argument twice.
+
+*(All diagrams are Mermaid; GitHub renders them inline in both the web and the mobile app.)*
+
+### The map of spin-offs
+
+```mermaid
+flowchart TD
+    T["Core thesis: capability ≠ value ≠ worth"]
+    T --> S1["Economic strand"]
+    T --> S2["Power strand"]
+    T --> S3["Epistemic strand"]
+    T --> S4["Self and meaning strand"]
+    T --> S5["Format-driven spin-offs"]
+    S1 --> A["A · The Paradox of Abundance — §3a"]
+    S1 --> B["B · Beyond GDP — §3c"]
+    S2 --> C["C · Who Owns the Means of Cognition — §6"]
+    S3 --> D["D · Truth After Synthesis — §2"]
+    S4 --> E["E · Why Think, If Machines Think Better? — §5"]
+    S4 --> F["F · The Meaning Crisis — §3c/§5/§7"]
+    S5 --> G["G · Profession by Profession — §4d"]
+    S5 --> H["H · Four Futures — §7"]
+```
+
+### A · The Paradox of Abundance *(from §3a)*
+The economics of cheap cognition: more value created, less of it captured as wage income.
+
+```mermaid
+flowchart TD
+    A1["Premise: cognition becomes<br/>abundant and cheap"]
+    A2["Tension: the price of output collapses,<br/>yet the quantity of value explodes"]
+    A3["Claim: wages decouple from productivity;<br/>gains flow to owners of the scarce<br/>complements — compute, energy, data, trust"]
+    A4["Payoff: the question is distribution<br/>and ownership, not production"]
+    A1 -->|"so"| A2
+    A2 -->|"but"| A3
+    A3 -->|"therefore"| A4
+```
+
+### B · Beyond GDP *(from §3c)*
+What we measure versus what we value — the essay's most original, most hopeful strand.
+
+```mermaid
+flowchart TD
+    B1["Premise: GDP never measured<br/>what we most value"]
+    B2["Tension: AI can deepen the tyranny<br/>of the measurable — or dissolve it"]
+    B3["Claim: which path we take is a choice,<br/>not a technological inevitability"]
+    B4["Payoff: free humans for the<br/>non-monetary economy of meaning"]
+    B1 -->|"and"| B2
+    B2 -->|"so"| B3
+    B3 -->|"therefore"| B4
+```
+
+### C · Who Owns the Means of Cognition *(from §6)*
+The political piece: concentration versus diffusion of superhuman capability.
+
+```mermaid
+flowchart TD
+    C1["Premise: superhuman capability is<br/>produced by a handful of firms"]
+    C2["Tension: open weights diffuse power —<br/>and also diffuse misuse, irreversibly"]
+    C3["Claim: a tiered world — a strong open<br/>frontier trailing close behind the closed one"]
+    C4["Payoff: the open floor decides who gets<br/>left out — maybe weightier for equality<br/>than the closed frontier is for capability"]
+    C1 -->|"but"| C2
+    C2 -->|"so"| C3
+    C3 -->|"and thus"| C4
+```
+
+### D · Truth After Synthesis *(from §2)*
+The epistemic piece: trust when any artifact can be fabricated.
+
+```mermaid
+flowchart TD
+    D1["Premise: any text, voice, image or<br/>video can now be synthesized"]
+    D2["Tension: verifying content by<br/>plausibility stops working"]
+    D3["Claim: trust shifts from content<br/>to provenance and relationship"]
+    D4["Payoff: return of institutions, reputation<br/>and physical co-presence as anchors"]
+    D1 -->|"so"| D2
+    D2 -->|"therefore"| D3
+    D3 -->|"hence"| D4
+```
+
+### E · Why Think, If Machines Think Better? *(from §5)*
+The philosophical piece: intelligence as product versus as formation of a self.
+
+```mermaid
+flowchart TD
+    E1["Premise: a machine out-thinks<br/>you, cheaply"]
+    E2["Tension: intelligence as product (you lose)<br/>vs. as process and formation"]
+    E3["Claim: thinking is how a person becomes a<br/>self — outsourcing it outsources you"]
+    E4["Payoff: wisdom and autonomy as a civic<br/>necessity, not a private hobby"]
+    E1 -->|"but"| E2
+    E2 -->|"so"| E3
+    E3 -->|"therefore"| E4
+```
+
+### F · The Meaning Crisis *(from §3c / §5 / §7)*
+The existential piece — arguably the scenario the whole essay is really about.
+
+```mermaid
+flowchart TD
+    F1["Premise: we solve production,<br/>but not purpose"]
+    F2["Tension: material success alongside<br/>lost status, role and direction"]
+    F3["Claim: meaning was bundled with work;<br/>the bundle is coming apart"]
+    F4["Payoff: purpose, not capability, is the<br/>real frontier"]
+    F1 -->|"so"| F2
+    F2 -->|"because"| F3
+    F3 -->|"therefore"| F4
+```
+
+### Format-driven spin-offs (same arguments, new container)
+Two further articles are worth flagging, but they extend the essay's *form*, not its
+argument — they reuse the lines above rather than open new ones, which is why they get no
+separate spine here:
+
+- **G · Profession by Profession (§4d).** Take the engineer case-study template —
+  displacement → what survives (accountability, judgment, presence) → how to move up the
+  abstraction stack — and run it for the doctor, the lawyer, the teacher, the accountant,
+  the designer. One recurring spine, a new worked instance each time; ideal as a series.
+- **H · Four Futures (§7).** Dramatize the two-axis scenario grid as narrative foresight —
+  four vivid short futures plus the two cross-cutting ones. Its value is concreteness and
+  narrative pull; the analytical argument is inherited wholesale from §7.
+
+---
+
 ## Open questions for you (shape the next draft)
 - **Audience & register:** general-public op-ed, a more philosophical long essay, or
   policy-flavored? This changes how much §3a/§6 detail to keep.

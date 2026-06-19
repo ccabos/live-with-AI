@@ -34,7 +34,14 @@ the trusted brands, and the physical capacity to act in the world. The real divi
 isn't humans versus machines. It's between those who own the scarce things and those who used to
 sell their thinking. That is a question of distribution, and it is political to the core.
 
-Which means the most anxious question — what work is left for people? — is usually asked the wrong
+The same unbundling exposes something we long pretended away: money was never a good measure of
+worth. The care that raises a child, the trust that holds a neighborhood together, the health of a
+river were always the substance of a good life and always nearly invisible to the ledger — and this
+is no longer a poet's complaint but the conclusion of a 2026 United Nations expert group, whose
+report, pointedly titled *Counting What Counts*, urges the world to judge progress not by GDP alone
+but by a dashboard of everything it leaves out, from wellbeing to the health of the planet.
+
+Either way, the most anxious question — what work is left for people? — is usually asked the wrong
 way. "What can humans still do that machines can't?" sets us running a race on the machine's track,
 retreating a little further every year. Better to ask two different questions. What will the world
 still *demand* of people? Probably work fused to the messy physical world (the trades, care), work

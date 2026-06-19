@@ -152,6 +152,20 @@ Bewahrung –, weil die monetäre weniger von uns benötigt. Welchen Weg wir bek
 eine *Wahl*, keine technologische Zwangsläufigkeit. Dies ist das hoffnungsvolle Scharnier
 des Essays.
 
+**Externer Anker – die *Beyond-GDP*-Arbeit der UN.** Die Behauptung, das BIP messe das Falsche,
+ist nicht länger heterodox; sie ist nun ein offizielles internationales Projekt – und genau das
+lässt §3c als belegtes Argument bestehen statt als bloße Intuition des Essayisten. Verwurzelt im
+Bericht des Generalsekretärs *Our Common Agenda* (2021), der die „Überabhängigkeit von GDP"
+benannte, betreibt die UN ein ständiges *Beyond-GDP*-Programm; der Abschlussbericht ihrer
+Hochrangigen Expertengruppe – den Mitgliedstaaten 2026 vorgelegt – schlägt ein *Dashboard*
+universell anwendbarer Indikatoren vor, „einen neuen Kompass des Fortschritts für Mensch und
+Planet", der Wohlergehen, Nachhaltigkeit und Inklusion sowie die Verteilung der Erträge umfasst,
+dazu einen möglichen aggregierten „Beyond GDP"-Leitindikator. Er benennt unmittelbar, was das BIP
+auslässt: menschliches Wohlergehen, ökologische Nachhaltigkeit und die schiefe Verteilung der
+Ressourcen.
+- Abschlussbericht (PDF): https://www.un.org/sites/un2.un.org/files/high-level_expert_group_on_beyond_gdp_final_report.pdf
+- Programm: https://www.un.org/en/beyondGDP
+
 ---
 
 ## 4. Worauf sollten sich Menschen konzentrieren? Welche Jobs?
@@ -451,6 +465,9 @@ flowchart TD
 
 ### B · Jenseits des BIP *(aus §3c)*
 Was wir messen gegen das, was wir schätzen – der originellste, hoffnungsvollste Strang.
+*Realer Aufhänger:* Häng das Stück an den UN-Abschlussbericht *Beyond GDP* (2026) und sein
+vorgeschlagenes Dashboard für Wohlergehen, Planet und Verteilung – ein konkreter, aktueller
+Anker für ein sonst philosophisches Argument (siehe den externen Anker unter §3c).
 
 ```mermaid
 flowchart TD

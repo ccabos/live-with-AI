@@ -127,6 +127,18 @@ free humans to invest in the *non-monetary economy of meaning* — relationships
 community, art, stewardship — because the monetary one needs less of us. Which path we
 get is a *choice*, not a technological inevitability. This is the essay's hopeful hinge.
 
+**External anchor — the UN's *Beyond GDP* work.** The claim that GDP mismeasures what matters is
+no longer heterodox; it is now an official international project, which is what lets §3c stand as
+corroborated argument rather than the essayist's intuition. Rooted in the Secretary-General's 2021
+*Our Common Agenda* (which named the world's "overreliance on GDP"), the UN runs a standing
+*Beyond GDP* programme; its High-Level Expert Group's final report — presented to member states in
+2026 — proposes a *dashboard* of universally applicable indicators, "a new compass of progress for
+people and planet," spanning wellbeing, sustainability and inclusion, and the distribution of
+gains, plus a possible headline "Beyond GDP" aggregate indicator. It directly names what GDP omits:
+human wellbeing, environmental sustainability, and the skewed distribution of resources.
+- Final report (PDF): https://www.un.org/sites/un2.un.org/files/high-level_expert_group_on_beyond_gdp_final_report.pdf
+- Programme hub: https://www.un.org/en/beyondGDP
+
 ---
 
 ## 4. What should humans focus on? Which jobs?
@@ -399,6 +411,9 @@ flowchart TD
 
 ### B · Beyond GDP *(from §3c)*
 What we measure versus what we value — the essay's most original, most hopeful strand.
+*Real-world hook:* peg the piece to the UN's *Beyond GDP* final report (2026) and its proposed
+wellbeing / planet / equity dashboard — a concrete, newsworthy anchor for an otherwise
+philosophical argument (see the external anchor under §3c).
 
 ```mermaid
 flowchart TD

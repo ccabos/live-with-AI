@@ -52,7 +52,7 @@ wir uns sorgen, dass die KI intelligenter wird als wir, dann bündeln wir drei D
 die ein klarer Geist auseinanderhalten sollte. Nennen wir sie **Fähigkeit**, **Wert** und
 **Würde**.
 
-[*Zur Übersetzung: Das Original unterscheidet drei Begriffe – „capability", „value" und
+[*Im Englischen passen hier die drei Begriffe – „capability", „value" und
 „worth". Die letzten beiden, „value" und „worth", heißen im Deutschen beide „Wert"; um sie
 auseinanderzuhalten, steht hier „Wert" für den ökonomischen „value" und „Würde" für „worth".
 „Würde" ist dabei weit zu verstehen – nicht im engen Sinn von Höflichkeits-, Amts- oder

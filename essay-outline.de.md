@@ -152,17 +152,41 @@ Bewahrung –, weil die monetäre weniger von uns benötigt. Welchen Weg wir bek
 eine *Wahl*, keine technologische Zwangsläufigkeit. Dies ist das hoffnungsvolle Scharnier
 des Essays.
 
-**Externer Anker – die *Beyond-GDP*-Arbeit der UN.** Die Behauptung, das BIP messe das Falsche,
-ist nicht länger heterodox; sie ist nun ein offizielles internationales Projekt – und genau das
-lässt §3c als belegtes Argument bestehen statt als bloße Intuition des Essayisten. Verwurzelt im
-Bericht des Generalsekretärs *Our Common Agenda* (2021), der die „Überabhängigkeit von GDP"
-benannte, betreibt die UN ein ständiges *Beyond-GDP*-Programm; der Abschlussbericht ihrer
-Hochrangigen Expertengruppe – den Mitgliedstaaten 2026 vorgelegt – schlägt ein *Dashboard*
-universell anwendbarer Indikatoren vor, „einen neuen Kompass des Fortschritts für Mensch und
-Planet", der Wohlergehen, Nachhaltigkeit und Inklusion sowie die Verteilung der Erträge umfasst,
-dazu einen möglichen aggregierten „Beyond GDP"-Leitindikator. Er benennt unmittelbar, was das BIP
-auslässt: menschliches Wohlergehen, ökologische Nachhaltigkeit und die schiefe Verteilung der
-Ressourcen.
+**Externer Anker – der UN-Bericht „Beyond GDP" (2026).** Die Behauptung, das BIP messe das Falsche,
+ist nicht länger heterodox; sie ist nun ein offizieller UN-Vorschlag – und genau das lässt §3c als
+belegtes Argument bestehen statt als bloße Intuition des Essayisten. *Counting What Counts: A
+Compass of Progress for People and Planet* ist der Abschlussbericht der Unabhängigen Hochrangigen
+Expertengruppe des Generalsekretärs zu Beyond GDP (Ko-Vorsitz: Kaushik Basu und Nora Lustig;
+Mitglieder u. a. Joseph Stiglitz). Der Generalsekretär berief die Gruppe im Mai 2025 auf Ersuchen
+der Mitgliedstaaten im Pakt für die Zukunft – das erste Mal, dass die UN einen Vorschlag dieser Art
+auf eine solche Bitte hin erarbeitet hat.
+
+Leitidee: *Fortschritt bedeutet gerechtes, inklusives und nachhaltiges Wohlergehen.* Vorgeschlagen
+wird ein **Dashboard aus 31 Indikatoren** in vier Komponenten – (1) Grundprinzipien (Frieden,
+Menschenrechte, Achtung des Planeten); (2) gegenwärtiges Wohlergehen (materielle Lage und Arbeit,
+Gesundheit, Bildung, Sicherheit, subjektives Wohlergehen, sozialer Zusammenhalt, Qualität der
+Institutionen, Umweltqualität); (3) Gleichheit und Inklusion; (4) Nachhaltigkeit und Resilienz
+(produziertes, menschliches, soziales, institutionelles und natürliches Kapital) – dazu ein
+empfohlener aggregierter Leitindikator unter dem Titel *„Well-being Beyond GDP"* und ein jährlicher
+*Beyond-GDP-Fortschrittsbericht*.
+
+Zitate, die §3c unmittelbar stützen:
+- *„We have come to expect answers from it that it was never designed to give."* (Wir erwarten von
+  ihm Antworten, für die es nie gedacht war.)
+- *„What we measure shapes what we value."* … *„This report does not ask the world to abandon GDP.
+  It asks something more ambitious: to look at the full picture, and to act accordingly."*
+- *„GDP growth and public sentiment have come apart"* – das eigene Beinahe-Echo des Berichts auf das
+  „Wert und Geld treten auseinander" des Essays.
+- Kuznets (1934): *„The welfare of a nation can scarcely be inferred from a measurement of national
+  income"*; Stiglitz–Sen–Fitoussi (2009): die Verlagerung *„from measuring economic production to
+  measuring people's well-being."*
+
+Bonus für die KI-These des Essays – der Bericht vollzieht unsere Bewegung selbst: Er hebt die KI als
+mögliches *„writing the next chapter"* der Geschichte der Industriellen Revolution hervor, warnt,
+die KI *„by its contribution to GDP alone"* zu beurteilen wäre *„myopic"*, verweist auf zu
+immateriellen Gütern und *„zero-price digital services"* abwandernden Wert, den Marktmaße verfehlen,
+und skizziert sogar einen Leitindex, in dem Einkommen *„penalized"* wird, wenn das nicht-monetäre
+Wohlergehen schwach ist.
 - Abschlussbericht (PDF): https://www.un.org/sites/un2.un.org/files/high-level_expert_group_on_beyond_gdp_final_report.pdf
 - Programm: https://www.un.org/en/beyondGDP
 
@@ -465,9 +489,11 @@ flowchart TD
 
 ### B · Jenseits des BIP *(aus §3c)*
 Was wir messen gegen das, was wir schätzen – der originellste, hoffnungsvollste Strang.
-*Realer Aufhänger:* Häng das Stück an den UN-Abschlussbericht *Beyond GDP* (2026) und sein
-vorgeschlagenes Dashboard für Wohlergehen, Planet und Verteilung – ein konkreter, aktueller
-Anker für ein sonst philosophisches Argument (siehe den externen Anker unter §3c).
+*Realer Aufhänger:* Häng das Stück an den UN-Bericht *Counting What Counts* (Beyond GDP, 2026) und
+sein 31-Indikatoren-Dashboard für Wohlergehen, Planet und Verteilung – das die KI selbst als
+„writing the next chapter" benennt und ein Einkommensmaß vorschlägt, das bei schwachem
+nicht-monetärem Wohlergehen „penalized" wird. Ein konkreter, aktueller Anker für ein sonst
+philosophisches Argument (volle Quellenangabe unter §3c).
 
 ```mermaid
 flowchart TD

@@ -127,15 +127,37 @@ free humans to invest in the *non-monetary economy of meaning* — relationships
 community, art, stewardship — because the monetary one needs less of us. Which path we
 get is a *choice*, not a technological inevitability. This is the essay's hopeful hinge.
 
-**External anchor — the UN's *Beyond GDP* work.** The claim that GDP mismeasures what matters is
-no longer heterodox; it is now an official international project, which is what lets §3c stand as
-corroborated argument rather than the essayist's intuition. Rooted in the Secretary-General's 2021
-*Our Common Agenda* (which named the world's "overreliance on GDP"), the UN runs a standing
-*Beyond GDP* programme; its High-Level Expert Group's final report — presented to member states in
-2026 — proposes a *dashboard* of universally applicable indicators, "a new compass of progress for
-people and planet," spanning wellbeing, sustainability and inclusion, and the distribution of
-gains, plus a possible headline "Beyond GDP" aggregate indicator. It directly names what GDP omits:
-human wellbeing, environmental sustainability, and the skewed distribution of resources.
+**External anchor — the UN Beyond GDP report (2026).** The claim that GDP mismeasures what matters
+is no longer heterodox; it is now an official UN proposal, which is what lets §3c stand as
+corroborated argument rather than the essayist's intuition. *Counting What Counts: A Compass of
+Progress for People and Planet* is the final report of the Secretary-General's Independent
+High-Level Expert Group on Beyond GDP (co-chaired by Kaushik Basu and Nora Lustig; members include
+Joseph Stiglitz). The SG appointed the Group in May 2025 at Member States' request in the Pact for
+the Future — the first time the UN has built a proposal of this kind in response to such a request.
+
+Its organizing idea: *progress means equitable, inclusive, and sustainable well-being.* It proposes
+a **dashboard of 31 indicators** in four components — (1) foundational principles (peace, human
+rights, respect for the planet); (2) current well-being (material conditions and work, health,
+education, security, subjective well-being, social cohesion, quality of institutions, environmental
+quality); (3) equity and inclusion; (4) sustainability and resilience (produced, human, social,
+institutional and natural capital) — plus a recommended headline aggregate under the rubric
+*"Well-being Beyond GDP"* and an annual *Beyond GDP global progress report*.
+
+Quotes that arm §3c directly:
+- *"We have come to expect answers from it that it was never designed to give."*
+- *"What we measure shapes what we value."* … *"This report does not ask the world to abandon GDP.
+  It asks something more ambitious: to look at the full picture, and to act accordingly."*
+- *"GDP growth and public sentiment have come apart"* — the report's own near-echo of the essay's
+  "value and money come apart."
+- Kuznets (1934): *"The welfare of a nation can scarcely be inferred from a measurement of national
+  income"*; Stiglitz–Sen–Fitoussi (2009): shift *"from measuring economic production to measuring
+  people's well-being."*
+
+Bonus for the essay's AI thesis — the report itself makes our move: it singles out AI as possibly
+*"writing the next chapter"* of the Industrial-Revolution story, warns that to *"judge the merit of
+artificial intelligence to society by its contribution to GDP alone would be myopic,"* notes value
+migrating to intangibles and *"zero-price digital services"* that market measures miss, and even
+sketches a headline index in which income is *"penalized"* when non-monetary well-being is weak.
 - Final report (PDF): https://www.un.org/sites/un2.un.org/files/high-level_expert_group_on_beyond_gdp_final_report.pdf
 - Programme hub: https://www.un.org/en/beyondGDP
 
@@ -411,9 +433,10 @@ flowchart TD
 
 ### B · Beyond GDP *(from §3c)*
 What we measure versus what we value — the essay's most original, most hopeful strand.
-*Real-world hook:* peg the piece to the UN's *Beyond GDP* final report (2026) and its proposed
-wellbeing / planet / equity dashboard — a concrete, newsworthy anchor for an otherwise
-philosophical argument (see the external anchor under §3c).
+*Real-world hook:* peg the piece to the UN's 2026 *Counting What Counts* (Beyond GDP) report and
+its 31-indicator wellbeing / planet / equity dashboard — which itself flags AI as "writing the next
+chapter" and floats an income measure "penalized" for weak non-monetary well-being. A concrete,
+newsworthy anchor for an otherwise philosophical argument (full citation under §3c).
 
 ```mermaid
 flowchart TD

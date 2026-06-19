@@ -36,7 +36,7 @@ wandert zu den Maschinen ab. Wert (was wir wirtschaftlich belohnen) wird neu bew
 (was ein menschliches Leben bedeutsam macht) war nie dasselbe wie eines von beiden, und das
 KI-Zeitalter zwingt uns endlich, das auch laut auszusprechen.
 
-[*Zur Übersetzung: Das Original unterscheidet „capability", „value" und „worth"; da „value"
+[*Im Englischen stehen hier die drei Begriffe „capability", „value" und „worth"; da „value"
 und „worth" im Deutschen beide „Wert" heißen, steht „Wert" für den ökonomischen „value" und
 „Würde" für „worth". „Würde" meint hier nicht die bloße Höflichkeits- oder Amtswürde, sondern
 den inneren, unbedingten Wert, der ein Leben bedeutsam macht – den Rang, den ein Mensch allein
@@ -400,6 +400,139 @@ Webe diese so, dass das Stück sich wie ein Argument anfühlt, nicht wie acht:
 - Trenne *Prognose* (was geschehen wird) von *Handlungsempfehlung* (was wir tun sollten).
   Halte sie in verschiedenen Abschnitten, damit die Leserschaft dem einen widersprechen
   und das andere akzeptieren kann.
+
+---
+
+## 11. Mögliche Folgeartikel – verschiedene Argumentationslinien
+
+Mehrere der obigen Abschnitte sind dicht genug, um zu eigenständigen Stücken
+heranzuwachsen. Die Karte unten zeigt die Kandidaten, gruppiert nach dem Strang der
+Kernthese, den sie weiterführen; die kleinen Flussdiagramme darunter zeichnen die
+*Argumentationslinie* jedes Kandidaten nach – Prämisse → die Spannung, um die er sich dreht
+→ zentrale Behauptung → Ertrag –, sodass du auf einen Blick siehst, ob zwei Ideen wirklich
+verschiedene Artikel sind oder dasselbe Argument zweimal.
+
+*(Alle Diagramme sind Mermaid; GitHub stellt sie sowohl in der Web- als auch in der
+mobilen App direkt dar.)*
+
+### Die Karte der Ableger
+
+```mermaid
+flowchart TD
+    T["Kernthese: Fähigkeit ≠ Wert ≠ Würde"]
+    T --> S1["Ökonomischer Strang"]
+    T --> S2["Macht-Strang"]
+    T --> S3["Epistemischer Strang"]
+    T --> S4["Strang Selbst und Sinn"]
+    T --> S5["Formatgetriebene Ableger"]
+    S1 --> A["A · Das Paradox des Überflusses – §3a"]
+    S1 --> B["B · Jenseits des BIP – §3c"]
+    S2 --> C["C · Wem die Mittel der Kognition gehören – §6"]
+    S3 --> D["D · Wahrheit nach der Synthese – §2"]
+    S4 --> E["E · Wozu denken, wenn Maschinen besser denken? – §5"]
+    S4 --> F["F · Die Sinnkrise – §3c/§5/§7"]
+    S5 --> G["G · Beruf für Beruf – §4d"]
+    S5 --> H["H · Vier Zukünfte – §7"]
+```
+
+### A · Das Paradox des Überflusses *(aus §3a)*
+Die Ökonomie billiger Kognition: mehr Wert geschaffen, weniger davon als Lohn eingefangen.
+
+```mermaid
+flowchart TD
+    A1["Prämisse: Kognition wird<br/>reichlich und billig"]
+    A2["Spannung: Der Preis des Ertrags fällt,<br/>doch die Menge wertvollen Ertrags explodiert"]
+    A3["Behauptung: Löhne entkoppeln sich von Produktivität;<br/>Gewinne fallen den Eigentümern der knappen<br/>Komplementärgüter zu – Rechenleistung, Energie, Daten, Vertrauen"]
+    A4["Ertrag: Die Frage ist Verteilung<br/>und Eigentum, nicht Produktion"]
+    A1 -->|"so"| A2
+    A2 -->|"aber"| A3
+    A3 -->|"daher"| A4
+```
+
+### B · Jenseits des BIP *(aus §3c)*
+Was wir messen gegen das, was wir schätzen – der originellste, hoffnungsvollste Strang.
+
+```mermaid
+flowchart TD
+    B1["Prämisse: Das BIP maß nie,<br/>was uns am meisten wert ist"]
+    B2["Spannung: KI kann die Tyrannei des<br/>Messbaren vertiefen – oder sie auflösen"]
+    B3["Behauptung: Welchen Weg wir nehmen, ist<br/>eine Wahl, keine technologische Zwangsläufigkeit"]
+    B4["Ertrag: Menschen für die nicht-monetäre<br/>Ökonomie des Sinns freisetzen"]
+    B1 -->|"und"| B2
+    B2 -->|"so"| B3
+    B3 -->|"daher"| B4
+```
+
+### C · Wem die Mittel der Kognition gehören *(aus §6)*
+Das politische Stück: Konzentration versus Diffusion übermenschlicher Fähigkeit.
+
+```mermaid
+flowchart TD
+    C1["Prämisse: Übermenschliche Fähigkeit entsteht<br/>bei einer Handvoll Firmen"]
+    C2["Spannung: Offene Gewichte verteilen Macht –<br/>und auch Missbrauch, unumkehrbar"]
+    C3["Behauptung: Eine gestufte Welt – eine starke offene<br/>Grenze dicht hinter der geschlossenen"]
+    C4["Ertrag: Der offene Boden entscheidet, wer ausgeschlossen<br/>bleibt – vielleicht wichtiger für Gleichheit<br/>als die geschlossene Grenze für Fähigkeit"]
+    C1 -->|"aber"| C2
+    C2 -->|"so"| C3
+    C3 -->|"und somit"| C4
+```
+
+### D · Wahrheit nach der Synthese *(aus §2)*
+Das epistemische Stück: Vertrauen, wenn sich jedes Artefakt fälschen lässt.
+
+```mermaid
+flowchart TD
+    D1["Prämisse: Jeder Text, jede Stimme, jedes Bild<br/>oder Video lässt sich synthetisieren"]
+    D2["Spannung: Inhalte über Plausibilität<br/>zu prüfen funktioniert nicht mehr"]
+    D3["Behauptung: Vertrauen verschiebt sich vom<br/>Inhalt zu Herkunft und Beziehung"]
+    D4["Ertrag: Rückkehr von Institutionen, Reputation<br/>und physischer Ko-Präsenz als Anker"]
+    D1 -->|"so"| D2
+    D2 -->|"daher"| D3
+    D3 -->|"mithin"| D4
+```
+
+### E · Wozu denken, wenn Maschinen besser denken? *(aus §5)*
+Das philosophische Stück: Intelligenz als Produkt versus als Formung eines Selbst.
+
+```mermaid
+flowchart TD
+    E1["Prämisse: Eine Maschine überdenkt<br/>dich, und das billig"]
+    E2["Spannung: Intelligenz als Produkt (da verlierst du)<br/>vs. als Prozess und Formung"]
+    E3["Behauptung: Denken ist, wie ein Mensch zu einem<br/>Selbst wird – es auszulagern lagert dich selbst aus"]
+    E4["Ertrag: Weisheit und Autonomie als bürgerliche<br/>Notwendigkeit, kein privates Hobby"]
+    E1 -->|"aber"| E2
+    E2 -->|"so"| E3
+    E3 -->|"daher"| E4
+```
+
+### F · Die Sinnkrise *(aus §3c / §5 / §7)*
+Das existenzielle Stück – wohl das Szenario, um das es im ganzen Essay eigentlich geht.
+
+```mermaid
+flowchart TD
+    F1["Prämisse: Wir lösen die Produktion,<br/>aber nicht den Zweck"]
+    F2["Spannung: Materieller Erfolg neben<br/>verlorenem Status, Rolle und Richtung"]
+    F3["Behauptung: Sinn war an Arbeit gebündelt;<br/>das Bündel löst sich auf"]
+    F4["Ertrag: Zweck, nicht Fähigkeit,<br/>ist die eigentliche Grenze"]
+    F1 -->|"so"| F2
+    F2 -->|"weil"| F3
+    F3 -->|"daher"| F4
+```
+
+### Formatgetriebene Ableger (dieselben Argumente, neuer Behälter)
+Zwei weitere Artikel sind erwähnenswert, doch sie erweitern die *Form* des Essays, nicht
+sein Argument – sie nutzen die obigen Linien wieder, statt neue zu eröffnen, weshalb sie
+hier kein eigenes Rückgrat haben:
+
+- **G · Beruf für Beruf (§4d).** Nimm die Vorlage der Entwickler-Fallstudie – Verdrängung →
+  was überlebt (Rechenschaft, Urteil, Präsenz) → wie man die Abstraktionsebenen
+  hinaufwandert – und spiele sie für die Ärztin, den Anwalt, die Lehrerin, den Buchhalter,
+  die Designerin durch. Ein wiederkehrendes Rückgrat, jedes Mal ein neuer durchgespielter
+  Einzelfall; ideal als Serie.
+- **H · Vier Zukünfte (§7).** Inszeniere das Zwei-Achsen-Szenarioraster als erzählerische
+  Vorausschau – vier anschauliche kurze Zukünfte plus die zwei übergreifenden. Sein Wert
+  liegt in Konkretheit und erzählerischem Sog; das analytische Argument ist vollständig aus
+  §7 übernommen.
 
 ---
 

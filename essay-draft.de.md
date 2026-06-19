@@ -317,7 +317,15 @@ Wertvolle einstehen lassen, das, was in den Konten auftaucht, behandelt, als wä
 zählt. Das war es nie. Die Fürsorge, die ein Elternteil einem Kind gibt, die Freundschaft, die eine
 Gemeinschaft zusammenhält, die Gesundheit eines Flusses, die langsame Arbeit, einen Ort schön zu machen –
 diese waren stets die Substanz eines guten Lebens und stets nahezu unsichtbar für unsere Hauptbücher, als
-nichts gezählt, weil sie nichts kosteten und für nichts verkauft wurden. Eine KI-Wirtschaft könnte diese
+nichts gezählt, weil sie nichts kosteten und für nichts verkauft wurden. Dass dies ein echter Mangel ist und nicht bloß die Klage eines Dichters, wird inzwischen auf
+denkbar offiziellster Ebene eingeräumt: Ausgerechnet jene Institution, deren statistische Konventionen das BIP zum
+gemeinsamen Maßstab der Welt machten – die Vereinten Nationen –, hat nun, in einem Bericht von 2026 mit dem
+treffenden Titel *Counting What Counts* („Zählen, was zählt"), vorgeschlagen, dem BIP ein ganzes Dashboard weiterer
+Kennzahlen an die Seite zu stellen – für menschliches Wohlergehen, für die Gesundheit der lebendigen Welt, für die
+Frage, wie gleichmäßig die Erträge geteilt werden –, einen erklärten „Kompass des Fortschritts für Mensch und
+Planet", gedacht, um genau das abzubilden, was das BIP auszublenden gebaut war. Wenn die Hüter des Hauptbuchs selbst beginnen, es neu zu zeichnen,
+hat der Verdacht, dass Wert und Geld nicht dasselbe sind, aufgehört, eine Häresie zu sein, und ist zum erklärten
+Werk von Staaten geworden. Eine KI-Wirtschaft könnte diese
 alte Blindheit vertiefen und uns weiter in die Tyrannei des Messbaren treiben, da die einzigen Dinge, die
 noch einen Lohn gebieten, zu den einzigen Dingen werden, deren Wert zu schätzen man uns heißt. Oder sie
 könnte das Gegenteil tun. Wenn die Erzeugung messbarer Güter immer weniger von uns braucht, dann mag eine

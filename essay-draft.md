@@ -288,7 +288,15 @@ stand in for the worthwhile, treating what shows up in the accounts as though it
 of what matters. It never was. The care a parent gives a child, the friendship that holds a
 community together, the health of a river, the slow work of making a place beautiful — these
 have always been the substance of a good life and have always been nearly invisible to our
-ledgers, counted as nothing because they cost nothing and sold for nothing. An AI economy could
+ledgers, counted as nothing because they cost nothing and sold for nothing. That this is a genuine defect and not merely a poet's complaint is now
+admitted at the most official level imaginable: the very institution whose statistical conventions
+made GDP the world's common yardstick — the United Nations — has now, in a 2026 report pointedly
+titled *Counting What Counts*, proposed to set beside GDP a whole dashboard of other measures — of
+human wellbeing, of the health of the living world, of how evenly the gains are shared — a declared
+"compass of progress for people and planet," meant to register exactly what GDP was built to
+leave out. When the keepers of the ledger themselves begin to redraw
+it, the suspicion that value and money are not the same has stopped being a heterodoxy and become
+the declared work of states. An AI economy could
 deepen this old blindness, driving us further into the tyranny of the measurable as the only
 things that still command a wage become the only things we are told to value. Or it could do the
 opposite. If the production of measurable goods comes to need less and less of us, then for the

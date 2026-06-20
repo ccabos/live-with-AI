@@ -471,6 +471,7 @@ flowchart TD
     S4 --> F["F · Die Sinnkrise – §3c/§5/§7"]
     S5 --> G["G · Beruf für Beruf – §4d"]
     S5 --> H["H · Vier Zukünfte – §7"]
+    G --> J["J · Das Paradox des Entwicklers (Jevons) – GESCHRIEBEN"]
 ```
 
 ### A · Das Paradox des Überflusses *(aus §3a)*
@@ -576,6 +577,26 @@ hier kein eigenes Rückgrat haben:
   Vorausschau – vier anschauliche kurze Zukünfte plus die zwei übergreifenden. Sein Wert
   liegt in Konkretheit und erzählerischem Sog; das analytische Argument ist vollständig aus
   §7 übernommen.
+
+### J · Das Paradox des Entwicklers *(geschrieben – `software-developers.md` / `.de.md`)*
+Das optimistische Gegenstück zu §IX / §4d: dieselbe Wanderung von Fähigkeit zu Wert, doch
+hoffnungsvoll gewendet durch das *Jevons-Paradoxon* – billiger Code weitet die Nachfrage nach
+Software aus, statt sie zu schrumpfen, sodass der Entwickler verstärkt wird, nicht verdrängt.
+Durchgespielt an vier historischen Fällen (Compiler und Hochsprachen, Tabellenkalkulation und
+Buchhalter, Geldautomaten und Schalterangestellte, Cloud und Infrastructure-as-Code) sowie am
+ursprünglichen Kohle-Beispiel. Dies ist die einzige wirklich neue Argumentationslinie über §11s
+ursprüngliche Liste hinaus, weshalb sie ein eigenes Rückgrat verdient:
+
+```mermaid
+flowchart TD
+    J1["Prämisse: KI macht das Produzieren von Code billig;<br/>der Entwickler wirkt wie das erste Opfer"]
+    J2["Spannung: doch Fähigkeit ist nicht der Beruf –<br/>der Wert wandert nach oben zu Urteil, Architektur, Rechenschaft"]
+    J3["Behauptung (Jevons): billiger Code weitet die Nachfrage<br/>nach Software aus, statt sie zu schrumpfen –<br/>elastische Nachfrage, riesiger ungedeckter Rückstau"]
+    J4["Ertrag: der Entwickler ist der am stärksten verstärkte<br/>Arbeiter – ein Dirigent maschineller Intelligenzen"]
+    J1 -->|"so"| J2
+    J2 -->|"und"| J3
+    J3 -->|"daher"| J4
+```
 
 ---
 

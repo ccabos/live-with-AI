@@ -415,6 +415,7 @@ flowchart TD
     S4 --> F["F · The Meaning Crisis — §3c/§5/§7"]
     S5 --> G["G · Profession by Profession — §4d"]
     S5 --> H["H · Four Futures — §7"]
+    G --> J["J · The Developer's Paradox (Jevons) — WRITTEN"]
 ```
 
 ### A · The Paradox of Abundance *(from §3a)*
@@ -517,6 +518,25 @@ separate spine here:
 - **H · Four Futures (§7).** Dramatize the two-axis scenario grid as narrative foresight —
   four vivid short futures plus the two cross-cutting ones. Its value is concreteness and
   narrative pull; the analytical argument is inherited wholesale from §7.
+
+### J · The Developer's Paradox *(written — `software-developers.md` / `.de.md`)*
+The optimistic companion to §IX / §4d: the same capability→value migration, but turned hopeful by
+*Jevons's paradox* — cheaper code expands the demand for software rather than shrinking it, so the
+developer ends up amplified, not displaced. Worked through four historical cases (compilers and
+high-level languages, the spreadsheet and the accountant, ATMs and bank tellers, cloud and
+infrastructure-as-code) plus the original coal example. This is the one genuinely new argument-line
+beyond §11's original list, which is why it earns its own spine:
+
+```mermaid
+flowchart TD
+    J1["Premise: AI makes producing code cheap;<br/>the developer looks like the prime casualty"]
+    J2["Tension: but capability is not the job —<br/>value migrates up to judgment, architecture, accountability"]
+    J3["Claim (Jevons): cheaper code expands the demand for<br/>software, it doesn't shrink it — elastic demand,<br/>a vast unmet backlog"]
+    J4["Payoff: the developer is the most amplified worker —<br/>a director of machine intelligences"]
+    J1 -->|"so"| J2
+    J2 -->|"and"| J3
+    J3 -->|"therefore"| J4
+```
 
 ---
 

@@ -193,7 +193,7 @@ wofür sie überhaupt da ist. Wenn der Zweck der Bildung darin bestand, Wissen i
 Menschen zu einer tragbaren Bibliothek zu machen –, dann ist sie weitgehend überholt, und die Angst der
 Lehrer, die zusehen, wie Schüler ihre Aufsätze einer Maschine übergeben, ist wohlbegründet. Doch wenn
 der Zweck etwas anderes war – Urteilskraft zu bilden, Geschmack und Charakter zu kultivieren, einen
-Menschen zu lehren, eine gute Frage zu stellen, das Wahre vom bloß Flüssigen zu unterscheiden,
+Menschen zu lehren, eine gute Frage zu stellen, das Wahre vom bloß flüssig Formulierten zu unterscheiden,
 Aufmerksamkeit und Integrität aufrechtzuerhalten –, dann wird die Bildung *wichtiger*, nicht
 unwichtiger, und zwar genau in dem Maße, in dem das rohe Wissen kostenlos wird. Die Gefahr ist, dass wir
 den Unterschied nicht bemerken und Schulen weiterhin als Wissensvermittlungssysteme betreiben in einer
@@ -463,7 +463,7 @@ verlieren, und das Verlieren lehrt nichts. Die Intelligenz, die zu kultivieren s
 die Maschine nicht hat und vielleicht nicht haben kann. Es ist vor allem die **Weisheit**: das Wissen
 nicht darum, wie man eine Sache tut, sondern *welche Dinge zu tun sich lohnen*, das Urteilsvermögen, das
 Zwecke und nicht nur Mittel abwägt, das Wissen mit Werten und Folgen verbindet und bereit ist, für das
-Ergebnis einzustehen. Es ist **Urteilskraft** – die geschulte Fähigkeit, das Wahre vom bloß Flüssigen zu
+Ergebnis einzustehen. Es ist **Urteilskraft** – die geschulte Fähigkeit, das Wahre vom bloß flüssig Formulierten zu
 unterscheiden, das stichhaltige Argument von der plausiblen Fälschung, die wichtiger, nicht unwichtiger
 wird in einer Welt, die von billiger und überzeugender synthetischer Rede überschwemmt ist. Es ist eine
 Art **metakognitive** Fertigkeit, die wir kaum erst zu benennen begonnen haben: die Fähigkeit,

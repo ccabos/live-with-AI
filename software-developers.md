@@ -53,12 +53,6 @@ instead of weeks, everyone wanted it done — for every scenario, every departme
 drudgery vanished and the judgment work it had been hiding multiplied. That is the developer's future
 in one image: the machine takes the recalculation, and you get the modeling.
 
-**The ATM.** The cash machine was supposed to end the bank teller, and per branch it did cut their
-number. But automating the task made running a branch cheaper, so banks opened far more branches, and
-the total number of tellers rose for decades — the job shifting from counting bills to advising
-customers. The lesson is precise: automating a *task* is not automating a *job*. It lowers the cost
-of the thing the job is part of, and cheaper things get done far more often.
-
 **The cloud.** A decade ago, standing up a server meant procurement, hardware, and weeks of waiting.
 Now it is an API call and a few seconds. This did not shrink the people who run infrastructure; it
 exploded into entirely new professions — DevOps, site reliability, platform engineering — because

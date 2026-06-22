@@ -26,7 +26,7 @@ Code wird gleich radikal billiger zu produzieren. Die naive Prognose – weniger
 
 ## Warum gerade Software
 
-Das Jevons-Paradoxon ist kein Naturgesetz. Es braucht eine Bedingung, um den Arbeitenden zu nützen, statt sie zu ersetzen: Die Nachfrage nach der verbilligten Sache muss elastisch sein – es muss ein großes Reservoir unerfüllten Bedarfs geben, das nur darauf wartet, dass der Preis fällt. Software erfüllt diese Bedingung vollständiger als fast alles andere in der Wirtschaft.
+Das Jevons-Paradoxon ist kein Naturgesetz. Es braucht eine Bedingung, um den Arbeitenden zu nützen, statt sie zu ersetzen: Die Nachfrage nach der verbilligten Sache darf noch lange nicht gesättigt sein – es muss ein großes Reservoir unerfüllten Bedarfs geben, das nur darauf wartet, dass der Preis fällt. Software erfüllt diese Bedingung vollständiger als fast alles andere in der Wirtschaft.
 
 Jede Organisation auf der Welt sitzt auf einem Rückstau von Software, die sie will und sich nicht leisten kann. Das interne Werkzeug, das nie gebaut wurde, die Integration, für die niemand Zeit hatte, die Testsuite, die nie geschrieben wurde, das umständliche Altsystem, das nie modernisiert wurde, die kleine Idee, die nie ganz ein Quartal eines Teams wert war. Der Appetit auf Software war nie der Engpass. Die *Kosten, sie zu bauen*, waren es. Senke diese Kosten um eine Größenordnung, und der Rückstau bleibt kein Rückstau; er verwandelt sich in Arbeit. Die Welt will keine feste Menge Software, die wir gleich fertigstellen. Sie will weit mehr, als sie je bezahlen konnte, und wir sind im Begriff, sie erschwinglich zu machen.
 

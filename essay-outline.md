@@ -531,7 +531,7 @@ beyond §11's original list, which is why it earns its own spine:
 flowchart TD
     J1["Premise: AI makes producing code cheap;<br/>the developer looks like the prime casualty"]
     J2["Tension: but capability is not the job —<br/>value migrates up to judgment, architecture, accountability"]
-    J3["Claim (Jevons): cheaper code expands the demand for<br/>software, it doesn't shrink it — elastic demand,<br/>a vast unmet backlog"]
+    J3["Claim (Jevons): cheaper code expands the demand for<br/>software, it doesn't shrink it — demand far from satisfied,<br/>a vast unmet backlog"]
     J4["Payoff: the developer is the most amplified worker —<br/>a director of machine intelligences"]
     J1 -->|"so"| J2
     J2 -->|"and"| J3

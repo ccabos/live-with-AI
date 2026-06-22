@@ -591,7 +591,7 @@ ursprüngliche Liste hinaus, weshalb sie ein eigenes Rückgrat verdient:
 flowchart TD
     J1["Prämisse: KI macht das Produzieren von Code billig;<br/>der Entwickler wirkt wie das erste Opfer"]
     J2["Spannung: doch Fähigkeit ist nicht der Beruf –<br/>der Wert wandert nach oben zu Urteil, Architektur, Rechenschaft"]
-    J3["Behauptung (Jevons): billiger Code weitet die Nachfrage<br/>nach Software aus, statt sie zu schrumpfen –<br/>elastische Nachfrage, riesiger ungedeckter Rückstau"]
+    J3["Behauptung (Jevons): billiger Code weitet die Nachfrage<br/>nach Software aus, statt sie zu schrumpfen –<br/>noch lange nicht gesättigte Nachfrage, riesiger Rückstau"]
     J4["Ertrag: der Entwickler ist der am stärksten verstärkte<br/>Arbeiter – ein Dirigent maschineller Intelligenzen"]
     J1 -->|"so"| J2
     J2 -->|"und"| J3

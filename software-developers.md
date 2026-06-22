@@ -68,7 +68,7 @@ design, operate, and answer for.
 ## Why software, especially
 
 Jevons's paradox is not a law of nature. It needs one condition to favor workers rather than replace
-them: the demand for the cheapened thing has to be elastic — there has to be a great reservoir of
+them: the demand for the cheapened thing has to be far from satisfied — there has to be a great reservoir of
 unmet want waiting for the price to fall. Software meets that condition more completely than almost
 anything else in the economy.
 

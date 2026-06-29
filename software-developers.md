@@ -16,8 +16,8 @@ Start with what is true in the fear. Producing code — turning a known intentio
 is exactly the kind of cognitive work the machines now do well, and its wage-value, *as* typing,
 is falling toward the cost of the compute that does it. But the typing was never where a developer's
 value actually lived. The value was always in the things wrapped around the code: deciding *what* to
-build, judging whether what got built is actually right, owning the system when it fails at three in
-the morning, holding the whole architecture in one mind. Capability — the raw production — migrates
+build, judging whether what got built is actually right, owning the system when it fails, 
+holding the whole architecture in one mind. Capability — the raw production — migrates
 to the machine. Value migrates too, but it migrates *upward*, toward judgment, taste, and
 accountability, which a model cannot hold because it cannot be the one who answers for the result.
 

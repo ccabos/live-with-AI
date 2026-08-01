@@ -1,0 +1,769 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Capability, Value, Worth — the essay in one map</title>
+<meta name="description" content="The whole argument of 'Living With AI That Is More Intelligent Than Us', in one page: the unbundling of capability, value and worth, the seams it opens, and the futures it selects among."/>
+
+<style>
+  :root {
+    color-scheme: light;
+    --ground:    #EAEDEC;
+    --surface:   #F7F8F7;
+    --sunken:    #E1E5E4;
+    --ink:       #141A18;
+    --ink-2:     #4E5754;
+    --muted:     #7C8683;
+    --rule:      #C9CFCD;
+    --hairline:  #D8DDDB;
+    --steel:     #0086A8;
+    --ember:     #D2551F;
+    --steel-wash: rgba(0,134,168,0.10);
+    --ember-wash: rgba(210,85,31,0.10);
+
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    --mono: ui-monospace, "SF Mono", "Cascadia Mono", "Roboto Mono", Menlo, Consolas, monospace;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --ground:    #141918;
+      --surface:   #1C2322;
+      --sunken:    #101514;
+      --ink:       #EDF0EE;
+      --ink-2:     #A7B2AE;
+      --muted:     #7E8886;
+      --rule:      #333D3B;
+      --hairline:  #2A3433;
+      --steel:     #1B9DB7;
+      --ember:     #DE6630;
+      --steel-wash: rgba(27,157,183,0.14);
+      --ember-wash: rgba(222,102,48,0.14);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --ground:    #141918;
+    --surface:   #1C2322;
+    --sunken:    #101514;
+    --ink:       #EDF0EE;
+    --ink-2:     #A7B2AE;
+    --muted:     #7E8886;
+    --rule:      #333D3B;
+    --hairline:  #2A3433;
+    --steel:     #1B9DB7;
+    --ember:     #DE6630;
+    --steel-wash: rgba(27,157,183,0.14);
+    --ember-wash: rgba(222,102,48,0.14);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 20px 96px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; }
+
+  /* ---------- measurement rail ---------- */
+  .rail-layout {
+    display: grid;
+    grid-template-columns: 132px minmax(0, 1fr);
+    gap: 0 32px;
+  }
+  .rail {
+    position: relative;
+    border-right: 1px solid var(--rule);
+    padding-top: 6px;
+  }
+  .rail::before {
+    content: "";
+    position: absolute;
+    top: 0; bottom: 0; right: -1px;
+    width: 9px;
+    background-image: repeating-linear-gradient(
+      to bottom,
+      var(--hairline) 0 1px,
+      transparent 1px 14px
+    );
+  }
+  .rail-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-align: right;
+    padding-right: 18px;
+    position: sticky;
+    top: 20px;
+  }
+  .rail-label b {
+    display: block;
+    color: var(--ember);
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 3px;
+  }
+  .rail-label i {
+    display: block;
+    font-style: normal;
+    margin-top: 4px;
+    color: var(--muted);
+    font-size: 10px;
+  }
+
+  section { padding: 56px 0; border-top: 1px solid var(--hairline); }
+  section:first-of-type { border-top: 0; }
+
+  /* ---------- type ---------- */
+  h1, h2, h3 { text-wrap: balance; margin: 0; }
+  h1 {
+    font-family: var(--serif);
+    font-size: clamp(36px, 5.8vw, 62px);
+    line-height: 1.05;
+    font-weight: 400;
+    letter-spacing: -0.015em;
+  }
+  h2 {
+    font-family: var(--serif);
+    font-size: clamp(25px, 3.2vw, 34px);
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    margin-bottom: 14px;
+  }
+  h3 {
+    font-family: var(--serif);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 8px;
+  }
+  p { margin: 0 0 16px; max-width: 66ch; color: var(--ink-2); }
+  p.lead {
+    font-family: var(--serif);
+    font-size: clamp(19px, 2.1vw, 22px);
+    line-height: 1.5;
+    color: var(--ink);
+  }
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 18px;
+  }
+  em { font-style: italic; }
+  strong { color: var(--ink); font-weight: 600; }
+  a { color: var(--ink); text-decoration-color: var(--rule); text-underline-offset: 3px; }
+  a:hover { color: var(--ember); text-decoration-color: var(--ember); }
+  a:focus-visible { outline: 2px solid var(--ember); outline-offset: 2px; }
+
+  /* ---------- masthead ---------- */
+  .masthead { padding-top: 64px; padding-bottom: 8px; }
+  .plate {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    border: 1px solid var(--rule);
+    background: var(--surface);
+    margin-top: 40px;
+    font-family: var(--mono);
+    font-size: 11px;
+  }
+  .plate div {
+    padding: 9px 16px;
+    border-right: 1px solid var(--hairline);
+    color: var(--muted);
+    letter-spacing: 0.06em;
+  }
+  .plate div:last-child { border-right: 0; }
+  .plate span { color: var(--ink); }
+
+  /* ---------- hero: the unbundling ---------- */
+  .hero-fig {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    padding: 26px 24px 18px;
+    margin-top: 36px;
+  }
+  .hero-fig svg { display: block; max-width: 100%; height: auto; }
+  svg text { font-family: var(--mono); }
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 22px;
+    margin-top: 16px;
+    padding-top: 14px;
+    border-top: 1px solid var(--hairline);
+    font-family: var(--mono);
+    font-size: 11.5px;
+    color: var(--ink-2);
+    letter-spacing: 0.03em;
+  }
+  .legend span { display: inline-flex; align-items: center; gap: 7px; }
+  .key { width: 14px; height: 3px; flex: none; }
+
+  .draw { stroke-dasharray: var(--len); stroke-dashoffset: var(--len); animation: draw 1.2s cubic-bezier(.4,0,.2,1) forwards; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  .fade { opacity: 0; animation: fade .5s ease 1s forwards; }
+  @keyframes fade { to { opacity: 1; } }
+  @media (prefers-reduced-motion: reduce) {
+    .draw, .fade { animation: none; stroke-dashoffset: 0; opacity: 1; }
+  }
+
+  /* ---------- cards ---------- */
+  .grid {
+    display: grid;
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    margin-top: 28px;
+  }
+  .cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .card { background: var(--surface); padding: 24px 22px 22px; }
+  .card .tag {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 12px;
+  }
+  .card .tag.hot { color: var(--ember); }
+  .card p { font-size: 14.5px; margin-bottom: 0; line-height: 1.55; }
+  .card ul {
+    margin: 0; padding: 0; list-style: none;
+    font-size: 14px; line-height: 1.5; color: var(--ink-2);
+  }
+  .card li { padding: 8px 0; border-top: 1px solid var(--hairline); }
+  .card li:first-child { border-top: 0; padding-top: 0; }
+  .card li b { color: var(--ink); font-weight: 600; }
+  .card.mark { box-shadow: inset 0 0 0 1px var(--ember); }
+
+  /* ---------- typology chips ---------- */
+  .ladder { border: 1px solid var(--rule); background: var(--surface); margin-top: 28px; }
+  .rung {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 8px 20px;
+    align-items: center;
+    padding: 14px 22px;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .rung:last-child { border-bottom: 0; }
+  .rung .what { font-family: var(--serif); font-size: 17px; color: var(--ink); }
+  .rung .what small { display: block; font-family: var(--sans); font-size: 13px; color: var(--ink-2); margin-top: 2px; }
+  .chip {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    white-space: nowrap;
+    border: 1px solid var(--rule);
+    color: var(--ink-2);
+  }
+  .chip.machine { border-color: var(--steel); color: var(--steel); background: var(--steel-wash); }
+  .chip.human { border-color: var(--ember); color: var(--ember); background: var(--ember-wash); }
+
+  /* ---------- pull quote ---------- */
+  blockquote {
+    margin: 30px 0 0;
+    padding: 22px 0 22px 26px;
+    border-left: 2px solid var(--ember);
+    font-family: var(--serif);
+    font-size: clamp(19px, 2.3vw, 24px);
+    line-height: 1.42;
+    color: var(--ink);
+    max-width: 46ch;
+  }
+  blockquote cite {
+    display: block;
+    margin-top: 14px;
+    font-family: var(--mono);
+    font-size: 11px;
+    font-style: normal;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* ---------- futures grid ---------- */
+  .futures { margin-top: 28px; }
+  .fut-axes {
+    display: grid;
+    grid-template-columns: 26px minmax(0, 1fr);
+    gap: 0 12px;
+  }
+  .fut-y {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-align: center;
+  }
+  .fut-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+  }
+  .fut {
+    background: var(--surface);
+    padding: 20px 20px 18px;
+    min-height: 150px;
+  }
+  .fut .name { font-family: var(--serif); font-size: 20px; color: var(--ink); margin: 0 0 8px; }
+  .fut p { font-size: 13.5px; line-height: 1.5; margin: 0; }
+  .fut .chip { display: inline-block; margin-top: 12px; }
+  .fut.good { background: linear-gradient(var(--steel-wash), var(--steel-wash)) var(--surface); }
+  .fut.default { background: linear-gradient(var(--ember-wash), var(--ember-wash)) var(--surface); }
+  .fut-x {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-align: center;
+    padding-top: 10px;
+  }
+  .fut-band {
+    border: 1px solid var(--rule);
+    border-top: 0;
+    background: var(--surface);
+    padding: 16px 20px;
+    font-size: 13.5px;
+    color: var(--ink-2);
+    line-height: 1.5;
+  }
+  .fut-band b { color: var(--ink); font-family: var(--serif); font-size: 16px; font-weight: 400; }
+  .fut-overlay {
+    border: 1px dashed var(--rule);
+    margin-top: 14px;
+    padding: 16px 20px;
+    font-size: 13.5px;
+    color: var(--ink-2);
+    line-height: 1.5;
+  }
+  .fut-overlay b { color: var(--ink); font-family: var(--serif); font-size: 16px; font-weight: 400; }
+
+  /* ---------- parallel (open vs closed) ---------- */
+  .par { background: var(--surface); padding: 26px 24px; }
+  .par .when {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  .par.cool .when { color: var(--steel); }
+  .par.hot .when { color: var(--ember); }
+  .par p:last-child { margin-bottom: 0; }
+  .par .chain {
+    font-family: var(--mono);
+    font-size: 12.5px;
+    line-height: 1.9;
+    color: var(--ink-2);
+    margin: 0;
+  }
+  .par .chain b { color: var(--ink); font-weight: 600; }
+
+  .caveat {
+    margin-top: 28px;
+    padding: 18px 20px;
+    border: 1px dashed var(--rule);
+    font-size: 13.5px;
+    color: var(--ink-2);
+    line-height: 1.55;
+    max-width: 72ch;
+  }
+  .caveat b { color: var(--ink); }
+
+  .xref {
+    margin-top: 28px;
+    border: 1px solid var(--rule);
+    background: var(--surface);
+    padding: 16px 20px;
+    font-size: 13.5px;
+    color: var(--ink-2);
+    line-height: 1.55;
+    max-width: 72ch;
+  }
+  .xref b { color: var(--ink); }
+
+  /* ---------- closing ---------- */
+  .closing {
+    font-family: var(--serif);
+    font-size: clamp(24px, 3.6vw, 38px);
+    line-height: 1.22;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    max-width: 26ch;
+    margin: 0;
+  }
+  .closing .hot { color: var(--ember); font-style: italic; }
+
+  footer {
+    margin-top: 64px;
+    padding-top: 22px;
+    border-top: 1px solid var(--rule);
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    line-height: 2;
+  }
+  footer a { color: var(--ink-2); text-decoration: none; border-bottom: 1px solid var(--rule); }
+  footer a:hover { color: var(--ember); border-color: var(--ember); }
+
+  @media (max-width: 860px) {
+    .rail-layout { grid-template-columns: minmax(0, 1fr); gap: 0; }
+    .rail { border-right: 0; border-bottom: 1px solid var(--rule); padding: 0 0 10px; margin-bottom: 20px; }
+    .rail::before { display: none; }
+    .rail-label { text-align: left; padding-right: 0; position: static; }
+    .rail-label b { display: inline; margin-right: 10px; }
+    .rail-label i { display: inline; margin-left: 10px; }
+  }
+  @media (max-width: 760px) {
+    .cols-3, .cols-2 { grid-template-columns: minmax(0, 1fr); }
+  }
+  @media (max-width: 560px) {
+    .fut-grid { grid-template-columns: minmax(0, 1fr); }
+    .fut-x { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+    .rung { grid-template-columns: minmax(0, 1fr); }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <p class="eyebrow">ccabos/live-with-AI &nbsp;·&nbsp; the essay, in one map</p>
+    <h1>Capability. Value. Worth.</h1>
+    <p class="lead" style="margin-top:22px;max-width:52ch">Three things rode together for all of
+      human history. Cheap machine cognition is pulling them apart — and every question the AI age
+      asks is a question about the seams.</p>
+
+    <div class="hero-fig">
+      <svg viewBox="0 0 680 210" role="img" aria-label="Three strands begin bundled at the left and diverge to the right: capability migrates upward to the machines, value is repriced along the middle, worth separates downward as the human question.">
+        <line x1="40" y1="24" x2="40" y2="186" stroke="var(--hairline)" stroke-width="1"/>
+        <path class="draw" style="--len:700" d="M40,105 C230,105 330,45 636,45" fill="none" stroke="var(--steel)" stroke-width="2" stroke-linecap="round"/>
+        <path class="draw" style="--len:640" d="M40,105 C230,105 330,105 636,105" fill="none" stroke="var(--muted)" stroke-width="2" stroke-linecap="round"/>
+        <path class="draw" style="--len:700" d="M40,105 C230,105 330,165 636,165" fill="none" stroke="var(--ember)" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="40" cy="105" r="5" fill="var(--ink)" stroke="var(--surface)" stroke-width="2"/>
+        <text class="fade" x="40" y="200" fill="var(--muted)" font-size="10.5" text-anchor="start">BUNDLED, FOR ALL OF HISTORY</text>
+        <text class="fade" x="636" y="33" fill="var(--ink)" font-size="11.5" text-anchor="end" font-weight="600">CAPABILITY</text>
+        <text class="fade" x="636" y="93" fill="var(--ink)" font-size="11.5" text-anchor="end" font-weight="600">VALUE</text>
+        <text class="fade" x="636" y="190" fill="var(--ink)" font-size="11.5" text-anchor="end" font-weight="600">WORTH</text>
+      </svg>
+      <div class="legend">
+        <span><i class="key" style="background:var(--steel)"></i> capability — what can be done → migrating to the machines</span>
+        <span><i class="key" style="background:var(--muted)"></i> value — what the market pays for → repriced by scarcity</span>
+        <span><i class="key" style="background:var(--ember)"></i> worth — what makes a life matter → was never either</span>
+      </div>
+    </div>
+
+    <div class="plate">
+      <div>SOURCE <span>essay-draft.md</span></div>
+      <div>SECTIONS <span>I–XI</span></div>
+      <div>LENGTH <span>~10,000 words</span></div>
+      <div>LANGUAGES <span>EN / DE</span></div>
+    </div>
+  </header>
+
+  <div class="rail-layout">
+    <div class="rail">
+      <p class="rail-label"><b>01</b> The sentence <i>§ I</i></p>
+    </div>
+    <section>
+      <p class="eyebrow">Where the argument starts</p>
+      <h2>&ldquo;AI is becoming more intelligent than us&rdquo; hides three claims</h2>
+      <p>Nearly every muddled argument about our future comes from sliding between them — and almost
+        all the public noise is conducted in the key of the one we can't yet answer.</p>
+
+      <div class="grid cols-3">
+        <div class="card">
+          <p class="tag">Claim 01 — narrow</p>
+          <p>Machines beat us at particular tasks: chess, protein folding, reading a scan. True,
+            old news, and long since made peace with. No one feels diminished by a calculator.</p>
+        </div>
+        <div class="card mark">
+          <p class="tag hot">Claim 02 — the one that matters</p>
+          <p>Machines match or beat the <em>typical person</em> across most of the cognitive work
+            our economies and institutions actually run on. Not one game — the general capacity to
+            read, reason, write, plan, explain. <strong>This is arriving now.</strong></p>
+        </div>
+        <div class="card">
+          <p class="tag">Claim 03 — speculative</p>
+          <p>A superintelligence that outstrips all of us at everything, including improving
+            itself. May come; reasonable people disagree. The films are made of this one — and it
+            crowds out the claim that is already true.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="rail">
+      <p class="rail-label"><b>02</b> The thesis <i>§ II–III</i></p>
+    </div>
+    <section>
+      <p class="eyebrow">The central move</p>
+      <h2>&ldquo;Intelligence&rdquo; is not one thing — and the machine is colonizing the list from the top</h2>
+      <p>The flat sentence treats a tall stack of distinct capacities as a single height to be
+        measured. Walk the stack and the shape of everything that follows is already visible:
+        the capacities at the bottom are precisely the ones the future economy and our common
+        life will have to be rebuilt around.</p>
+
+      <div class="ladder">
+        <div class="rung">
+          <p class="what">Knowledge <small>recall and synthesis of what is already known</small></p>
+          <span class="chip machine">machine: superhuman</span>
+        </div>
+        <div class="rung">
+          <p class="what">Fluid reasoning <small>working out the genuinely new, in the moment</small></p>
+          <span class="chip machine">machine: rising fast, uneven</span>
+        </div>
+        <div class="rung">
+          <p class="what">Embodied <small>a body in an unstructured world — the plumber's hands, the cook's improvisation</small></p>
+          <span class="chip">machine: clumsy, expensive</span>
+        </div>
+        <div class="rung">
+          <p class="what">Social &amp; relational <small>reading a room, building trust, being <em>with</em> another person</small></p>
+          <span class="chip">machine: mimics the surface</span>
+        </div>
+        <div class="rung">
+          <p class="what">Moral intelligence &amp; wisdom <small>weighing what ought to matter, standing behind the consequences</small></p>
+          <span class="chip human">machine: not in the room</span>
+        </div>
+      </div>
+
+      <p style="margin-top:26px">The bottom rungs may not be automatable at all — they require a
+        subject who has something at stake, who can be held to account, who can suffer the
+        consequences of being wrong. A tool cannot be the responsible party.</p>
+    </section>
+
+    <div class="rail">
+      <p class="rail-label"><b>03</b> The seams <i>§ IV–VI</i></p>
+    </div>
+    <section>
+      <p class="eyebrow">Where the unbundling lands</p>
+      <h2>Three places the ground shifts</h2>
+      <p>Nothing collapses dramatically. Load-bearing assumptions — that human cognition is scarce
+        and therefore precious — quietly stop being true, and arrangements that felt like human
+        nature turn out to have been contingent on them.</p>
+
+      <div class="grid cols-3">
+        <div class="card">
+          <p class="tag">Living together — § IV</p>
+          <ul>
+            <li><b>Authority</b> moves from who knows to who judges and answers — or curdles into
+              populism plus a new priesthood of oracle-owners.</li>
+            <li><b>Truth</b> stops living in the artifact. When anything can be synthesized,
+              evidence migrates to provenance: whose word stands behind it, and what do they lose
+              if it's false?</li>
+            <li><b>Education</b> must decide what it is for — loading knowledge into heads is
+              obsolete; forming judgment, taste and attention is more urgent than ever.</li>
+            <li><b>Agency</b>: every tool atrophies something. The question is which faculties we
+              deliberately keep, not whether we lose any.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <p class="tag">The economy — § V</p>
+          <ul>
+            <li><b>Repricing</b>: cognitive output drifts toward the cost of electricity even as
+              its quantity explodes — more valuable work done, less of it captured as any wage.</li>
+            <li><b>The broken link</b>: productivity stops flowing to pay once human cognition
+              leaves the critical path. Gains flow to what stays scarce — compute, energy, data,
+              trust, distribution.</li>
+            <li><b>The real fault line</b> is not humans vs machines but owners of the scarce
+              complements vs sellers of cognition. Political to the core.</li>
+            <li><b>Value ≠ money</b>: care, community, a healthy river — always the substance of a
+              good life, always invisible to the ledger. Even the UN now proposes to count what
+              GDP leaves out.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <p class="tag">Work — § VI</p>
+          <ul>
+            <li><b>Wrong question</b>: &ldquo;what can humans still do?&rdquo; is a race on the
+              machine's track, retreating yearly.</li>
+            <li><b>What the world will demand</b>: the physical and unstructured; accountability
+              (the one who signs); the interface that directs machines and judges output.</li>
+            <li><b>What we want to keep</b>: care, making and stewarding, governing ourselves —
+              chosen, not forced.</li>
+            <li><b>The transition</b> is the story: the weavers never saw the better world their
+              suffering purchased. Whether this is liberation or betrayal turns on sharing the
+              gains and cushioning the fall.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="rail">
+      <p class="rail-label"><b>04</b> The counsel <i>§ VII–VIII</i></p>
+    </div>
+    <section>
+      <p class="eyebrow">What to do about it</p>
+      <h2>Strive for a different intelligence — and watch who holds the machines</h2>
+
+      <blockquote>
+        We do not lift weights because the world suffers a shortage of heavy things that need
+        moving. The point was never the moved weight; it was the changed body. So with thinking.
+        <cite>§ VII — whether to strive for intelligence</cite>
+      </blockquote>
+
+      <p style="margin-top:26px">The race on the machine's axes — recall, calculation — is lost
+        and not worth running. What's worth cultivating is what the machine does not have:
+        <strong>wisdom</strong> (which things are worth doing), <strong>discernment</strong> (the
+        true from the merely fluent), the <strong>meta-cognitive</strong> skill of auditing an
+        intelligence greater than your own without being captured by it, and the intelligence of
+        <strong>meaning</strong> itself. And this is not a hobby: a population that gratefully
+        stops thinking becomes trivially steerable by whoever owns the machine. Independent
+        thought becomes a civic duty — the inner equivalent of a free press.</p>
+
+      <div class="grid cols-2">
+        <div class="par cool">
+          <p class="when">CLOSED WEIGHTS</p>
+          <p class="chain">
+            capability exists, but is <b>held</b><br/>
+            → rented through a metered interface<br/>
+            → monitored, priced, revocable at will<br/>
+            → gains captured; trust taken on faith<br/>
+            → <b>power concentrates</b>
+          </p>
+        </div>
+        <div class="par hot">
+          <p class="when">OPEN WEIGHTS</p>
+          <p class="chain">
+            the thing itself, in anyone's hands<br/>
+            → run by a hospital, a town, a nation<br/>
+            → inspectable, auditable, survivable<br/>
+            → a commons rather than a metered utility<br/>
+            → <b>power diffuses</b>
+          </p>
+        </div>
+      </div>
+
+      <div class="caveat">
+        <b>The honest cost.</b> A model released cannot be recalled, and openness puts capability
+        into hands that will misuse it. The dilemma is real and unresolved — anyone who tells you
+        it's easy, in either direction, is selling something. What open weights decide is not how
+        high the frontier reaches, but how widely the reach is shared.
+      </div>
+    </section>
+
+    <div class="rail">
+      <p class="rail-label"><b>05</b> The map <i>§ IX–X</i></p>
+    </div>
+    <section>
+      <p class="eyebrow">The futures — regions, not predictions</p>
+      <h2>Two variables select among four futures</h2>
+      <p>The trajectory of capability, crossed with the distribution of control. The essay refuses
+        a forecast, because the forecast would repeat the mistake it argues against: the belief
+        that the technology decides.</p>
+
+      <div class="futures">
+        <div class="fut-axes">
+          <div class="fut-y">capability&nbsp;·&nbsp;steady&nbsp;climb&nbsp;→&nbsp;sharp&nbsp;takeoff</div>
+          <div>
+            <div class="fut-grid">
+              <div class="fut">
+                <p class="name">Singleton</p>
+                <p>Sharp takeoff, concentrated control. One power sets the terms for everyone,
+                  perhaps permanently — the dream of wise order and the nightmare of irreversible
+                  tyranny, distinguished by nothing in the technology and everything in the
+                  governance.</p>
+              </div>
+              <div class="fut">
+                <p class="name">Wildfire</p>
+                <p>Sharp takeoff, wide diffusion. Maximum capability in maximum hands — the fullest
+                  freedom and the fullest catastrophic risk at once; the openness dilemma at
+                  civilizational scale.</p>
+              </div>
+              <div class="fut default">
+                <p class="name">Feudal abundance</p>
+                <p>Steady climb, concentrated control. Plenty exists, even comfort distributed
+                  downward to keep the peace — but rented, not owned, and the say-so pools among
+                  the few.</p>
+                <span class="chip human">the default path</span>
+              </div>
+              <div class="fut good">
+                <p class="name">Pluralist</p>
+                <p>Steady climb, wide diffusion. Disruptive but broadly empowering, like
+                  electricity or the press — messy, contested, and tending toward leveling.</p>
+                <span class="chip machine">the reachable good</span>
+              </div>
+            </div>
+            <div class="fut-x">
+              <span>control: concentrated</span>
+              <span>control: diffuse</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="fut-band" style="margin-top:14px">
+          <b>Mundane</b> — capability simply plateaus: a powerful but bounded tool, transformative
+          the way the PC and the internet were. Badly underrated, drowned out by the takeoff drama,
+          and maybe the likeliest base case of all.
+        </div>
+        <div class="fut-overlay">
+          <b>Meaning crisis</b> — can coexist with any of the above, even the materially successful
+          ones: a world that has solved production but not purpose. Abundance is not the same as
+          meaning, and a society can win the first while losing the second.
+        </div>
+      </div>
+
+      <div class="xref">
+        <b>The case in point — § IX.</b> The software engineer lives in the forecast world already,
+        and builds the systems automating her. Her chapter — including what supervising a fleet of
+        machines actually costs the person doing it — has
+        <a href="attention-bottleneck.html">its own page</a>.
+      </div>
+    </section>
+
+    <div class="rail">
+      <p class="rail-label"><b>06</b> The choice <i>§ XI</i></p>
+    </div>
+    <section>
+      <p class="eyebrow">Where the argument lands</p>
+      <p class="closing">At every turn, what mattered was not how intelligent the machines became,
+        but <span class="hot">what we chose to do about it</span>.</p>
+      <p style="margin-top:26px;max-width:60ch">Whether authority flattens or curdles; whether
+        gains are shared or pooled; whether the displaced are carried or abandoned; whether
+        capability diffuses or concentrates; whether freed energy goes into meaning or drifts in
+        comfortable purposelessness — none of it is decided by the technology. The refusal to
+        choose is itself a choice, usually of the default path. The hardest problems of the age
+        are not technical but human — distribution, power, meaning — and those are exactly the
+        problems no machine can solve for us, because they are about what <em>we</em> want.</p>
+    </section>
+  </div>
+
+  <footer>
+    The essay · <a href="essay-draft.html">Living With AI That Is More Intelligent Than Us</a>
+    · <a href="essay-draft.de.html">deutsche Fassung</a><br/>
+    Companion graphic · <a href="attention-bottleneck.html">The Attention Bottleneck</a>
+    · Repository · <a href="https://github.com/ccabos/live-with-AI">ccabos/live-with-AI</a>
+  </footer>
+
+</div>
+
+</body>
+</html>

@@ -552,44 +552,58 @@
       <p class="eyebrow">The evidence</p>
       <h2>It is not an idiosyncratic complaint</h2>
       <p>Survey, field-study, physiological and randomised-trial evidence converge on the same shape:
-        the output rises and the strain rises with it. The sharpest single result is the gap between
-        what developers <em>measured</em> and what they <em>believed</em>.</p>
+        the output rises and the strain rises with it. Since 2025 the <em>speed</em> story has
+        flipped sign. The <em>strain</em> story has not — and that divergence is the tell.</p>
 
       <div class="hero-fig">
-        <div class="hero-num">39<span style="font-size:.45em;letter-spacing:0">pt</span></div>
-        <p class="hero-cap">Gap between believed and measured effect · METR randomised trial</p>
+        <div class="hero-num" style="font-size:clamp(36px,6.5vw,68px)"><span style="color:var(--ink)">−19%</span><span style="color:var(--muted);padding:0 .18em">→</span><span style="color:var(--steel)">+18%</span></div>
+        <p class="hero-cap">Effect of AI on task time · measured, early 2025 → estimated, early 2026 · METR</p>
       </div>
 
       <figure>
-        <p class="fig-title">Developers were slower with AI, and were sure they were faster</p>
-        <p class="fig-sub">Effect on task completion time · 16 experienced developers, 246 tasks in repositories they already knew</p>
+        <p class="fig-title">The sign flipped between 2025 and 2026. The lesson about belief didn't.</p>
+        <p class="fig-sub">Effect on task completion time · METR randomised trial (2025) and redesigned follow-up study (2026)</p>
         <div class="legend">
-          <span><i class="key" style="background:var(--steel)"></i> Believed after the fact</span>
-          <span><i class="key" style="background:var(--ember)"></i> Actually measured</span>
+          <span><i class="key" style="background:var(--steel)"></i> Believed / estimated</span>
+          <span><i class="key" style="background:var(--ember)"></i> Measured</span>
+          <span><i class="key" style="background:var(--steel-wash);border:1px dashed var(--steel);height:8px"></i> Weak evidence — METR's own label</span>
         </div>
         <div class="chart-scroll">
-          <svg viewBox="0 0 640 190" role="img" aria-label="Diverging bar chart. Developers believed AI made them 20 percent faster; measurement showed they were 19 percent slower.">
+          <svg viewBox="0 0 640 268" role="img" aria-label="Diverging bar chart in two groups. Early 2025: developers believed AI made them 20 percent faster while measurement showed 19 percent slower. Early 2026: the redesigned study estimates 18 percent faster, which METR labels weak evidence.">
             <!-- zero baseline -->
-            <line x1="320" y1="18" x2="320" y2="152" stroke="var(--rule)" stroke-width="1"/>
-            <text x="320" y="170" fill="var(--muted)" font-size="11" text-anchor="middle">0 · no effect</text>
-            <text x="150" y="170" fill="var(--muted)" font-size="11" text-anchor="middle">← slower</text>
-            <text x="495" y="170" fill="var(--muted)" font-size="11" text-anchor="middle">faster →</text>
+            <line x1="320" y1="14" x2="320" y2="228" stroke="var(--rule)" stroke-width="1"/>
+            <text x="320" y="248" fill="var(--muted)" font-size="11" text-anchor="middle">0 · no effect</text>
+            <text x="150" y="248" fill="var(--muted)" font-size="11" text-anchor="middle">← slower</text>
+            <text x="495" y="248" fill="var(--muted)" font-size="11" text-anchor="middle">faster →</text>
 
-            <!-- believed: +20% to the right -->
-            <g class="hit" data-tip="Believed: 20% faster&#10;self-estimate, after the task">
-              <rect x="320" y="34" width="240" height="24" fill="var(--steel)" class="grow" style="transform-origin:320px 0"/>
-              <rect x="320" y="34" width="240" height="24" fill="transparent"/>
-            </g>
-            <text x="572" y="51" fill="var(--ink)" font-size="14" font-weight="600">+20%</text>
-            <text x="310" y="51" fill="var(--ink-2)" font-size="12" text-anchor="end">believed</text>
+            <text x="24" y="30" fill="var(--muted)" font-size="10.5" letter-spacing="1">EARLY 2025 · RCT — 16 DEVELOPERS, 246 TASKS</text>
 
-            <!-- measured: -19% to the left -->
-            <g class="hit" data-tip="Measured: 19% slower&#10;randomised controlled trial">
-              <rect x="92" y="86" width="228" height="24" fill="var(--ember)" class="grow" style="transform-origin:320px 0"/>
-              <rect x="92" y="86" width="228" height="24" fill="transparent"/>
+            <!-- 2025 believed: +20% -->
+            <g class="hit" data-tip="Early 2025 · believed: 20% faster&#10;self-estimate, after the task">
+              <rect x="320" y="42" width="240" height="24" fill="var(--steel)" class="grow" style="transform-origin:320px 0"/>
+              <rect x="320" y="42" width="240" height="24" fill="transparent"/>
             </g>
-            <text x="80" y="103" fill="var(--ink)" font-size="14" font-weight="600" text-anchor="end">−19%</text>
-            <text x="330" y="103" fill="var(--ink-2)" font-size="12">measured</text>
+            <text x="572" y="59" fill="var(--ink)" font-size="14" font-weight="600">+20%</text>
+            <text x="310" y="59" fill="var(--ink-2)" font-size="12" text-anchor="end">believed</text>
+
+            <!-- 2025 measured: -19% -->
+            <g class="hit" data-tip="Early 2025 · measured: 19% slower&#10;randomised controlled trial">
+              <rect x="92" y="78" width="228" height="24" fill="var(--ember)" class="grow" style="transform-origin:320px 0"/>
+              <rect x="92" y="78" width="228" height="24" fill="transparent"/>
+            </g>
+            <text x="80" y="95" fill="var(--ink)" font-size="14" font-weight="600" text-anchor="end">−19%</text>
+            <text x="330" y="95" fill="var(--ink-2)" font-size="12">measured</text>
+
+            <line x1="24" y1="132" x2="616" y2="132" stroke="var(--hairline)" stroke-width="1"/>
+            <text x="24" y="158" fill="var(--muted)" font-size="10.5" letter-spacing="1">EARLY 2026 · REDESIGNED STUDY — 57 DEVELOPERS, 143 REPOS, 800+ TASKS</text>
+
+            <!-- 2026 estimated: +18%, dashed outline = weak evidence -->
+            <g class="hit" data-tip="Early 2026 · estimated: 18% faster&#10;weak evidence — selection effects;&#10;devs unwilling to work without AI opt out">
+              <rect x="320" y="170" width="216" height="24" fill="var(--steel-wash)" stroke="var(--steel)" stroke-width="1.5" stroke-dasharray="5 4" class="grow" style="transform-origin:320px 0"/>
+              <rect x="320" y="170" width="216" height="24" fill="transparent"/>
+            </g>
+            <text x="548" y="187" fill="var(--ink)" font-size="14" font-weight="600">+18%</text>
+            <text x="310" y="187" fill="var(--ink-2)" font-size="12" text-anchor="end">estimated</text>
           </svg>
         </div>
         <details>
@@ -597,15 +611,18 @@
           <table>
             <thead><tr><th>Measure</th><th>Effect on task time</th></tr></thead>
             <tbody>
-              <tr><td>Believed (self-estimate)</td><td>20% faster</td></tr>
-              <tr><td>Measured (trial)</td><td>19% slower</td></tr>
-              <tr><td>Gap</td><td>39 percentage points</td></tr>
+              <tr><td>Early 2025 · believed (self-estimate)</td><td>20% faster</td></tr>
+              <tr><td>Early 2025 · measured (trial)</td><td>19% slower</td></tr>
+              <tr><td>Early 2026 · estimated (redesigned study)</td><td>18% faster — weak evidence</td></tr>
             </tbody>
           </table>
         </details>
-        <figcaption>METR, July 2025. The perception gap is itself part of the argument: the load is
-          not only real but systematically underestimated by the people carrying it. METR now labels
-          this result historical with respect to current tooling.</figcaption>
+        <figcaption>METR, 2025–2026. The 2025 trial found developers slower while believing themselves
+          20% faster — a 39-point perception gap that shows self-report cannot settle this question.
+          METR's redesigned 2026 study points the other way, toward a real speedup, though METR calls
+          the size weak evidence: developers unwilling to work without AI now select out of
+          measurement. Note what the flip does to the argument — while the tools slowed generation,
+          attention was not the binding constraint. Now that generation genuinely accelerates, it is.</figcaption>
       </figure>
 
       <figure>
@@ -737,9 +754,12 @@
       <p class="lead">Not compute. Not model capability. The ceiling on AI-augmented output is how much
         of it one accountable person can hold in mind and vouch for — and unlike compute, you cannot
         buy more of it.</p>
-      <p>Which inverts a good deal of strategy. Buying capability past the point where anyone can
-        supervise it does not produce more usable output. It produces more <em>unverified</em> output,
-        which is a liability rather than an asset.</p>
+      <p>And the better the tools get at generating — as they visibly have since 2025 — the harder
+        the constraint binds, not the softer. Every point of genuine speedup is more output arriving
+        at the same fixed pool of attention that must verify it. Which inverts a good deal of
+        strategy: buying capability past the point where anyone can supervise it does not produce
+        more usable output. It produces more <em>unverified</em> output, which is a liability rather
+        than an asset.</p>
 
       <div class="caveat">
         <b>It cuts against the usual worry, and both things are true.</b> The standard fear is that AI
@@ -791,8 +811,9 @@
       <div class="caveat" style="border-style:solid">
         <b>One caveat worth carrying forward.</b> K is the only spin-off spine resting on named
         empirical sources, which means those citations want re-checking whenever the piece is actually
-        written. METR already labels its own 2025 result historical — and the longer the spine sits,
-        the more that matters.
+        written. The speed numbers have already flipped sign once — METR's 2025 &ldquo;slower&rdquo;
+        became 2026's estimated speedup — and they will move again. The strain findings are the
+        stable part; cite the speed numbers as a trajectory, dated, never as a snapshot.
       </div>
     </section>
   </div>
@@ -800,7 +821,8 @@
   <footer>
     Sources · <a href="https://dora.dev/insights/balancing-ai-tensions/">DORA 2025, Balancing AI tensions</a>
     · <a href="https://survey.stackoverflow.co/2025/ai/">Stack Overflow Developer Survey 2025</a>
-    · <a href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/">METR productivity trial</a>
+    · <a href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/">METR productivity trial (2025)</a>
+    · <a href="https://metr.org/blog/2026-02-24-uplift-update/">METR study redesign &amp; update (2026)</a>
     · <a href="https://arxiv.org/pdf/2606.05770">Human Oversight and Overload</a>
     · <a href="https://arxiv.org/html/2605.23135v1">Longitudinal study of AI coding assistants</a><br/>
     Repository · <a href="https://github.com/ccabos/live-with-AI/pull/9">ccabos/live-with-AI #9</a>

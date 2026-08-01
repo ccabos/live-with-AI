@@ -1,3 +1,8 @@
+---
+title: "The Machines Will Be Smarter. The Question Is Whether We'll Be Wise."
+lang: en
+---
+
 # The Machines Will Be Smarter. The Question Is Whether We'll Be Wise.
 
 We have started saying it almost casually: artificial intelligence is becoming more intelligent

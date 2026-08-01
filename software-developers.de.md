@@ -1,3 +1,8 @@
+---
+title: "Mehr Code, nicht weniger Entwickler"
+lang: de
+---
+
 # Mehr Code, nicht weniger Entwickler
 
 *Warum billiger KI-Code Softwareentwickler vervielfachen wird, statt sie zu ersetzen.*

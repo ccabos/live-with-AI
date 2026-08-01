@@ -1,3 +1,8 @@
+---
+title: "Gliederung und Ableger-Karte"
+lang: de
+---
+
 # Leben mit einer KI, die intelligenter ist als wir
 
 *Arbeitsgerüst für einen Essay – Argumente, Unterscheidungen, Szenarien und Struktur.*

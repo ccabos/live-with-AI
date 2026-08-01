@@ -1,3 +1,8 @@
+---
+title: "Outline and spin-off map"
+lang: en
+---
+
 # Living With AI That Is More Intelligent Than Us
 
 *Working scaffold for an essay — arguments, distinctions, scenarios, and structure.*

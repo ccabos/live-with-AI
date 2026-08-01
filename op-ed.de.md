@@ -1,3 +1,8 @@
+---
+title: "Die Maschinen werden klüger sein. Die Frage ist, ob wir weise sind."
+lang: de
+---
+
 # Die Maschinen werden klüger sein. Die Frage ist, ob wir weise sein werden.
 
 Wir sagen es inzwischen fast beiläufig: Künstliche Intelligenz (KI) wird intelligenter als wir. In vielen Bereichen ist sie es bereits. Doch in diesem Satz verbergen sich drei sehr unterschiedliche Behauptungen, und fast jedes verworrene Argument über unsere Zukunft entsteht dadurch, dass man zwischen ihnen hin- und herrutscht.

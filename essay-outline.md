@@ -580,8 +580,16 @@ people, and the essay should say so. Second, it has harder empirical support tha
 here: DORA's "verification tax" (time saved writing is re-spent auditing, alongside AI-correlated
 gains in throughput *and* in instability), Stack Overflow's finding that "almost right, but not
 quite" output is developers' single largest frustration with debugging AI-generated code second, and
-METR's randomized trial in which experienced developers were measurably slower with AI while
-believing themselves substantially faster. The perception gap is itself part of the argument.
+METR's randomized-trial arc — which must be told as an arc, because the sign flipped. In early 2025
+experienced developers were measurably slower with AI while believing themselves substantially
+faster; by early 2026 METR's redesigned study points the other way, toward a genuine speedup
+(estimated around +18% for part of the original cohort), though METR itself calls the size weak
+evidence, since developers unwilling to work without AI now select out of measurement. Both halves
+serve the argument. The 2025 perception gap shows that self-report cannot settle the question. And
+the 2026 speedup *tightens* the bottleneck claim rather than loosening it: while the tools made
+generation slower, attention was not the binding constraint — now that generation genuinely
+accelerates, every point of speedup is more output arriving at the same fixed pool of attention that
+must verify it. The strain findings, note, never flipped with the speed findings.
 
 The intellectual lineage is older than the tools and should be used: Bainbridge's *Ironies of
 Automation* (1983) — automation takes the easy parts of a task and leaves the human the hard

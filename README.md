@@ -22,7 +22,8 @@ The site renders everything as web pages: **https://ccabos.github.io/live-with-A
 | The Attention Bottleneck | [`attention-bottleneck.html`](attention-bottleneck.html) | Infographic for spin-off K: capability got cheap, attention didn't |
 | The essay, in one map | [`essay-map.html`](essay-map.html) | Infographic of the whole essay's argument |
 
-Every essay has a German counterpart alongside it (`*.de.md`).
+Everything exists in both languages: essays as `*.de.md`, infographics as `*.de.html`
+(*Der Aufmerksamkeitsengpass*, *Fähigkeit. Wert. Würde.*), each linked from its counterpart.
 
 ## Working material
 

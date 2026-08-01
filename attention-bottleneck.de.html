@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>The Attention Bottleneck</title>
-<meta name="description" content="Capability got cheap. Attention didn't. The four mechanisms, the evidence, and Jevons's paradox one level up."/>
+<title>Der Aufmerksamkeitsengpass</title>
+<meta name="description" content="Fähigkeit wurde billig. Aufmerksamkeit nicht. Die vier Mechanismen, die Belege und das Jevons-Paradoxon eine Ebene höher."/>
 
 <style>
   :root {
@@ -496,339 +496,343 @@
 <div class="wrap">
 
   <header class="masthead">
-    <p class="eyebrow">ccabos/live-with-AI &nbsp;·&nbsp; spin-off K &nbsp;·&nbsp; pull request #9</p>
-    <h1>The Attention Bottleneck</h1>
-    <p class="thesis">Capability got <span class="cool">cheap</span>. Attention <span class="hot">didn't</span>.</p>
+    <p class="eyebrow">ccabos/live-with-AI &nbsp;·&nbsp; Ableger K &nbsp;·&nbsp; Pull Request #9</p>
+    <h1>Der Aufmerksam&shy;keits&shy;engpass</h1>
+    <p class="thesis">Fähigkeit wurde <span class="cool">billig</span>. Aufmerksamkeit <span class="hot">nicht</span>.</p>
 
     <div class="plate" style="margin-top:40px">
-      <div>ORIGIN <span>personal report</span></div>
-      <div>STATUS <span>corroborated</span></div>
-      <div>LINEAGE <span>Bainbridge 1983</span></div>
-      <div>LANDED <span>6 files · +222 / −16</span></div>
+      <div>URSPRUNG <span>persönlicher Bericht</span></div>
+      <div>STATUS <span>bestätigt</span></div>
+      <div>AHNENREIHE <span>Bainbridge 1983</span></div>
+      <div>GELANDET <span>6 Dateien · +222 / −16</span></div>
     </div>
   </header>
 
   <div class="rail-layout">
     <div class="rail">
-      <p class="rail-label"><b>01</b> Premise</p>
+      <p class="rail-label"><b>01</b> Prämisse</p>
     </div>
     <section>
-      <p class="eyebrow">The observation</p>
-      <h2>The work that's left is made only of the expensive parts</h2>
-      <p class="lead">A developer working intensively with AI reports that their cognitive load goes
-        <em>up</em>, not down. Four mechanisms, named from the inside — and each one turns out to have
-        a literature behind it.</p>
+      <p class="eyebrow">Die Beobachtung</p>
+      <h2>Was übrig bleibt, besteht nur noch aus den teuren Teilen</h2>
+      <p class="lead">Ein Entwickler, der intensiv mit KI arbeitet, berichtet, dass seine kognitive
+        Last <em>steigt</em>, nicht sinkt. Vier Mechanismen, von innen benannt – und zu jedem
+        gibt es eine Literatur.</p>
 
       <div class="grid-2">
         <div class="card">
-          <p class="tag">Mechanism 01 — Pace</p>
-          <p>The rate of development rises. The machine sets a tempo that does not tire, and the day
-            is paced by something with no need of recovery.</p>
-          <span class="term">throughput ↑ · instability ↑ (DORA)</span>
+          <p class="tag">Mechanismus 01 — Tempo</p>
+          <p>Die Entwicklungsgeschwindigkeit steigt. Die Maschine gibt ein Tempo vor, das nicht
+            ermüdet, und der Tag wird von etwas getaktet, das keine Erholung braucht.</p>
+          <span class="term">Durchsatz ↑ · Instabilität ↑ (DORA)</span>
         </div>
         <div class="card">
-          <p class="tag">Mechanism 02 — Residue</p>
-          <p>Only the difficult decisions still reach the human. The easy, low-load work that used to
-            pace a day is the first thing automated away.</p>
-          <span class="term">the left-over principle</span>
+          <p class="tag">Mechanismus 02 — Rest</p>
+          <p>Nur noch die schweren Entscheidungen erreichen den Menschen. Die leichte Arbeit mit
+            geringer Last, die einen Tag einst rhythmisierte, wird zuerst wegautomatisiert.</p>
+          <span class="term">das Prinzip des Übriggebliebenen</span>
         </div>
         <div class="card">
-          <p class="tag">Mechanism 03 — Verification</p>
-          <p>Proof-reading thought-through matter. Fluent, confident, occasionally wrong output has no
-            cheap rejection signal — you must reconstruct the reasoning to know whether to trust it.</p>
-          <span class="term">the verification tax</span>
+          <p class="tag">Mechanismus 03 — Prüfung</p>
+          <p>Durchdachtes Material korrekturlesen. Flüssige, selbstbewusste, gelegentlich falsche
+            Ausgaben haben kein billiges Verwerfungssignal – man muss die Überlegung nachbauen, um
+            zu wissen, ob man ihr trauen kann.</p>
+          <span class="term">die Prüfsteuer</span>
         </div>
         <div class="card">
-          <p class="tag">Mechanism 04 — Fragmentation</p>
-          <p>Running several agents at once is the efficient move, so context switching becomes
-            constant, and several unfinished problems sit in mind at the same time.</p>
-          <span class="term">attention residue · 2–4 agent ceiling</span>
+          <p class="tag">Mechanismus 04 — Zersplitterung</p>
+          <p>Mehrere Agenten zugleich laufen zu lassen ist der effiziente Zug, also wird der
+            Kontextwechsel zum Dauerzustand, und mehrere unfertige Probleme liegen gleichzeitig
+            im Kopf.</p>
+          <span class="term">Aufmerksamkeitsrückstand · Grenze bei 2–4 Agenten</span>
         </div>
       </div>
     </section>
 
     <div class="rail">
-      <p class="rail-label"><b>02</b> Tension</p>
+      <p class="rail-label"><b>02</b> Spannung</p>
     </div>
     <section>
-      <p class="eyebrow">The evidence</p>
-      <h2>It is not an idiosyncratic complaint</h2>
-      <p>Survey, field-study, physiological and randomised-trial evidence converge on the same shape:
-        the output rises and the strain rises with it. Since 2025 the <em>speed</em> story has
-        flipped sign. The <em>strain</em> story has not — and that divergence is the tell.</p>
+      <p class="eyebrow">Die Belege</p>
+      <h2>Es ist keine eigenwillige Klage</h2>
+      <p>Umfragen, Feldstudien, physiologische Messungen und randomisierte Studien laufen auf
+        dieselbe Gestalt hinaus: Die Ausbringung steigt, und die Belastung steigt mit. Seit 2025
+        hat die <em>Geschwindigkeits</em>-Geschichte das Vorzeichen gewechselt. Die
+        <em>Belastungs</em>-Geschichte nicht – und diese Divergenz ist der eigentliche Hinweis.</p>
 
       <div class="hero-fig">
-        <div class="hero-num" style="font-size:clamp(36px,6.5vw,68px)"><span style="color:var(--ink)">−19%</span><span style="color:var(--muted);padding:0 .18em">→</span><span style="color:var(--steel)">+18%</span></div>
-        <p class="hero-cap">Effect of AI on task time · measured, early 2025 → estimated, early 2026 · METR</p>
+        <div class="hero-num" style="font-size:clamp(36px,6.5vw,68px)"><span style="color:var(--ink)">−19 %</span><span style="color:var(--muted);padding:0 .18em">→</span><span style="color:var(--steel)">+18 %</span></div>
+        <p class="hero-cap">Wirkung von KI auf die Bearbeitungszeit · gemessen Anfang 2025 → geschätzt Anfang 2026 · METR</p>
       </div>
 
       <figure>
-        <p class="fig-title">The sign flipped between 2025 and 2026. The lesson about belief didn't.</p>
-        <p class="fig-sub">Effect on task completion time · METR randomised trial (2025) and redesigned follow-up study (2026)</p>
+        <p class="fig-title">Das Vorzeichen kippte zwischen 2025 und 2026. Die Lehre über den Glauben nicht.</p>
+        <p class="fig-sub">Wirkung auf die Bearbeitungszeit · randomisierte METR-Studie (2025) und neu aufgesetzte Folgestudie (2026)</p>
         <div class="legend">
-          <span><i class="key" style="background:var(--steel)"></i> Believed / estimated</span>
-          <span><i class="key" style="background:var(--ember)"></i> Measured</span>
-          <span><i class="key" style="background:var(--steel-wash);border:1px dashed var(--steel);height:8px"></i> Weak evidence — METR's own label</span>
+          <span><i class="key" style="background:var(--steel)"></i> Geglaubt / geschätzt</span>
+          <span><i class="key" style="background:var(--ember)"></i> Gemessen</span>
+          <span><i class="key" style="background:var(--steel-wash);border:1px dashed var(--steel);height:8px"></i> Schwache Evidenz — METRs eigenes Etikett</span>
         </div>
         <div class="chart-scroll">
-          <svg viewBox="0 0 640 268" role="img" aria-label="Diverging bar chart in two groups. Early 2025: developers believed AI made them 20 percent faster while measurement showed 19 percent slower. Early 2026: the redesigned study estimates 18 percent faster, which METR labels weak evidence.">
-            <!-- zero baseline -->
+          <svg viewBox="0 0 640 268" role="img" aria-label="Divergierendes Balkendiagramm in zwei Gruppen. Anfang 2025: Entwickler glaubten, KI mache sie 20 Prozent schneller, während die Messung 19 Prozent langsamer ergab. Anfang 2026: Die neu aufgesetzte Studie schätzt 18 Prozent schneller, was METR als schwache Evidenz einstuft.">
             <line x1="320" y1="14" x2="320" y2="228" stroke="var(--rule)" stroke-width="1"/>
-            <text x="320" y="248" fill="var(--muted)" font-size="11" text-anchor="middle">0 · no effect</text>
-            <text x="150" y="248" fill="var(--muted)" font-size="11" text-anchor="middle">← slower</text>
-            <text x="495" y="248" fill="var(--muted)" font-size="11" text-anchor="middle">faster →</text>
+            <text x="320" y="248" fill="var(--muted)" font-size="11" text-anchor="middle">0 · keine Wirkung</text>
+            <text x="150" y="248" fill="var(--muted)" font-size="11" text-anchor="middle">← langsamer</text>
+            <text x="495" y="248" fill="var(--muted)" font-size="11" text-anchor="middle">schneller →</text>
 
-            <text x="24" y="30" fill="var(--muted)" font-size="10.5" letter-spacing="1">EARLY 2025 · RCT — 16 DEVELOPERS, 246 TASKS</text>
+            <text x="24" y="30" fill="var(--muted)" font-size="10.5" letter-spacing="1">ANFANG 2025 · RCT — 16 ENTWICKLER, 246 AUFGABEN</text>
 
-            <!-- 2025 believed: +20% -->
-            <g class="hit" data-tip="Early 2025 · believed: 20% faster&#10;self-estimate, after the task">
+            <g class="hit" data-tip="Anfang 2025 · geglaubt: 20 % schneller&#10;Selbsteinschätzung, nach der Aufgabe">
               <rect x="320" y="42" width="240" height="24" fill="var(--steel)" class="grow" style="transform-origin:320px 0"/>
               <rect x="320" y="42" width="240" height="24" fill="transparent"/>
             </g>
-            <text x="572" y="59" fill="var(--ink)" font-size="14" font-weight="600">+20%</text>
-            <text x="310" y="59" fill="var(--ink-2)" font-size="12" text-anchor="end">believed</text>
+            <text x="572" y="59" fill="var(--ink)" font-size="14" font-weight="600">+20 %</text>
+            <text x="310" y="59" fill="var(--ink-2)" font-size="12" text-anchor="end">geglaubt</text>
 
-            <!-- 2025 measured: -19% -->
-            <g class="hit" data-tip="Early 2025 · measured: 19% slower&#10;randomised controlled trial">
+            <g class="hit" data-tip="Anfang 2025 · gemessen: 19 % langsamer&#10;randomisierte kontrollierte Studie">
               <rect x="92" y="78" width="228" height="24" fill="var(--ember)" class="grow" style="transform-origin:320px 0"/>
               <rect x="92" y="78" width="228" height="24" fill="transparent"/>
             </g>
-            <text x="80" y="95" fill="var(--ink)" font-size="14" font-weight="600" text-anchor="end">−19%</text>
-            <text x="330" y="95" fill="var(--ink-2)" font-size="12">measured</text>
+            <text x="80" y="95" fill="var(--ink)" font-size="14" font-weight="600" text-anchor="end">−19 %</text>
+            <text x="330" y="95" fill="var(--ink-2)" font-size="12">gemessen</text>
 
             <line x1="24" y1="132" x2="616" y2="132" stroke="var(--hairline)" stroke-width="1"/>
-            <text x="24" y="158" fill="var(--muted)" font-size="10.5" letter-spacing="1">EARLY 2026 · REDESIGNED STUDY — 57 DEVELOPERS, 143 REPOS, 800+ TASKS</text>
+            <text x="24" y="158" fill="var(--muted)" font-size="10.5" letter-spacing="1">ANFANG 2026 · NEUE STUDIE — 57 ENTWICKLER, 143 REPOS, 800+ AUFGABEN</text>
 
-            <!-- 2026 estimated: +18%, dashed outline = weak evidence -->
-            <g class="hit" data-tip="Early 2026 · estimated: 18% faster&#10;weak evidence — selection effects;&#10;devs unwilling to work without AI opt out">
+            <g class="hit" data-tip="Anfang 2026 · geschätzt: 18 % schneller&#10;schwache Evidenz — Selektionseffekte;&#10;wer nicht ohne KI arbeiten will, nimmt nicht teil">
               <rect x="320" y="170" width="216" height="24" fill="var(--steel-wash)" stroke="var(--steel)" stroke-width="1.5" stroke-dasharray="5 4" class="grow" style="transform-origin:320px 0"/>
               <rect x="320" y="170" width="216" height="24" fill="transparent"/>
             </g>
-            <text x="548" y="187" fill="var(--ink)" font-size="14" font-weight="600">+18%</text>
-            <text x="310" y="187" fill="var(--ink-2)" font-size="12" text-anchor="end">estimated</text>
+            <text x="548" y="187" fill="var(--ink)" font-size="14" font-weight="600">+18 %</text>
+            <text x="310" y="187" fill="var(--ink-2)" font-size="12" text-anchor="end">geschätzt</text>
           </svg>
         </div>
         <details>
-          <summary>Table view</summary>
+          <summary>Tabellenansicht</summary>
           <table>
-            <thead><tr><th>Measure</th><th>Effect on task time</th></tr></thead>
+            <thead><tr><th>Maß</th><th>Wirkung auf die Bearbeitungszeit</th></tr></thead>
             <tbody>
-              <tr><td>Early 2025 · believed (self-estimate)</td><td>20% faster</td></tr>
-              <tr><td>Early 2025 · measured (trial)</td><td>19% slower</td></tr>
-              <tr><td>Early 2026 · estimated (redesigned study)</td><td>18% faster — weak evidence</td></tr>
+              <tr><td>Anfang 2025 · geglaubt (Selbsteinschätzung)</td><td>20 % schneller</td></tr>
+              <tr><td>Anfang 2025 · gemessen (Studie)</td><td>19 % langsamer</td></tr>
+              <tr><td>Anfang 2026 · geschätzt (neue Studie)</td><td>18 % schneller — schwache Evidenz</td></tr>
             </tbody>
           </table>
         </details>
-        <figcaption>METR, 2025–2026. The 2025 trial found developers slower while believing themselves
-          20% faster — a 39-point perception gap that shows self-report cannot settle this question.
-          METR's redesigned 2026 study points the other way, toward a real speedup, though METR calls
-          the size weak evidence: developers unwilling to work without AI now select out of
-          measurement. Note what the flip does to the argument — while the tools slowed generation,
-          attention was not the binding constraint. Now that generation genuinely accelerates, it is.</figcaption>
+        <figcaption>METR, 2025–2026. Die Studie von 2025 fand Entwickler langsamer, während sie sich
+          für 20 % schneller hielten – eine Wahrnehmungslücke von 39 Punkten, die zeigt, dass
+          Selbstauskunft diese Frage nicht entscheiden kann. METRs neu aufgesetzte Studie von 2026
+          weist in die Gegenrichtung, auf eine echte Beschleunigung, wobei METR die Größe selbst als
+          schwache Evidenz einstuft: Entwickler, die nicht ohne KI arbeiten wollen, entziehen sich
+          inzwischen der Messung. Man beachte, was der Vorzeichenwechsel mit dem Argument macht –
+          solange die Werkzeuge das Erzeugen verlangsamten, war Aufmerksamkeit nicht die bindende
+          Beschränkung. Jetzt, da das Erzeugen wirklich schneller wird, ist sie es.</figcaption>
       </figure>
 
       <figure>
-        <p class="fig-title">Adoption keeps climbing. Trust does not follow it.</p>
-        <p class="fig-sub">Stack Overflow Developer Survey · share of developers, 2024 → 2025</p>
+        <p class="fig-title">Die Nutzung steigt weiter. Das Vertrauen folgt ihr nicht.</p>
+        <p class="fig-sub">Stack Overflow Developer Survey · Anteil der Entwickler, 2024 → 2025</p>
         <div class="legend">
-          <span><i class="key" style="background:var(--steel)"></i> Using or planning to use AI</span>
-          <span><i class="key" style="background:var(--ember)"></i> Trust in AI accuracy</span>
+          <span><i class="key" style="background:var(--steel)"></i> Nutzen KI oder planen es</span>
+          <span><i class="key" style="background:var(--ember)"></i> Vertrauen in die Genauigkeit</span>
         </div>
         <div class="chart-scroll">
-          <svg viewBox="0 0 640 260" role="img" aria-label="Slope chart. AI adoption rose from 76 percent to 84 percent while trust in AI accuracy fell from 40 percent to 29 percent.">
-            <!-- axis ends -->
+          <svg viewBox="0 0 640 260" role="img" aria-label="Steigungsdiagramm. Die KI-Nutzung stieg von 76 auf 84 Prozent, während das Vertrauen in die Genauigkeit von 40 auf 29 Prozent fiel.">
             <line x1="150" y1="24" x2="150" y2="212" stroke="var(--hairline)" stroke-width="1"/>
             <line x1="470" y1="24" x2="470" y2="212" stroke="var(--hairline)" stroke-width="1"/>
             <text x="150" y="234" fill="var(--muted)" font-size="11.5" text-anchor="middle">2024</text>
             <text x="470" y="234" fill="var(--muted)" font-size="11.5" text-anchor="middle">2025</text>
 
-            <!-- adoption 76 -> 84 (y: 90% = 24, 20% = 212) -->
             <line class="draw" style="--len:340" x1="150" y1="61.4" x2="470" y2="40" stroke="var(--steel)" stroke-width="2" stroke-linecap="round"/>
-            <g class="hit" data-tip="2024 · adoption 76%"><circle cx="150" cy="61.4" r="4.5" fill="var(--steel)" stroke="var(--surface)" stroke-width="2"/><circle cx="150" cy="61.4" r="13" fill="transparent"/></g>
-            <g class="hit" data-tip="2025 · adoption 84%"><circle cx="470" cy="40" r="4.5" fill="var(--steel)" stroke="var(--surface)" stroke-width="2"/><circle cx="470" cy="40" r="13" fill="transparent"/></g>
-            <text class="fade" x="136" y="66" fill="var(--ink-2)" font-size="12.5" text-anchor="end">76%</text>
-            <text class="fade" x="484" y="44" fill="var(--ink)" font-size="13.5" font-weight="600">84%</text>
+            <g class="hit" data-tip="2024 · Nutzung 76 %"><circle cx="150" cy="61.4" r="4.5" fill="var(--steel)" stroke="var(--surface)" stroke-width="2"/><circle cx="150" cy="61.4" r="13" fill="transparent"/></g>
+            <g class="hit" data-tip="2025 · Nutzung 84 %"><circle cx="470" cy="40" r="4.5" fill="var(--steel)" stroke="var(--surface)" stroke-width="2"/><circle cx="470" cy="40" r="13" fill="transparent"/></g>
+            <text class="fade" x="136" y="66" fill="var(--ink-2)" font-size="12.5" text-anchor="end">76 %</text>
+            <text class="fade" x="484" y="44" fill="var(--ink)" font-size="13.5" font-weight="600">84 %</text>
 
-            <!-- trust 40 -> 29 (y) -->
             <line class="draw" style="--len:340" x1="150" y1="158" x2="470" y2="187.6" stroke="var(--ember)" stroke-width="2" stroke-linecap="round"/>
-            <g class="hit" data-tip="2024 · trust in accuracy 40%"><circle cx="150" cy="158" r="4.5" fill="var(--ember)" stroke="var(--surface)" stroke-width="2"/><circle cx="150" cy="158" r="13" fill="transparent"/></g>
-            <g class="hit" data-tip="2025 · trust in accuracy 29%"><circle cx="470" cy="187.6" r="4.5" fill="var(--ember)" stroke="var(--surface)" stroke-width="2"/><circle cx="470" cy="187.6" r="13" fill="transparent"/></g>
-            <text class="fade" x="136" y="162" fill="var(--ink-2)" font-size="12.5" text-anchor="end">40%</text>
-            <text class="fade" x="484" y="192" fill="var(--ink)" font-size="13.5" font-weight="600">29%</text>
+            <g class="hit" data-tip="2024 · Vertrauen in die Genauigkeit 40 %"><circle cx="150" cy="158" r="4.5" fill="var(--ember)" stroke="var(--surface)" stroke-width="2"/><circle cx="150" cy="158" r="13" fill="transparent"/></g>
+            <g class="hit" data-tip="2025 · Vertrauen in die Genauigkeit 29 %"><circle cx="470" cy="187.6" r="4.5" fill="var(--ember)" stroke="var(--surface)" stroke-width="2"/><circle cx="470" cy="187.6" r="13" fill="transparent"/></g>
+            <text class="fade" x="136" y="162" fill="var(--ink-2)" font-size="12.5" text-anchor="end">40 %</text>
+            <text class="fade" x="484" y="192" fill="var(--ink)" font-size="13.5" font-weight="600">29 %</text>
 
-            <text x="14" y="24" fill="var(--muted)" font-size="10.5">90%</text>
-            <text x="14" y="216" fill="var(--muted)" font-size="10.5">20%</text>
+            <text x="14" y="24" fill="var(--muted)" font-size="10.5">90 %</text>
+            <text x="14" y="216" fill="var(--muted)" font-size="10.5">20 %</text>
           </svg>
         </div>
         <details>
-          <summary>Table view</summary>
+          <summary>Tabellenansicht</summary>
           <table>
-            <thead><tr><th>Measure</th><th>2024</th><th>2025</th></tr></thead>
+            <thead><tr><th>Maß</th><th>2024</th><th>2025</th></tr></thead>
             <tbody>
-              <tr><td>Using or planning to use AI</td><td>76%</td><td>84%</td></tr>
-              <tr><td>Trust in AI accuracy</td><td>40%</td><td>29%</td></tr>
+              <tr><td>Nutzen KI oder planen es</td><td>76 %</td><td>84 %</td></tr>
+              <tr><td>Vertrauen in die Genauigkeit</td><td>40 %</td><td>29 %</td></tr>
             </tbody>
           </table>
         </details>
-        <figcaption>Vertical axis spans 20–90% so the two slopes are legible; every endpoint is
-          labelled with its actual value. Rising use alongside falling trust is the verification
-          burden in outline — more output to check, less confidence that it is right.</figcaption>
+        <figcaption>Die vertikale Achse umfasst 20–90 %, damit beide Verläufe lesbar bleiben; jeder
+          Endpunkt trägt seinen tatsächlichen Wert. Steigende Nutzung neben fallendem Vertrauen ist
+          die Prüflast im Umriss – mehr zu prüfende Ausbringung, weniger Zuversicht, dass sie
+          stimmt.</figcaption>
       </figure>
 
       <div class="tiles">
         <div class="tile">
-          <p class="v">66<span class="unit">%</span></p>
-          <p class="l">say their single biggest frustration is AI output that is <em>almost right, but not quite</em></p>
+          <p class="v">66<span class="unit"> %</span></p>
+          <p class="l">nennen als größte Einzelfrustration KI-Ausgaben, die <em>fast richtig, aber nicht ganz</em> sind</p>
           <p class="src">Stack Overflow 2025</p>
         </div>
         <div class="tile">
-          <p class="v">45<span class="unit">%</span></p>
-          <p class="l">say debugging AI-generated code is more time-consuming than writing it</p>
+          <p class="v">45<span class="unit"> %</span></p>
+          <p class="l">sagen, das Debuggen KI-erzeugten Codes koste mehr Zeit als das Schreiben</p>
           <p class="src">Stack Overflow 2025</p>
         </div>
         <div class="tile">
-          <p class="v">14<span class="unit">%</span> → 27<span class="unit">%</span></p>
-          <p class="l">share reporting a worsened developer experience on at least one dimension — flow and cognitive load eroding</p>
-          <p class="src">Longitudinal study</p>
+          <p class="v">14<span class="unit"> %</span> → 27<span class="unit"> %</span></p>
+          <p class="l">Anteil, der eine verschlechterte Entwicklererfahrung in mindestens einer Dimension berichtet – Flow und kognitive Last erodieren</p>
+          <p class="src">Längsschnittstudie</p>
         </div>
         <div class="tile">
-          <p class="v">90<span class="unit">%</span></p>
-          <p class="l">adoption among practitioners, with throughput <em>and</em> instability both rising</p>
+          <p class="v">90<span class="unit"> %</span></p>
+          <p class="l">Verbreitung unter Praktikern, bei steigendem Durchsatz <em>und</em> steigender Instabilität</p>
           <p class="src">DORA 2025</p>
         </div>
       </div>
     </section>
 
     <div class="rail">
-      <p class="rail-label"><b>03</b> Claim</p>
+      <p class="rail-label"><b>03</b> Behauptung</p>
     </div>
     <section>
-      <p class="eyebrow">The mechanism</p>
-      <h2>Jevons's paradox, one level up</h2>
-      <p>The essay already relies on Jevons to argue that cheap code expands the demand for software
-        rather than shrinking it. The same paradox runs at the level of the person — and this is the
-        part the optimistic version left out.</p>
+      <p class="eyebrow">Der Mechanismus</p>
+      <h2>Das Jevons-Paradoxon, eine Ebene höher</h2>
+      <p>Der Essay stützt sich bereits auf Jevons, um zu zeigen, dass billiger Code die Nachfrage
+        nach Software ausweitet, statt sie zu schrumpfen. Dasselbe Paradoxon läuft auf der Ebene
+        des Menschen – und das ist der Teil, den die optimistische Fassung ausließ.</p>
 
       <div class="parallel">
         <div class="par cool">
-          <p class="when">1865 · COAL</p>
+          <p class="when">1865 · KOHLE</p>
           <p class="chain">
-            Engines get more efficient<br/>
-            <b>→</b> each lump of coal does more work<br/>
-            <b>→</b> power gets cheaper<br/>
-            <b>→</b> a thousand new uses appear<br/>
-            <b>→</b> <b>total consumption soars</b>
+            Maschinen werden effizienter<br/>
+            <b>→</b> jeder Klumpen Kohle leistet mehr<br/>
+            <b>→</b> Kraft wird billiger<br/>
+            <b>→</b> tausend neue Verwendungen entstehen<br/>
+            <b>→</b> <b>der Gesamtverbrauch schießt hoch</b>
           </p>
-          <p style="margin-top:18px;font-size:14px">Britain did not end up with spare coal. Efficiency
-            consumed the savings and asked for more.</p>
+          <p style="margin-top:18px;font-size:14px">Britannien blieb nicht mit überschüssiger Kohle
+            zurück. Die Effizienz verbrauchte die Ersparnis und verlangte mehr.</p>
         </div>
         <div class="par hot">
-          <p class="when">2026 · ATTENTION</p>
+          <p class="when">2026 · AUFMERKSAMKEIT</p>
           <p class="chain">
-            Code gets cheaper to produce<br/>
-            <b>→</b> each hour of yours does more work<br/>
-            <b>→</b> supervision gets cheaper per unit<br/>
-            <b>→</b> more work runs in parallel<br/>
-            <b>→</b> <b>total attention spent soars</b>
+            Code wird billiger zu erzeugen<br/>
+            <b>→</b> jede deiner Stunden leistet mehr<br/>
+            <b>→</b> Aufsicht wird pro Einheit billiger<br/>
+            <b>→</b> mehr Arbeit läuft parallel<br/>
+            <b>→</b> <b>die aufgewendete Aufmerksamkeit schießt hoch</b>
           </p>
-          <p style="margin-top:18px;font-size:14px">The developer does not end up with spare attention.
-            Every hour the machine gives back is reinvested in supervising more work in flight, and
-            the surplus is never banked.</p>
+          <p style="margin-top:18px;font-size:14px">Der Entwickler bleibt nicht mit überschüssiger
+            Aufmerksamkeit zurück. Jede Stunde, die die Maschine zurückgibt, fließt in die Aufsicht
+            über noch mehr laufende Arbeit, und der Überschuss wird nie angespart.</p>
         </div>
       </div>
 
       <blockquote>
-        Automation takes the easy parts of a task and leaves the human the hard residue — then asks
-        them to stay alert for it indefinitely.
+        Die Automatisierung nimmt die leichten Teile einer Aufgabe und überlässt dem Menschen den
+        schweren Rest – und verlangt dann von ihm, dafür unbegrenzt wachsam zu bleiben.
         <cite>Lisanne Bainbridge · Ironies of Automation · 1983</cite>
       </blockquote>
-      <p style="margin-top:26px">This is why the phenomenon is not new and not a complaint. It is a
-        documented structural pattern — described forty years before these tools existed, in aviation
-        and process control — arriving in a new domain.</p>
+      <p style="margin-top:26px">Deshalb ist das Phänomen weder neu noch eine Klage. Es ist ein
+        dokumentiertes strukturelles Muster – vierzig Jahre vor diesen Werkzeugen beschrieben, in
+        der Luftfahrt und der Prozessleittechnik –, das in einem neuen Feld ankommt.</p>
     </section>
 
     <div class="rail">
-      <p class="rail-label"><b>04</b> Payoff</p>
+      <p class="rail-label"><b>04</b> Ertrag</p>
     </div>
     <section>
-      <p class="eyebrow">The consequence</p>
-      <h2>Human attention is the binding constraint</h2>
-      <p class="lead">Not compute. Not model capability. The ceiling on AI-augmented output is how much
-        of it one accountable person can hold in mind and vouch for — and unlike compute, you cannot
-        buy more of it.</p>
-      <p>And the better the tools get at generating — as they visibly have since 2025 — the harder
-        the constraint binds, not the softer. Every point of genuine speedup is more output arriving
-        at the same fixed pool of attention that must verify it. Which inverts a good deal of
-        strategy: buying capability past the point where anyone can supervise it does not produce
-        more usable output. It produces more <em>unverified</em> output, which is a liability rather
-        than an asset.</p>
+      <p class="eyebrow">Die Folge</p>
+      <h2>Menschliche Aufmerksamkeit ist die bindende Beschränkung</h2>
+      <p class="lead">Nicht Rechenleistung. Nicht Modellfähigkeit. Die Obergrenze KI-gestützter
+        Ausbringung ist, wie viel davon ein einzelner verantwortlicher Mensch im Kopf behalten und
+        verbürgen kann – und anders als Rechenleistung lässt sie sich nicht hinzukaufen.</p>
+      <p>Und je besser die Werkzeuge im Erzeugen werden – wie sichtbar seit 2025 –, desto härter
+        bindet die Beschränkung, nicht weicher. Jeder Punkt echter Beschleunigung ist mehr
+        Ausbringung, die bei demselben festen Vorrat prüfender Aufmerksamkeit ankommt. Das stellt
+        einen Gutteil der Strategie auf den Kopf: Mehr Fähigkeit zu kaufen, jenseits des Punktes,
+        an dem noch jemand sie beaufsichtigen kann, erzeugt keine höhere nutzbare Ausbringung. Es
+        erzeugt mehr <em>ungeprüfte</em> Ausbringung, und die ist eher Haftungsrisiko als
+        Vermögenswert.</p>
 
       <div class="caveat">
-        <b>It cuts against the usual worry, and both things are true.</b> The standard fear is that AI
-        makes people mentally lazy — judgment withering from disuse. The reported experience of the
-        people using it hardest is the opposite: a denser, heavier day, because what was automated away
-        first is the low-load work that used to pace it. Two different failure modes, landing on two
-        different groups. The honest version of the argument says both.
+        <b>Es läuft der üblichen Sorge zuwider, und beides trifft zu.</b> Die Standardfurcht lautet,
+        KI mache geistig träge – Urteilskraft, die aus Nichtgebrauch verkümmert. Die berichtete
+        Erfahrung derer, die sie am intensivsten nutzen, ist die gegenteilige: ein dichterer,
+        schwererer Tag, weil zuerst jene Arbeit mit geringer Last wegautomatisiert wurde, die ihn
+        rhythmisierte. Zwei verschiedene Versagensmuster, die zwei verschiedene Gruppen treffen.
+        Die ehrliche Fassung des Arguments nennt beide.
       </div>
     </section>
 
     <div class="rail">
-      <p class="rail-label"><b>05</b> Landed</p>
+      <p class="rail-label"><b>05</b> Gelandet</p>
     </div>
     <section>
-      <p class="eyebrow">Where it went in the essays</p>
-      <h2>Six files, one new argument line</h2>
+      <p class="eyebrow">Wohin es in den Essays ging</p>
+      <h2>Sechs Dateien, eine neue Argumentationslinie</h2>
 
       <div class="ledger">
         <div class="row">
-          <p class="f">software-developers.md</p>
-          <p class="d"><b>Primary.</b> The concession paragraph splits in two: the broken junior ladder
-            stays as the first cost, and the supervisory burden joins it as the second — framed as
-            Jevons one level up. Bounds the optimism without dissolving it.</p>
+          <p class="f">software-developers.de.md</p>
+          <p class="d"><b>Primär.</b> Der Zugeständnis-Absatz teilt sich in zwei: Die zerbrochene
+            Anfängerleiter bleibt die erste Kostenstelle, die Aufsichtslast tritt als zweite hinzu –
+            gerahmt als Jevons eine Ebene höher. Begrenzt den Optimismus, ohne ihn aufzulösen.</p>
         </div>
         <div class="row">
-          <p class="f">essay-draft.md &nbsp;§IX</p>
-          <p class="d"><b>Symmetry.</b> The closing paragraph named only the atrophy risk. It now carries
-            the opposite failure mode too, and the prescription becomes two-sided: keep judgment sharp,
-            <em>and</em> make judging all day sustainable.</p>
+          <p class="f">essay-draft.de.md &nbsp;§IX</p>
+          <p class="d"><b>Symmetrie.</b> Der Schlussabsatz nannte nur das Verkümmerungsrisiko. Er
+            trägt nun auch das entgegengesetzte Versagensmuster, und die Verschreibung wird
+            zweiseitig: die Urteilskraft scharf halten <em>und</em> ganztägiges Urteilen
+            durchhaltbar einrichten.</p>
         </div>
         <div class="row">
-          <p class="f">essay-outline.md &nbsp;§3b</p>
-          <p class="d"><b>Supervisory bandwidth</b> added to the list of what stays scarce — explicitly
-            distinguished from the curation bullet above it. Not choosing among finished things, but
-            vouching for machine-driven work streams.</p>
+          <p class="f">essay-outline.de.md &nbsp;§3b</p>
+          <p class="d"><b>Aufsichtskapazität</b> ergänzt die Liste dessen, was knapp bleibt –
+            ausdrücklich abgegrenzt von der Kuratierung darüber. Nicht die Wahl zwischen fertigen
+            Dingen, sondern das Einstehen für maschinengetriebene Arbeitsstränge.</p>
         </div>
         <div class="row">
-          <p class="f">essay-outline.md &nbsp;§11</p>
-          <p class="d"><b>Spin-off K.</b> A new argument spine with its own flowchart, wired into the
-            map as the counterweight to J, the Jevons piece. The only spin-off resting on named
-            empirical sources.</p>
+          <p class="f">essay-outline.de.md &nbsp;§11</p>
+          <p class="d"><b>Ableger K.</b> Ein neues Argument-Rückgrat mit eigenem Flussdiagramm, in
+            die Karte als Gegengewicht zu J, dem Jevons-Stück, eingehängt. Der einzige Ableger, der
+            auf benannten empirischen Quellen ruht.</p>
         </div>
         <div class="row">
-          <p class="f">*.de.md &nbsp;×3</p>
-          <p class="d">German counterparts mirrored throughout, following each file's own conventions.</p>
+          <p class="f">englische Fassungen &nbsp;×3</p>
+          <p class="d">Die englischen Gegenstücke tragen dieselben Änderungen, jeweils den
+            Konventionen der Datei folgend.</p>
         </div>
       </div>
 
       <div class="caveat" style="border-style:solid">
-        <b>One caveat worth carrying forward.</b> K is the only spin-off spine resting on named
-        empirical sources, which means those citations want re-checking whenever the piece is actually
-        written. The speed numbers have already flipped sign once — METR's 2025 &ldquo;slower&rdquo;
-        became 2026's estimated speedup — and they will move again. The strain findings are the
-        stable part; cite the speed numbers as a trajectory, dated, never as a snapshot.
+        <b>Ein Vorbehalt zum Mitnehmen.</b> K ist das einzige Ableger-Rückgrat, das auf benannten
+        empirischen Quellen ruht, weshalb diese Zitate zu prüfen sind, wann immer das Stück
+        tatsächlich geschrieben wird. Die Geschwindigkeitszahlen haben das Vorzeichen bereits
+        einmal gewechselt – METRs „langsamer&ldquo; von 2025 wurde 2026 zur geschätzten
+        Beschleunigung – und sie werden sich wieder bewegen. Die Belastungsbefunde sind der stabile
+        Teil; zitiere die Geschwindigkeitszahlen als datierten Verlauf, nie als Momentaufnahme.
       </div>
     </section>
   </div>
 
   <footer>
-    Sources · <a href="https://dora.dev/insights/balancing-ai-tensions/">DORA 2025, Balancing AI tensions</a>
+    Quellen · <a href="https://dora.dev/insights/balancing-ai-tensions/">DORA 2025, Balancing AI tensions</a>
     · <a href="https://survey.stackoverflow.co/2025/ai/">Stack Overflow Developer Survey 2025</a>
-    · <a href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/">METR productivity trial (2025)</a>
-    · <a href="https://metr.org/blog/2026-02-24-uplift-update/">METR study redesign &amp; update (2026)</a>
+    · <a href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/">METR-Produktivitätsstudie (2025)</a>
+    · <a href="https://metr.org/blog/2026-02-24-uplift-update/">METR Neuaufsetzung &amp; Update (2026)</a>
     · <a href="https://arxiv.org/pdf/2606.05770">Human Oversight and Overload</a>
-    · <a href="https://arxiv.org/html/2605.23135v1">Longitudinal study of AI coding assistants</a><br/>
-    Deutsche Fassung · <a href="attention-bottleneck.de.html">Der Aufmerksamkeitsengpass</a>
-    · Companion graphic · <a href="essay-map.html">Capability. Value. Worth.</a>
+    · <a href="https://arxiv.org/html/2605.23135v1">Längsschnittstudie zu KI-Coding-Assistenten</a><br/>
+    English version · <a href="attention-bottleneck.html">The Attention Bottleneck</a>
+    · Begleitgrafik · <a href="essay-map.de.html">Fähigkeit. Wert. Würde.</a>
     · Repository · <a href="https://github.com/ccabos/live-with-AI">ccabos/live-with-AI</a>
   </footer>
 </div>

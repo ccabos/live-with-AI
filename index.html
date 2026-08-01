@@ -144,6 +144,23 @@
     margin-top: 20px;
     display: block;
   }
+  .langrow {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    padding: 0 26px 22px;
+    background: var(--surface);
+    margin-top: -10px;
+  }
+  .langrow a {
+    color: var(--muted);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 1px;
+  }
+  .langrow a:hover { color: var(--ember); border-color: var(--ember); }
+  .langrow a:focus-visible { outline: 2px solid var(--ember); outline-offset: 2px; }
 
   /* list */
   ul { list-style: none; margin: 0; padding: 0; }
@@ -225,7 +242,7 @@
   <section>
     <h2>Graphics</h2>
     <div class="features">
-      <a class="feature" href="essay-map.html">
+      <div><a class="feature" href="essay-map.html">
         <p class="kind">Infographic — the whole essay</p>
         <p class="t">Capability. Value. Worth.</p>
         <p class="d">The essay's argument in one map: three claims hiding in one sentence, the
@@ -233,7 +250,8 @@
           the futures the two big variables select among.</p>
         <span class="go">Open →</span>
       </a>
-      <a class="feature" href="attention-bottleneck.html">
+      <p class="langrow">auch auf Deutsch · <a href="essay-map.de.html">Fähigkeit. Wert. Würde.</a></p></div>
+      <div><a class="feature" href="attention-bottleneck.html">
         <p class="kind">Infographic — spin-off K</p>
         <p class="t">The Attention Bottleneck</p>
         <p class="d">Capability got cheap; attention didn't. The four mechanisms by which
@@ -241,6 +259,7 @@
           and Jevons's paradox running one level up — at the level of the person.</p>
         <span class="go">Open →</span>
       </a>
+      <p class="langrow">auch auf Deutsch · <a href="attention-bottleneck.de.html">Der Aufmerksamkeitsengpass</a></p></div>
     </div>
   </section>
 

@@ -645,9 +645,18 @@ Zweitens ist die empirische Stütze härter als bei jedem anderen Ableger hier: 
 (die beim Schreiben gesparte Zeit wird beim Auditieren wieder ausgegeben, neben KI-korrelierten
 Zuwächsen sowohl beim Durchsatz *als auch* bei der Instabilität), der Befund von Stack Overflow, dass
 „fast richtig, aber nicht ganz" die größte Einzelfrustration von Entwicklern ist – mit dem Debuggen
-KI-erzeugten Codes an zweiter Stelle –, und METRs randomisierte Studie, in der erfahrene Entwickler
-messbar langsamer mit KI waren, sich selbst aber für deutlich schneller hielten. Diese
-Wahrnehmungslücke ist selbst Teil des Arguments.
+KI-erzeugten Codes an zweiter Stelle –, und METRs Studienbogen – der als Bogen erzählt werden muss,
+denn das Vorzeichen hat gewechselt. Anfang 2025 waren erfahrene Entwickler messbar langsamer mit KI,
+hielten sich selbst aber für deutlich schneller; Anfang 2026 deutet METRs neu aufgesetzte Studie in
+die Gegenrichtung, auf eine echte Beschleunigung (geschätzt rund +18 % für einen Teil der
+ursprünglichen Kohorte), wobei METR die Größe selbst als schwache Evidenz einstuft, da Entwickler,
+die nicht mehr ohne KI arbeiten wollen, sich der Messung inzwischen entziehen. Beide Hälften dienen
+dem Argument. Die Wahrnehmungslücke von 2025 zeigt, dass Selbstauskunft die Frage nicht entscheiden
+kann. Und die Beschleunigung von 2026 *verschärft* die Engpass-These, statt sie zu entkräften:
+Solange die Werkzeuge das Erzeugen verlangsamten, war Aufmerksamkeit nicht die bindende
+Beschränkung – jetzt, da das Erzeugen wirklich schneller wird, ist jeder Punkt Beschleunigung mehr
+Ausbringung, die bei demselben festen Vorrat an prüfender Aufmerksamkeit ankommt. Die Befunde zur
+Belastung, wohlgemerkt, haben das Vorzeichen nie gewechselt.
 
 Die geistige Ahnenreihe ist älter als die Werkzeuge und sollte genutzt werden: Bainbridges *Ironies of
 Automation* (1983) – die Automatisierung nimmt die leichten Teile einer Aufgabe und überlässt dem

@@ -115,6 +115,11 @@ A useful list to build the argument around — value migrates here:
   parenting, repair.
 - **Attention, taste, and curation** — when content is infinite, the scarce good is
   *selection* and *the trusted filter.*
+- **Supervisory bandwidth** — distinct from curation above: not choosing among finished
+  things, but holding several machine-driven work streams in mind, verifying each, and
+  answering for the result. When machines produce more work than anyone can check, the
+  binding constraint on output is the attention of whoever must vouch for it — and unlike
+  compute, it cannot be bought in bulk. (Developed as spin-off K below.)
 - **Energy, materials, land, compute** — the unglamorous physical substrate.
 - **Legitimacy** — the right to decide, which we may *refuse* to delegate to machines
   even when they'd decide "better."
@@ -227,6 +232,15 @@ she builds the very systems automating her.)*
     value is migrating from what you produce to what you judge; judgment atrophies if you
     let the tool think. Use the machine relentlessly; never let it replace the
     understanding that knows whether the output is right.
+  - **And survive exercising it** — the opposite failure mode, and the more common one
+    among heavy users. What is left after the machine takes the routine is *all* judgment:
+    only hard decisions reach you, the pace is set by something that does not tire,
+    verifying fluent-but-sometimes-wrong output never stops, and running several agents at
+    once fragments attention across unfinished problems. The low-load work that used to
+    pace a day is the first thing automated away. Bainbridge's *ironies of automation*
+    (1983): automation leaves the human the hard residue and demands indefinite vigilance
+    for it. So the prescription is two-sided — don't let judgment wither, *and* arrange the
+    work so that judging all day stays sustainable. (Full line of argument: spin-off K.)
 
 ---
 
@@ -416,6 +430,8 @@ flowchart TD
     S5 --> G["G · Profession by Profession — §4d"]
     S5 --> H["H · Four Futures — §7"]
     G --> J["J · The Developer's Paradox (Jevons) — WRITTEN"]
+    S1 --> K["K · The Attention Bottleneck — §3b/§4d/§5"]
+    J -.->|"counterweight"| K
 ```
 
 ### A · The Paradox of Abundance *(from §3a)*
@@ -536,6 +552,54 @@ flowchart TD
     J1 -->|"so"| J2
     J2 -->|"and"| J3
     J3 -->|"therefore"| J4
+```
+
+### K · The Attention Bottleneck *(from §3b / §4d / §5)*
+The counterweight to J, and the honest sequel to it. J establishes that cheap code expands the
+work rather than shrinking it; K asks who is going to have the attention to supervise all of it.
+The premise is that capability is now cheap and its output abundant — but every unit of machine
+output still needs a human who verifies it and answers for it, and verification does *not* cheapen
+at the rate generation does. Arguably it gets dearer: plausible-but-wrong output is harder to reject
+than obviously-wrong output, because there is no cheap rejection signal, so the reviewer must
+reconstruct the reasoning to know whether to trust it. Add three compounding effects — only the hard
+decisions now reach the human, the pace is set by machines that do not tire, and running several
+agents at once fragments attention across unfinished problems — and the conclusion is that human
+attention, not compute and not model capability, becomes the binding constraint on AI-augmented
+output.
+
+Two things make this line worth writing separately rather than folding into J. First, it inverts the
+usual worry: the standard fear is that AI makes people mentally lazy (§5's atrophy argument), while
+the reported experience of people using it hardest is the opposite — a *heavier*, denser day, because
+what was automated away first is the low-load work that used to pace it. Both are true, of different
+people, and the essay should say so. Second, it has harder empirical support than any other spin-off
+here: DORA's "verification tax" (time saved writing is re-spent auditing, alongside AI-correlated
+gains in throughput *and* in instability), Stack Overflow's finding that "almost right, but not
+quite" output is developers' single largest frustration with debugging AI-generated code second, and
+METR's randomized trial in which experienced developers were measurably slower with AI while
+believing themselves substantially faster. The perception gap is itself part of the argument.
+
+The intellectual lineage is older than the tools and should be used: Bainbridge's *Ironies of
+Automation* (1983) — automation takes the easy parts of a task and leaves the human the hard
+residue, then demands indefinite vigilance for it — plus the literature on automation complacency,
+out-of-the-loop performance, and attention residue in task-switching. That framing keeps the piece
+from reading as complaint; it is a well-documented structural pattern arriving in a new domain.
+
+Payoff and stakes: if human attention is the true bottleneck, then a great deal of AI strategy is
+mis-aimed. Buying more capability past the point where anyone can supervise it does not produce more
+usable output; it produces more unverified output, which is a liability rather than an asset. This
+ties back to §3b (attention as the scarce complement to cheap cognition), to §5 (judgment as the
+faculty being taxed rather than the one being lost), and to §IX/§4d (the engineer as the first worker
+to live inside the constraint).
+
+```mermaid
+flowchart TD
+    K1["Premise: machine capability is cheap<br/>and its output abundant"]
+    K2["Tension: every unit of output still needs a human<br/>to verify it and answer for it"]
+    K3["Claim: verification does not cheapen with generation —<br/>plausible-but-wrong is costly to reject; only the hard<br/>decisions remain; parallel agents fragment attention"]
+    K4["Payoff: human attention is the binding constraint —<br/>the scarce complement to cheap cognition,<br/>and it cannot be bought in bulk"]
+    K1 -->|"but"| K2
+    K2 -->|"and"| K3
+    K3 -->|"therefore"| K4
 ```
 
 ---

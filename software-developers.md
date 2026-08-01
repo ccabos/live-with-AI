@@ -86,12 +86,38 @@ exactly the parts that were always the most valuable and the hardest to automate
 becomes, in a literal sense, a director of machine intelligences, commanding more capability than a
 whole team once did.
 
-None of this is automatic or painless, and it would be dishonest to pretend otherwise. The junior
-rung — the boilerplate and the well-specified function, the work an apprentice once cut their teeth
-on — is the first to be automated, and that breaks the ladder by which people used to climb to the
-judgment the top rewards. We will have to build new ladders deliberately. But notice that this is a
-problem of *how the expansion is shared*, not *whether it happens*. The aggregate direction, for
-once, points up.
+None of this is automatic or painless, and it would be dishonest to pretend otherwise. Two costs
+come with the expansion, and they land on different people.
+
+The first is the ladder. The junior rung — the boilerplate and the well-specified function, the work
+an apprentice once cut their teeth on — is the first to be automated, and that breaks the ladder by
+which people used to climb to the judgment the top rewards. We will have to build new ladders
+deliberately. But notice that this is a problem of *how the expansion is shared*, not *whether it
+happens*.
+
+The second falls on the very people the expansion is supposed to reward, and it is the one the
+optimistic story keeps quiet about. Directing a fleet of agents is not a lighter job than writing
+the code yourself. The machine takes the cheap parts of the day and leaves you a day made entirely
+of the expensive ones: only the hard calls reach you, the pace is set by machines that do not tire,
+and the reviewing never stops — and reviewing fluent, confident, occasionally wrong work is more
+taxing than writing straightforward work, because nothing about it is cheap to reject. You have to
+reconstruct the reasoning to know whether to trust it. Run several agents at once, as the economics
+push you to, and you add the cost of holding several unfinished problems in mind at the same time.
+Developers working this way report the same thing consistently: the output rises, and so does the
+strain.
+
+This is Jevons's paradox again, one level up, and we should have expected it. Efficiency did not
+leave Britain with spare coal; it consumed the savings and asked for more. It does not leave the
+developer with spare attention either. Every hour the machine gives back is immediately reinvested
+in supervising more work in flight, and the surplus is never banked. Which names the real ceiling on
+all of this: not how much code the machines can write, but how much of it one accountable person can
+hold in mind and vouch for. Human attention is the scarce complement to cheap code, and unlike
+compute you cannot simply buy more of it.
+
+That bounds the optimism without dissolving it — it limits how far a single developer can be
+amplified, not whether the amplification is real. The aggregate direction, for once, still points
+up. But the work waiting at the top is more demanding than "director of machine intelligences" makes
+it sound.
 
 The coal did not run out when the engines grew efficient; Britain built an industrial economy on the
 demand that efficiency unleashed. Make code cheap and we will not build less software. We will

@@ -612,10 +612,27 @@ engineer's whole value is migrating from what she can produce to what she can ju
 is precisely the faculty that withers when one stops exercising it and lets the machine decide. The
 temptation will be to let the tool think: to ship what it suggests unread, to trade understanding
 for speed, to become a conduit for code one no longer quite follows. To yield to it is to hollow out
-the very capacity that was meant to be the refuge. The engineer who lasts is the one who uses the
-machine relentlessly and keeps her own understanding sharp anyway — who lets it write the code but
-never lets it replace the judgment that knows whether the code is right. That is the discipline this
-future asks of her, and it is only the sharpest instance of what it asks of all of us.
+the very capacity that was meant to be the refuge.
+
+But there is an opposite danger, less discussed and at least as common, and the engineer who escapes
+the first will meet the second. The work left to her after the machine takes the routine is *all*
+judgment, and judgment is not free to exercise. Only the difficult decisions reach her now. The pace
+is set by a machine that does not tire. The reviewing of plausible, confident, occasionally
+subtly-wrong output never stops, and it is more taxing than producing straightforward work, because
+nothing about such output is cheap to reject — she must reconstruct the reasoning to know whether to
+trust it. And the economics of the tools push her to keep several of them running at once, which
+means holding several unfinished problems in mind at the same time. What has been automated away
+first is precisely the low, half-idling work that used to pace a day and let the mind recover. This
+is the oldest irony of automation, named decades before these machines existed: automation takes the
+easy parts of a task and leaves the human the hard residue, then asks them to stay alert for it
+indefinitely. The danger is not only that her judgment might wither from disuse. It is that it will
+be demanded continuously, and that a person has only so much of it to give in a day.
+
+The engineer who lasts, then, is the one who uses the machine relentlessly and keeps her own
+understanding sharp anyway — who lets it write the code but never lets it replace the judgment that
+knows whether the code is right — and who arranges her work so that judging all day remains
+something a human being can actually sustain. That is the discipline this future asks of her, and it
+is only the sharpest instance of what it asks of all of us.
 
 With that concrete case in hand — the worker at once most exposed to this change and most able to
 steer it — we can widen the lens again, to the range of futures it foreshadows.

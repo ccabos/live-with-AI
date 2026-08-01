@@ -661,11 +661,30 @@ beurteilen kann – und Urteilskraft ist genau jene Fähigkeit, die verkümmert,
 üben, und die Maschine entscheiden lässt. Die Versuchung wird sein, das Werkzeug denken zu lassen:
 ungelesen auszuliefern, was es vorschlägt, Verständnis gegen Tempo zu tauschen, zum Durchlauferhitzer
 für Code zu werden, dem man selbst nicht mehr ganz folgt. Ihr nachzugeben heißt, eben die Fähigkeit
-auszuhöhlen, die das Refugium sein sollte. Die Entwicklerin, die Bestand hat, ist diejenige, die die
-Maschine unermüdlich nutzt und ihr eigenes Verständnis dennoch scharf hält – die sie den Code
-schreiben lässt, aber nie das Urteil ersetzen lässt, das weiß, ob der Code richtig ist. Das ist die
-Disziplin, die diese Zukunft von ihr verlangt, und sie ist nur der schärfste Einzelfall dessen, was
-sie von uns allen verlangt.
+auszuhöhlen, die das Refugium sein sollte.
+
+Doch es gibt eine entgegengesetzte Gefahr, seltener besprochen und mindestens ebenso verbreitet, und
+wer der ersten entgeht, begegnet der zweiten. Die Arbeit, die ihr bleibt, nachdem die Maschine das
+Routinehafte genommen hat, ist *ausschließlich* Urteilskraft – und Urteilskraft zu üben ist nicht
+umsonst. Nur noch die schweren Entscheidungen erreichen sie. Das Tempo gibt eine Maschine vor, die
+nicht ermüdet. Das Prüfen plausibler, selbstbewusster, gelegentlich fein danebenliegender Ausgaben
+hört nie auf, und es ist anstrengender, als geradlinige Arbeit hervorzubringen, denn nichts an solchen
+Ausgaben lässt sich billig verwerfen – sie muss die Überlegung nachbauen, um zu wissen, ob sie ihr
+trauen kann. Und die Ökonomie der Werkzeuge drängt sie, mehrere davon zugleich laufen zu lassen, was
+heißt, mehrere unfertige Probleme gleichzeitig im Kopf zu halten. Wegautomatisiert wurde zuerst genau
+die niedrige, halb im Leerlauf verrichtete Arbeit, die einen Tag einst rhythmisierte und den Geist
+sich erholen ließ. Das ist die älteste Ironie der Automatisierung, benannt Jahrzehnte vor diesen
+Maschinen: Die Automatisierung nimmt die leichten Teile einer Aufgabe und überlässt dem Menschen den
+schweren Rest – und verlangt dann von ihm, dafür unbegrenzt wachsam zu bleiben. Die Gefahr ist nicht
+allein, dass ihre Urteilskraft aus Nichtgebrauch verkümmert. Sie ist, dass diese ununterbrochen
+abgerufen wird und ein Mensch nur so viel davon an einem Tag zu geben hat.
+
+Die Entwicklerin, die Bestand hat, ist demnach diejenige, die die Maschine unermüdlich nutzt und ihr
+eigenes Verständnis dennoch scharf hält – die sie den Code schreiben lässt, aber nie das Urteil
+ersetzen lässt, das weiß, ob der Code richtig ist – und die ihre Arbeit so einrichtet, dass
+ganztägiges Urteilen etwas bleibt, das ein Mensch tatsächlich durchhalten kann. Das ist die Disziplin,
+die diese Zukunft von ihr verlangt, und sie ist nur der schärfste Einzelfall dessen, was sie von uns
+allen verlangt.
 
 Mit diesem konkreten Fall in der Hand – der Arbeiterin, die zugleich dieser Veränderung am stärksten
 ausgesetzt und am ehesten imstande ist, sie zu lenken – können wir den Blick wieder weiten, auf die

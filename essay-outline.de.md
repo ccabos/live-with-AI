@@ -138,6 +138,12 @@ Eine nützliche Liste, um das Argument darum herum aufzubauen – Wert wandert h
   Erziehung, Reparatur.
 - **Aufmerksamkeit, Geschmack und Kuratierung** – wenn Inhalt unendlich ist, ist das
   knappe Gut die *Auswahl* und der *vertrauenswürdige Filter.*
+- **Aufsichtskapazität** – zu unterscheiden von der Kuratierung darüber: nicht die Wahl
+  zwischen fertigen Dingen, sondern mehrere maschinengetriebene Arbeitsstränge im Kopf zu
+  halten, jeden zu prüfen und für das Ergebnis einzustehen. Wenn Maschinen mehr Arbeit
+  hervorbringen, als irgendjemand prüfen kann, ist die bindende Beschränkung die
+  Aufmerksamkeit dessen, der dafür einstehen muss – und anders als Rechenleistung lässt
+  sie sich nicht in Mengen kaufen. (Als Ableger K unten ausgeführt.)
 - **Energie, Materialien, Land, Rechenleistung** – das unglamouröse physische Substrat.
 - **Legitimität** – das Recht zu entscheiden, das wir Maschinen vielleicht zu delegieren
   *verweigern*, selbst wenn sie „besser" entscheiden würden.
@@ -266,6 +272,17 @@ rückbezüglich ist: Sie baut genau die Systeme, die sie automatisieren.)*
     personalisiert): Der Wert wandert von dem, was man produziert, zu dem, was man beurteilt;
     Urteilskraft verkümmert, wenn man das Werkzeug denken lässt. Nutze die Maschine
     unermüdlich; lass sie nie das Verständnis ersetzen, das weiß, ob der Output richtig ist.
+  - **Und das Ausüben durchhalten** – das entgegengesetzte Versagensmuster und das häufigere
+    unter Intensivnutzern. Was bleibt, nachdem die Maschine das Routinehafte genommen hat,
+    ist *ausschließlich* Urteilskraft: Nur schwere Entscheidungen erreichen einen, das Tempo
+    gibt etwas vor, das nicht ermüdet, das Prüfen flüssiger, aber mitunter falscher Ausgaben
+    hört nie auf, und mehrere gleichzeitig laufende Agenten zersplittern die Aufmerksamkeit
+    auf unfertige Probleme. Die Arbeit mit geringer Last, die einen Tag einst rhythmisierte,
+    wird zuerst wegautomatisiert. Bainbridges *Ironien der Automatisierung* (1983): Die
+    Automatisierung überlässt dem Menschen den schweren Rest und verlangt dafür unbegrenzte
+    Wachsamkeit. Die Verschreibung ist also zweiseitig – die Urteilskraft nicht verkümmern
+    lassen *und* die Arbeit so einrichten, dass ganztägiges Urteilen durchhaltbar bleibt.
+    (Vollständige Argumentationslinie: Ableger K.)
 
 ---
 
@@ -472,6 +489,8 @@ flowchart TD
     S5 --> G["G · Beruf für Beruf – §4d"]
     S5 --> H["H · Vier Zukünfte – §7"]
     G --> J["J · Das Paradox des Entwicklers (Jevons) – GESCHRIEBEN"]
+    S1 --> K["K · Der Aufmerksamkeitsengpass – §3b/§4d/§5"]
+    J -.->|"Gegengewicht"| K
 ```
 
 ### A · Das Paradox des Überflusses *(aus §3a)*
@@ -596,6 +615,59 @@ flowchart TD
     J1 -->|"so"| J2
     J2 -->|"und"| J3
     J3 -->|"daher"| J4
+```
+
+### K · Der Aufmerksamkeitsengpass *(aus §3b / §4d / §5)*
+Das Gegengewicht zu J und dessen ehrliche Fortsetzung. J zeigt, dass billiger Code die Arbeit
+ausweitet, statt sie zu schrumpfen; K fragt, wer die Aufmerksamkeit haben soll, um all das zu
+beaufsichtigen. Die Prämisse: Fähigkeit ist nun billig und ihre Ausbringung reichlich – doch jede
+Einheit maschineller Ausbringung braucht weiterhin einen Menschen, der sie prüft und für sie
+einsteht, und das Prüfen verbilligt sich *nicht* im Tempo des Erzeugens. Vermutlich wird es teurer:
+Plausibel-aber-falsch ist schwerer zu verwerfen als offensichtlich falsch, denn es gibt kein billiges
+Verwerfungssignal – der Prüfende muss die Überlegung nachbauen, um zu wissen, ob er ihr trauen kann.
+Hinzu kommen drei sich verstärkende Effekte – nur noch die schweren Entscheidungen erreichen den
+Menschen, das Tempo geben Maschinen vor, die nicht ermüden, und mehrere gleichzeitig laufende Agenten
+zersplittern die Aufmerksamkeit auf unfertige Probleme –, und der Schluss lautet: Menschliche
+Aufmerksamkeit, nicht Rechenleistung und nicht Modellfähigkeit, wird zur bindenden Beschränkung
+KI-gestützter Ausbringung.
+
+Zweierlei macht diese Linie eigenständig schreibenswert, statt sie in J einzufalten. Erstens kehrt sie
+die übliche Sorge um: Die Standardfurcht lautet, KI mache geistig träge (§5s Verkümmerungsargument),
+während die berichtete Erfahrung derer, die sie am intensivsten nutzen, die gegenteilige ist – ein
+*schwererer*, dichterer Tag, weil zuerst jene Arbeit mit geringer Last wegautomatisiert wurde, die ihn
+einst rhythmisierte. Beides trifft zu, auf verschiedene Menschen, und der Essay sollte das sagen.
+Zweitens ist die empirische Stütze härter als bei jedem anderen Ableger hier: DORAs „Prüfsteuer"
+(die beim Schreiben gesparte Zeit wird beim Auditieren wieder ausgegeben, neben KI-korrelierten
+Zuwächsen sowohl beim Durchsatz *als auch* bei der Instabilität), der Befund von Stack Overflow, dass
+„fast richtig, aber nicht ganz" die größte Einzelfrustration von Entwicklern ist – mit dem Debuggen
+KI-erzeugten Codes an zweiter Stelle –, und METRs randomisierte Studie, in der erfahrene Entwickler
+messbar langsamer mit KI waren, sich selbst aber für deutlich schneller hielten. Diese
+Wahrnehmungslücke ist selbst Teil des Arguments.
+
+Die geistige Ahnenreihe ist älter als die Werkzeuge und sollte genutzt werden: Bainbridges *Ironies of
+Automation* (1983) – die Automatisierung nimmt die leichten Teile einer Aufgabe und überlässt dem
+Menschen den schweren Rest, um dann unbegrenzte Wachsamkeit dafür zu verlangen – dazu die Literatur zu
+Automatisierungs-Selbstzufriedenheit, zum Out-of-the-Loop-Problem und zum Aufmerksamkeitsrückstand
+beim Aufgabenwechsel. Diese Rahmung bewahrt das Stück davor, als Klage gelesen zu werden; es ist ein
+gut dokumentiertes strukturelles Muster, das in einem neuen Feld ankommt.
+
+Ertrag und Einsatz: Ist menschliche Aufmerksamkeit der eigentliche Engpass, dann zielt ein großer Teil
+der KI-Strategie daneben. Mehr Fähigkeit zu kaufen, jenseits des Punktes, an dem noch jemand sie
+beaufsichtigen kann, erzeugt keine höhere nutzbare Ausbringung; es erzeugt mehr ungeprüfte
+Ausbringung, und die ist eher Haftungsrisiko als Vermögenswert. Das bindet zurück an §3b
+(Aufmerksamkeit als knappes Komplement billiger Kognition), an §5 (Urteilskraft als die belastete,
+nicht als die verlorene Fähigkeit) und an §IX/§4d (die Entwicklerin als erste Arbeitende, die in
+dieser Beschränkung lebt).
+
+```mermaid
+flowchart TD
+    K1["Prämisse: maschinelle Fähigkeit ist billig<br/>und ihre Ausbringung reichlich"]
+    K2["Spannung: jede Einheit Ausbringung braucht weiterhin<br/>einen Menschen, der sie prüft und für sie einsteht"]
+    K3["Behauptung: Prüfen verbilligt sich nicht mit dem Erzeugen –<br/>plausibel-aber-falsch ist teuer zu verwerfen; nur die schweren<br/>Entscheidungen bleiben; parallele Agenten zersplittern die Aufmerksamkeit"]
+    K4["Ertrag: menschliche Aufmerksamkeit ist die bindende<br/>Beschränkung – das knappe Komplement billiger Kognition,<br/>und sie lässt sich nicht in Mengen kaufen"]
+    K1 -->|"aber"| K2
+    K2 -->|"und"| K3
+    K3 -->|"daher"| K4
 ```
 
 ---

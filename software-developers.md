@@ -1,3 +1,8 @@
+---
+title: "More Code, Not Fewer Coders"
+lang: en
+---
+
 # More Code, Not Fewer Coders
 
 *Why cheap AI code will multiply software developers, not replace them.*

@@ -1,3 +1,8 @@
+---
+title: "Living With AI That Is More Intelligent Than Us"
+lang: en
+---
+
 # Living With AI That Is More Intelligent Than Us
 
 *A philosophical essay. Draft — opening movement (introduction, thesis, and the

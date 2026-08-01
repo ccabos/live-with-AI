@@ -1,3 +1,8 @@
+---
+title: "Das Leben mit einer KI, die intelligenter ist als wir"
+lang: de
+---
+
 # Das Leben mit einer KI, die intelligenter ist als wir
 
 

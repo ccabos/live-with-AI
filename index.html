@@ -146,18 +146,22 @@
     border-bottom: 1px solid var(--hairline);
   }
   li:last-child { border-bottom: 0; }
-  li a {
+  .row {
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto;
     gap: 8px 20px;
     align-items: baseline;
     padding: 15px 4px;
-    text-decoration: none;
-    color: inherit;
   }
-  li a:hover .n { color: var(--ember); }
-  li a:focus-visible { outline: 2px solid var(--ember); outline-offset: 2px; }
-  .n { font-family: var(--serif); font-size: 18px; line-height: 1.3; }
+  .n {
+    font-family: var(--serif);
+    font-size: 18px;
+    line-height: 1.3;
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .n:hover { color: var(--ember); }
+  .n:focus-visible { outline: 2px solid var(--ember); outline-offset: 2px; }
   .meta {
     font-family: var(--mono);
     font-size: 11px;
@@ -165,6 +169,14 @@
     color: var(--muted);
     white-space: nowrap;
   }
+  .meta a {
+    color: var(--muted);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 1px;
+  }
+  .meta a:hover { color: var(--ember); border-color: var(--ember); }
+  .meta a:focus-visible { outline: 2px solid var(--ember); outline-offset: 2px; }
   .sub { grid-column: 1 / -1; font-size: 13.5px; color: var(--ink-2); margin: 0; line-height: 1.5; max-width: 62ch; }
 
   .note {
@@ -191,7 +203,7 @@
   footer a:focus-visible { outline: 2px solid var(--ember); outline-offset: 2px; }
 
   @media (max-width: 560px) {
-    li a { grid-template-columns: minmax(0, 1fr); }
+    .row { grid-template-columns: minmax(0, 1fr); }
     .meta { white-space: normal; }
   }
 </style>
@@ -221,43 +233,39 @@
     <h2>The writing</h2>
     <ul>
       <li>
-        <a href="https://github.com/ccabos/live-with-AI/blob/main/essay-draft.md">
-          <span class="n">Living With AI That Is More Intelligent Than Us</span>
-          <span class="meta">essay · en / de</span>
+        <div class="row">
+          <a class="n" href="essay-draft.html">Living With AI That Is More Intelligent Than Us</a>
+          <span class="meta">essay &middot; <a href="essay-draft.de.html">de</a></span>
           <p class="sub">The full essay in eleven sections, from the unbundling of capability, value
             and worth through to open weights and the shape of the futures.</p>
-        </a>
+        </div>
       </li>
       <li>
-        <a href="https://github.com/ccabos/live-with-AI/blob/main/op-ed.md">
-          <span class="n">The Machines Will Be Smarter. The Question Is Whether We'll Be Wise.</span>
-          <span class="meta">op-ed · en / de</span>
+        <div class="row">
+          <a class="n" href="op-ed.html">The Machines Will Be Smarter. The Question Is Whether We&rsquo;ll Be Wise.</a>
+          <span class="meta">op-ed &middot; <a href="op-ed.de.html">de</a></span>
           <p class="sub">The argument at op-ed length: the hardest problems of this age are not
-            technical but human — distribution, power, and meaning.</p>
-        </a>
+            technical but human &mdash; distribution, power, and meaning.</p>
+        </div>
       </li>
       <li>
-        <a href="https://github.com/ccabos/live-with-AI/blob/main/software-developers.md">
-          <span class="n">More Code, Not Fewer Coders</span>
-          <span class="meta">spin-off J · en / de</span>
+        <div class="row">
+          <a class="n" href="software-developers.html">More Code, Not Fewer Coders</a>
+          <span class="meta">spin-off J &middot; <a href="software-developers.de.html">de</a></span>
           <p class="sub">Why cheap AI code will multiply software developers rather than replace
-            them — and what the expansion costs the people it rewards.</p>
-        </a>
+            them &mdash; and what the expansion costs the people it rewards.</p>
+        </div>
       </li>
       <li>
-        <a href="https://github.com/ccabos/live-with-AI/blob/main/essay-outline.md">
-          <span class="n">Outline and spin-off map</span>
-          <span class="meta">working notes · en / de</span>
+        <div class="row">
+          <a class="n" href="essay-outline.html">Outline and spin-off map</a>
+          <span class="meta">working notes &middot; <a href="essay-outline.de.html">de</a></span>
           <p class="sub">The scaffolding: section-by-section argument, the credibility checklist, and
             the lettered catalogue of follow-up pieces with their argument spines.</p>
-        </a>
+        </div>
       </li>
     </ul>
   </section>
-
-  <p class="note"><b>The essays live on GitHub, not here.</b> This site serves the graphics as web
-    pages; the writing is Markdown, which renders properly in the repository view. The links above
-    point there.</p>
 
   <footer>
     <a href="https://github.com/ccabos/live-with-AI">github.com/ccabos/live-with-AI</a>

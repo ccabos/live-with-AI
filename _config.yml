@@ -1,0 +1,17 @@
+title: live-with-AI
+description: >-
+  Essays on living with AI that is more intelligent than us, and the
+  graphics that go with them.
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

@@ -104,16 +104,21 @@
   section { margin-bottom: 52px; }
 
   /* featured */
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+  }
   .feature {
     display: block;
     background: var(--surface);
-    border: 1px solid var(--rule);
     padding: 28px 26px;
     text-decoration: none;
     color: inherit;
-    transition: border-color .15s;
   }
-  .feature:hover { border-color: var(--ember); }
+  .feature:hover { box-shadow: inset 0 0 0 1px var(--ember); }
   .feature:focus-visible { outline: 2px solid var(--ember); outline-offset: 3px; }
   .feature .kind {
     font-family: var(--mono);
@@ -218,15 +223,25 @@
     and worth.</p>
 
   <section>
-    <h2>Graphic</h2>
-    <a class="feature" href="attention-bottleneck.html">
-      <p class="kind">Infographic — spin-off K</p>
-      <p class="t">The Attention Bottleneck</p>
-      <p class="d">Capability got cheap; attention didn't. The four mechanisms by which
-        AI-assisted work gets heavier rather than lighter, the empirical evidence behind them,
-        and Jevons's paradox running one level up — at the level of the person.</p>
-      <span class="go">Open →</span>
-    </a>
+    <h2>Graphics</h2>
+    <div class="features">
+      <a class="feature" href="essay-map.html">
+        <p class="kind">Infographic — the whole essay</p>
+        <p class="t">Capability. Value. Worth.</p>
+        <p class="d">The essay's argument in one map: three claims hiding in one sentence, the
+          unbundling at the center, the seams it opens in common life, the economy and work, and
+          the futures the two big variables select among.</p>
+        <span class="go">Open →</span>
+      </a>
+      <a class="feature" href="attention-bottleneck.html">
+        <p class="kind">Infographic — spin-off K</p>
+        <p class="t">The Attention Bottleneck</p>
+        <p class="d">Capability got cheap; attention didn't. The four mechanisms by which
+          AI-assisted work gets heavier rather than lighter, the empirical evidence behind them,
+          and Jevons's paradox running one level up — at the level of the person.</p>
+        <span class="go">Open →</span>
+      </a>
+    </div>
   </section>
 
   <section>
